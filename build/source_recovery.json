@@ -1,0 +1,293 @@
+{
+  "scope": "RECONSTRUCTED_SOURCE_CANDIDATE_NOT_PROVEN_2026_10_04_INPUT",
+  "csi_commit": "b206663ec68634ded1d5d6032af98a7e3535b16a",
+  "files": [
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/.gitignore",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/.gitignore",
+      "sha256": "409821bbd154e43fe9fa96ad2a8fc53de61c5cc713f9d3d27aa6c5f978225d82"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/bd/bd.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/bd/bd.tcl",
+      "sha256": "3443a95403689f314273dd8b2dfc0575bea0660a2eb5632abefaa812506fc455"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/component.xml",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/component.xml",
+      "sha256": "15eaa0ac2dacc10bd0cb4541ac03e95ca063536f00d9e695a5a9f7a0c5e3525a"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/docs/mipi_csi_2_rx.docx",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/docs/mipi_csi_2_rx.docx",
+      "sha256": "5e2354bfce7833946afe78b188d5e2b234d5e5cb0e24f986a039acc000a1dc91"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/docs/mipi_csi_2_rx.pdf",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/docs/mipi_csi_2_rx.pdf",
+      "sha256": "a0dff46fc0f5b2b88e89288750aeda5cac370d0d33ea59f823af2b6caae1481f"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/drivers/mipi_csi_2_rx_v1_0/data/mipi_csi_2_rx.mdd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/drivers/MIPI_CSI_2_RX_v1_0/data/MIPI_CSI_2_RX.mdd",
+      "sha256": "85dfb363812eadfa60cbb4d6d5a485e5d07fa44d9e4aa966b63790c499a01ec8"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/drivers/mipi_csi_2_rx_v1_0/data/mipi_csi_2_rx.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/drivers/MIPI_CSI_2_RX_v1_0/data/MIPI_CSI_2_RX.tcl",
+      "sha256": "55a13445213e2dc82e42caf6a40548e015a6306b2e328f573ddf74d0e6624576"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/drivers/mipi_csi_2_rx_v1_0/src/mipi_csi_2_rx.c",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/drivers/MIPI_CSI_2_RX_v1_0/src/MIPI_CSI_2_RX.c",
+      "sha256": "211e6e2ca679e611632e57c27bedc263c3d52106b6922a76119ef2cef561a0db"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/drivers/mipi_csi_2_rx_v1_0/src/mipi_csi_2_rx.h",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/drivers/MIPI_CSI_2_RX_v1_0/src/MIPI_CSI_2_RX.h",
+      "sha256": "237daa967e35fa5ce8eb3a8169f0420e2c71da6a1e73b7cb6062d60fb58cc538"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/drivers/mipi_csi_2_rx_v1_0/src/mipi_csi_2_rx_selftest.c",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/drivers/MIPI_CSI_2_RX_v1_0/src/MIPI_CSI_2_RX_selftest.c",
+      "sha256": "db567d8739b7704f21b617bbf1644c9e73ff80248f711a55fcb07eb663f02cea"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/drivers/mipi_csi_2_rx_v1_0/src/makefile",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/drivers/MIPI_CSI_2_RX_v1_0/src/Makefile",
+      "sha256": "48c569161148be6e897e232732e16028bd64d5d4054306bb7246abca5cc658b6"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/example_designs/bfm_design/mipi_csi_2_rx_v1_0_tb.v",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/example_designs/bfm_design/MIPI_CSI_2_RX_v1_0_tb.v",
+      "sha256": "1580baeb21e8451d8b22466f9e6e2c1ef48012d203177e7b3075d380dd44692d"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/example_designs/bfm_design/design.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/example_designs/bfm_design/design.tcl",
+      "sha256": "8c9aa6756eb062c58fea9ac4f5cc268d3d09395c64c5800297a7d0440bf0e893"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/example_designs/debug_hw_design/mipi_csi_2_rx_v1_0_hw_test.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/example_designs/debug_hw_design/MIPI_CSI_2_RX_v1_0_hw_test.tcl",
+      "sha256": "a5189ceaec877584da0172a6dc58f445c970fe660c31118e5782a1f1b6cea78d"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/example_designs/debug_hw_design/design.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/example_designs/debug_hw_design/design.tcl",
+      "sha256": "6303c8bad9f0373f0eb430d36e2fbf65e3a74dbbfc911b40c515dfb6e221e39b"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/crc16_behavioral.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/CRC16_behavioral.vhd",
+      "sha256": "daa7340fb1b365f6094f5d9a2aa89c98e07a9e6420584b7c7dec67cfe4ae7258"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/csistatusbridge.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/CSIStatusBridge.vhd",
+      "sha256": "91e1fd9272d7486f1582ef5053097efcad557d9115301af36dde9c565b1b5d27"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/csidebuglib.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/CsiDebugLib.vhd",
+      "sha256": "956496920ab8df4b06bbbb154e159d1b6b3d5feca101c7f658f2e59357c65f03"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/csisyncasync.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/CsiSyncAsync.vhd",
+      "sha256": "a69de87df169216b30050f6545003a985ca40110880961c0ebc27eabab92b6cc"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/csisyncasyncreset.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/CsiSyncAsyncReset.vhd",
+      "sha256": "dd3907846f336d4a3719192b59a36260385cdb1ed900fa5e44e4897f4a2eb6ba"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ecc.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ECC.vhd",
+      "sha256": "edcc899dc15a0df85694a985b4eeb69f44a5f2445e6574fa75defb3268caf918"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/llp.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/LLP.vhd",
+      "sha256": "406b40222b22cc5238f1def03bacc4723631b71a5a453de3a17b176f07d41de0"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/lm.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/LM.vhd",
+      "sha256": "39b4af28e892955e90ea1869b20939a70b03b15e7f574784f296dd94a2fb8315"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/mipi_csi2_rx.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/MIPI_CSI2_Rx.vhd",
+      "sha256": "3e76fc97ab711bbfd162ae840ab267417bdd9b53745488fc6f3079284ae85378"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/mipi_csi2_rxtop.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/MIPI_CSI2_RxTop.vhd",
+      "sha256": "0c91ec4550bbcc3838e3816124aff49c97490631b8b466ed96a41ba6f33bafcc"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/mipi_csi_2_rx_v1_0_s_axi_lite.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/MIPI_CSI_2_RX_v1_0_S_AXI_LITE.vhd",
+      "sha256": "798cdd0fca76e128fdfc8f2b3bc34280a5ba8b3313cd10bbddc785b0e8478b8b"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/simplefifo.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/SimpleFIFO.vhd",
+      "sha256": "5fc02a979207952e41d94431ebcdb683d57ccb1886022c771ba486dc44cbc036"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/cdc_fifo/cdc_fifo.veo",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/cdc_fifo/cdc_fifo.veo",
+      "sha256": "adef7df81159af2248372f0e53de0dea62aeb7d5bb526525413c6c5161c8480c"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/cdc_fifo/cdc_fifo.vho",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/cdc_fifo/cdc_fifo.vho",
+      "sha256": "f4bedc24292d2b5789f059eeb48dd66753105ca4d0a6e05a543a3f2ad8371aee"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/cdc_fifo/cdc_fifo.xci",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/cdc_fifo/cdc_fifo.xci",
+      "sha256": "fc562afec5ccb637f41d3a6425c0c74725b43b6af59fbe72d5f7b3460da9a721"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ila_rxclk/ila_rxclk.veo",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ila_rxclk/ila_rxclk.veo",
+      "sha256": "de67b763ec37fd5fc2f37bc86d9112141958682e208c4794c29d3e3493fafd6f"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ila_rxclk/ila_rxclk.xci",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ila_rxclk/ila_rxclk.xci",
+      "sha256": "ced9fee8814adae6ffcbf65fbb1831ba206d363243f928e3a29df594d478806d"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ila_rxclk_lane/ila_rxclk_lane.veo",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ila_rxclk_lane/ila_rxclk_lane.veo",
+      "sha256": "2d8a5f6ed479225caf9a1b3f5bc4d4361a7b9bd0ff987f2750cd03b9cc4360f9"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ila_rxclk_lane/ila_rxclk_lane.xci",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ila_rxclk_lane/ila_rxclk_lane.xci",
+      "sha256": "22e5a4b60f60e4d92c85bdef55e56bf62fac8e8fdea4367c5a2c3db1bf728247"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ila_vidclk/ila_vidclk.veo",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ila_vidclk/ila_vidclk.veo",
+      "sha256": "3a0e1b69d6a82c9abd6172fcc95c7164e32259df6f90d834f5da71065fd240a3"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/ila_vidclk/ila_vidclk.xci",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/ila_vidclk/ila_vidclk.xci",
+      "sha256": "6d08997ca4e7371fe78192754176697a88e96087e28bf3f4026f3ce151fe5f29"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/line_buffer/line_buffer.veo",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/line_buffer/line_buffer.veo",
+      "sha256": "dfd244ccbd3c9b5410d17757030a91548e61dd2ee43c59b102aa4836973a72ac"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/line_buffer/line_buffer.vho",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/line_buffer/line_buffer.vho",
+      "sha256": "23a4f0ba8d6b65c742147507444333970487f2864f2c3cacca57dcc2c075c1f3"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/line_buffer/line_buffer.xci",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/line_buffer/line_buffer.xci",
+      "sha256": "5b2a0032d566bb5ea7fb9958eb7fa095e17b83eed5649b5aeaa3b821fef9cd53"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/mipi_csi2_rx.xdc",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/mipi_csi2_rx.xdc",
+      "sha256": "bb616735f5122eb63d2cdf7dd035a13adf5f02b5ad3c63ded7deb78eea00dc12"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/mipi_csi2_rx_clocks.xdc",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/mipi_csi2_rx_clocks.xdc",
+      "sha256": "6eae5fc752bf5ac750537e0a17305d8953991f16a9ceeaff8e8af84f28965583"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/hdl/mipi_csi2_rx_ooc.xdc",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/hdl/mipi_csi2_rx_ooc.xdc",
+      "sha256": "f7d340a3863df137dbb2ea8dca29a820ed837e02109526de3e949e49fa495a92"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/fifo_models.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/fifo_models.vhd",
+      "sha256": "a06df5016a338fa74da4ffac49b95681d41e04152834812224bff65182d2b482"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/mypkg.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/mypkg.vhd",
+      "sha256": "ed82eedf87066cd3fc4e1dd5111cad90c7c53da56091cc84497a5085c7b3d346"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/tb_ecc.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/tb_ECC.vhd",
+      "sha256": "259bb9307ecf86e5d09b000253751ac7cc35e1598b82b1b72e6b956e40b84702"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/tb_llp.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/tb_LLP.vhd",
+      "sha256": "d5aa581123d3775d78eba4677838b6b7392ca9e4ad856d38fe20d2db21281a21"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/tb_lm.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/tb_LM.vhd",
+      "sha256": "2182f0be43f69bbe7e81a84d95e45271691b29916b0af6de7beef8976b06061e"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/tb_mipi_csi2.vhd",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/tb_MIPI_CSI2.vhd",
+      "sha256": "da7d4134dc46d5adec8dc9f5c4d3fd56cc95a7c9b719aad0a2af0f1d898bcd52"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/tb/tb_mipi_csi2_rx.wcfg",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/tb/tb_mipi_csi2_rx.wcfg",
+      "sha256": "589a565cde789ff92338f135ccd72d7e3284cb861e350ffe22e0b46577075ea3"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/xgui/mipi_csi_2_rx_v1_0.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/xgui/MIPI_CSI_2_RX_v1_0.tcl",
+      "sha256": "48d9696a2e675f52d7e0762cb93d6dafb89fbb2324f2deb25d971fefafa8bba9"
+    },
+    {
+      "path": "color_test/repo/ip/mipi_csi_2_rx/xgui/mipi_csi_2_rx_v1_1.tcl",
+      "origin": "git:b206663ec68634ded1d5d6032af98a7e3535b16a:color_test/repo/ip/MIPI_CSI_2_RX/xgui/MIPI_CSI_2_RX_v1_1.tcl",
+      "sha256": "48d9696a2e675f52d7e0762cb93d6dafb89fbb2324f2deb25d971fefafa8bba9"
+    },
+    {
+      "path": "color_test/build/pl_rate93_production/build_5/synth/input_model_effective.xdc",
+      "origin": "existing_workspace_file",
+      "sha256": "82dba8a67e87dbc142126108a5a02448b1173f8ce1118198b744ed5537d78996",
+      "frozen_overlay_binding": "NOT_ESTABLISHED",
+      "current_role": "PRESERVED_HISTORICAL_EXPORT_DISABLED_IN_XPR"
+    },
+    {
+      "path": "color_test/build/pl_rate93_production/build_5/synth/timing_context.xdc",
+      "origin": "existing_workspace_file",
+      "sha256": "c6ffeb6ccf1fde7915047b0d55e55b038058505f8937d8101bf2bed215a00303",
+      "frozen_overlay_binding": "NOT_ESTABLISHED",
+      "current_role": "PRESERVED_HISTORICAL_EXPORT_DISABLED_IN_XPR"
+    },
+    {
+      "path": "color_test/color_test.srcs/utils_1/imports/synth_1/system_wrapper.dcp",
+      "origin": "existing_workspace_file",
+      "sha256": "3478b3c2db671e51b878f03581cbe75fee7361fca0df1ab85836f7da5aad80ef",
+      "frozen_overlay_binding": "NOT_ESTABLISHED"
+    }
+  ],
+  "case_corrections": [
+    [
+      "color_test/repo/ip/mipi_d_phy_rx/component.xml",
+      "drivers/mipi_d_phy_rx_v1_0/src/Makefile",
+      "drivers/mipi_d_phy_rx_v1_0/src/makefile"
+    ]
+  ],
+  "synthesis": "NOT_RUN",
+  "implementation": "NOT_RUN",
+  "board": "NOT_RUN",
+  "frozen_overlay_modified": false,
+  "status_record_scope": "RESTORATION_TIME_STATUS; see pl_flow.md for subsequent pl2 run and corrected-model reanalysis"
+}

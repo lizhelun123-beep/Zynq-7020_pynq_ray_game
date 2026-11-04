@@ -1,0 +1,3 @@
+delay_type	worst_slack_ns
+max	0.135
+min	0.052

@@ -1,0 +1,3 @@
+﻿arm,projects,completed_tasks,total_tasks,macro_task_rate,complete_projects,new_function_protocol_driver_passed,new_function_protocol_driver_total,shared_engineering_delivery_passed,shared_engineering_delivery_total,hardware_build_export_projects,model_calls,repairs,model_s,tokens,input_tokens,output_tokens,cached_tokens,tool_s,synthesis,implementation,export
+baseline,3,4,30,0.13333333333333333,0,4,12,0,18,0,6,3,293.501,141864,109317,32547,26496,204.83,0,0,0
+skill,3,23,30,0.7666666666666666,1,10,12,13,18,2,6,3,312.126,217763,178574,39189,0,2242.343,3,2,2

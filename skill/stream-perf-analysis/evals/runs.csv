@@ -1,0 +1,1 @@
+run_id,task_id,arm,repetition,skill_revision,input_sha256,model,reasoning,environment,budget,start_utc,end_utc,elapsed_s,input_tokens,cached_input_tokens,output_tokens,usage_source,cache_state,tool_calls,human_interventions,status,score,hard_failure,success,answer_path,trace_path,grading_evidence,notes

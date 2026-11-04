@@ -1,0 +1,14 @@
+test_all_control_messages_python_to_c_and_fifo_bound (pc_vision.test_board_wire.WireTests.test_all_control_messages_python_to_c_and_fifo_bound) ... ok
+test_c_encoded_pose_identity_dimensions_pending_and_sync (pc_vision.test_board_wire.WireTests.test_c_encoded_pose_identity_dimensions_pending_and_sync) ... ok
+test_corrupt_crc_length_version_and_truncated_frame_resynchronize (pc_vision.test_board_wire.WireTests.test_corrupt_crc_length_version_and_truncated_frame_resynchronize) ... ok
+test_crc_valid_semantically_invalid_pose_is_rejected (pc_vision.test_board_wire.WireTests.test_crc_valid_semantically_invalid_pose_is_rejected) ... ok
+test_every_split_binary_zeros_text_noise_and_maximum_buffer (pc_vision.test_board_wire.WireTests.test_every_split_binary_zeros_text_noise_and_maximum_buffer) ... ok
+test_geometry_quantization_error_bounds_and_packet_sizes (pc_vision.test_board_wire.WireTests.test_geometry_quantization_error_bounds_and_packet_sizes) ... ok
+test_noise_and_v2_text_cannot_be_accepted_as_v3 (pc_vision.test_board_wire.WireTests.test_noise_and_v2_text_cannot_be_accepted_as_v3) ... ok
+test_pose_from_old_session_never_replaces_running_scene (pc_vision.test_board_wire.WireTests.test_pose_from_old_session_never_replaces_running_scene) ... ok
+test_sync_processing_time_is_removed_without_relaxing_uncertainty (pc_vision.test_board_wire.WireTests.test_sync_processing_time_is_removed_without_relaxing_uncertainty) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 10.419s
+
+OK

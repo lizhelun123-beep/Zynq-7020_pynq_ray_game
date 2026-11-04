@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov  3 05:14:31 2026
+# Process ID: 2700
+# Current directory: D:/Workspace/AMD_camera/FPGA-main/FPGA-main
+# Command line: vivado.exe -mode batch -notrace -log D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/sw1.log -journal D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/sw1.jou -source D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/submission/pynq_web_v14_20261102/build/check_sampling_window.tcl -tclargs D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pr4/vivado/checkpoints/routed.dcp D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/sw1
+# Log file: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/sw1.log
+# Journal file: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/sw1.jou
+# Running On: iband, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 25480 MB
+#-----------------------------------------------------------
+source D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/submission/pynq_web_v14_20261102/build/check_sampling_window.tcl -notrace

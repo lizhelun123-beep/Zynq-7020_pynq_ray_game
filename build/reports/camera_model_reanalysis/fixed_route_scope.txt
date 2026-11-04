@@ -1,0 +1,6 @@
+Existing checkpoint: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl2/vivado/checkpoints/routed.dcp
+Corrected model: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/submission/pynq_web_v14_20261102/src/project/color_test/color_test.srcs/constrs_1/new/system.xdc
+Scope: same routed netlist; replace only camera input clock/window in memory.
+Other historical checkpoint constraints remain; this is not a clean corrected-source build.
+No current-boot physical frequency, pin-eye or deployed-Overlay timing signoff.
+Original fixed IDELAY values and locations: {system_i/MIPI_D_PHY_RX_0/U0/ClockLane/HSClockingX/Legacy.InputDelay 0 IDELAY_X0Y24} {{system_i/MIPI_D_PHY_RX_0/U0/DataLaneGen[0].DPHY_LaneSFEN_X/HSDeserializerX/LegacyDelay.InputDelay} 12 IDELAY_X0Y14} {{system_i/MIPI_D_PHY_RX_0/U0/DataLaneGen[1].DPHY_LaneSFEN_X/HSDeserializerX/LegacyDelay.InputDelay} 12 IDELAY_X0Y16}

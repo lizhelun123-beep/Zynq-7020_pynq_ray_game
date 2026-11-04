@@ -1,0 +1,23 @@
+test_active_row_or_full_padded_allocation_too_small (test_check_layout.LayoutTests.test_active_row_or_full_padded_allocation_too_small) ... ok
+test_alignment_and_address_overflow (test_check_layout.LayoutTests.test_alignment_and_address_overflow) ... ok
+test_boolean_missing_fields_and_duplicate_channels (test_check_layout.LayoutTests.test_boolean_missing_fields_and_duplicate_channels) ... ok
+test_cli_readonly_accepts_valid_and_rejects_corrupt_json (test_check_layout.LayoutTests.test_cli_readonly_accepts_valid_and_rejects_corrupt_json) ... ok
+test_device_cpu_conflict_and_unknown_ownership (test_check_layout.LayoutTests.test_device_cpu_conflict_and_unknown_ownership) ... ok
+test_overlap_across_channels_and_nested_ranges (test_check_layout.LayoutTests.test_overlap_across_channels_and_nested_ranges) ... ok
+test_padding_adjacent_ranges_and_scope (test_check_layout.LayoutTests.test_padding_adjacent_ranges_and_scope) ... ok
+test_active_slot_and_invalid_layout_rejected (test_lifecycle.LifecycleTests.test_active_slot_and_invalid_layout_rejected) ... ok
+test_direct_source_destination_alias_rejected (test_lifecycle.LifecycleTests.test_direct_source_destination_alias_rejected) ... ok
+test_distinct_row_strides_and_padding_preserved (test_lifecycle.LifecycleTests.test_distinct_row_strides_and_padding_preserved) ... ok
+test_invalid_timeout_does_not_request_stop (test_lifecycle.LifecycleTests.test_invalid_timeout_does_not_request_stop) ... ok
+test_late_status_or_error_never_releases (test_lifecycle.LifecycleTests.test_late_status_or_error_never_releases) ... ok
+test_missing_sync_and_rewrite_after_sync_rejected (test_lifecycle.LifecycleTests.test_missing_sync_and_rewrite_after_sync_rejected) ... ok
+test_partial_start_exception_does_not_roll_back_ownership (test_lifecycle.LifecycleTests.test_partial_start_exception_does_not_roll_back_ownership) ... ok
+test_running_and_halted_together_not_release_proof (test_lifecycle.LifecycleTests.test_running_and_halted_together_not_release_proof) ... ok
+test_stop_or_status_exception_retains_ownership (test_lifecycle.LifecycleTests.test_stop_or_status_exception_retains_ownership) ... ok
+test_success_has_explicit_stop_confirmation (test_lifecycle.LifecycleTests.test_success_has_explicit_stop_confirmation) ... ok
+test_timeout_retains_device_ownership (test_lifecycle.LifecycleTests.test_timeout_retains_device_ownership) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.017s
+
+OK

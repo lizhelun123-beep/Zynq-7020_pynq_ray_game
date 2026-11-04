@@ -1,0 +1,166 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Tue Nov  3 04:14:28 2026
+| Host         : iband running 64-bit major release  (build 9200)
+| Command      : report_ip_status
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+IP Status Summary
+
+1. Project IP Status
+--------------------
+Your project uses 30 IP. Some of these IP may have undergone changes in this release of the software. Please review the recommended actions.
+
+More information on the Xilinx versioning policy is available at www.xilinx.com.
+
+Project IP Instances
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| Instance Name                    | Status     | Recommendation      | Change    | IP Name            | IP      | New Version   | New        | Original Part        |
+|                                  |            |                     | Log       |                    | Version |               | License    |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_AXI_BayerToRGB_0_0        | Up-to-date | No changes required | Change    | AXI_BayerToRGB_v1_ | 1.3     | 1.3 (Rev. 3)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 3)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_AXI_GammaCorrection_0_0   | Up-to-date | No changes required | Change    | AXI_GammaCorrectio | 1.0     | 1.0 (Rev. 22) | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 22)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_MIPI_CSI_2_RX_0_0         | Up-to-date | No changes required | Change    | MIPI CSI-2         | 1.2     | 1.2 (Rev. 10) | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   | Receiver           | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 10)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_MIPI_D_PHY_RX_0_0         | Up-to-date | No changes required | Change    | MIPI_D_PHY_RX_v1.0 | 1.2     | 1.2 (Rev. 5)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 5)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axi_dynclk_0_0            | Up-to-date | No changes required | Change    | Dynamic Clock      | 1.0     | 1.0 (Rev. 4)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   | Generator          | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 4)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axi_mem_intercon_0        | Up-to-date | No changes required |  *(1)     | AXI Interconnect   | 2.1     | 2.1 (Rev. 29) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 29)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axi_mem_intercon_1_0      | Up-to-date | No changes required |  *(2)     | AXI Interconnect   | 2.1     | 2.1 (Rev. 29) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 29)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axi_vdma_0_0              | Up-to-date | No changes required |  *(3)     | AXI Video Direct   | 6.3     | 6.3 (Rev. 16) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Memory Access      | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 16)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axi_vdma_1_0              | Up-to-date | No changes required |  *(4)     | AXI Video Direct   | 6.3     | 6.3 (Rev. 16) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Memory Access      | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 16)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axis_color_highlight_0_0  | Up-to-date | No changes required | Change    | axis_color_highlig | 1.0     | 1.0 (Rev. 1)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 1)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_axis_subset_converter_0_0 | Up-to-date | No changes required |  *(5)     | AXI4-Stream Subset | 1.1     | 1.1 (Rev. 28) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Converter          | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 28)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_display_rst_axis_0        | Up-to-date | No changes required |  *(6)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_display_rst_pixel_0       | Up-to-date | No changes required |  *(7)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_proc_sys_reset_150M_0     | Up-to-date | No changes required |  *(8)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_proc_sys_reset_200M_0     | Up-to-date | No changes required |  *(9)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_processing_system7_0_0    | Up-to-date | No changes required |  *(10)    | ZYNQ7 Processing   | 5.5     | 5.5 (Rev. 6)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | System             | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 6)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_ps7_0_axi_periph_0        | Up-to-date | No changes required |  *(11)    | AXI Interconnect   | 2.1     | 2.1 (Rev. 29) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 29)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_rgb2dvi_0_0               | Up-to-date | No changes required | Change    | RGB to DVI Video   | 1.3     | 1.3 (Rev. 3)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     | Log not   | Encoder (Source)   | (Rev.   |               |            |                      |
+|                                  |            |                     | available |                    | 3)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_rst_100M_0                | Up-to-date | No changes required |  *(12)    | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_v_axi4s_vid_out_0_0       | Up-to-date | No changes required |  *(13)    | AXI4-Stream to     | 4.0     | 4.0 (Rev. 16) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Video Out          | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 16)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_vtg_0                     | Up-to-date | No changes required |  *(14)    | Video Timing       | 6.2     | 6.2 (Rev. 6)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Controller         | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 6)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| system_xlconcat_0_0              | Up-to-date | No changes required |  *(15)    | Concat             | 2.1     | 2.1 (Rev. 4)  | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 4)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| cdc_fifo                         | Up-to-date | No changes required |  *(16)    | FIFO Generator     | 13.2    | 13.2 (Rev. 8) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 8)      |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| ila_rxclk                        | Up-to-date | No changes required |  *(17)    | ILA (Integrated    | 6.2     | 6.2 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Logic Analyzer)    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| ila_rxclk_lane                   | Up-to-date | No changes required |  *(18)    | ILA (Integrated    | 6.2     | 6.2 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Logic Analyzer)    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| ila_scnn_refclk                  | Up-to-date | No changes required |  *(19)    | ILA (Integrated    | 6.2     | 6.2 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Logic Analyzer)    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| ila_sfen_refclk                  | Up-to-date | No changes required |  *(20)    | ILA (Integrated    | 6.2     | 6.2 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Logic Analyzer)    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| ila_sfen_rxclk                   | Up-to-date | No changes required |  *(21)    | ILA (Integrated    | 6.2     | 6.2 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Logic Analyzer)    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| ila_vidclk                       | Up-to-date | No changes required |  *(22)    | ILA (Integrated    | 6.2     | 6.2 (Rev. 13) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | Logic Analyzer)    | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 13)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| line_buffer                      | Up-to-date | No changes required |  *(23)    | AXI4-Stream Data   | 2.0     | 2.0 (Rev. 10) | Included   | xc7z020clg400-2      |
+|                                  |            |                     |           | FIFO               | (Rev.   |               |            |                      |
+|                                  |            |                     |           |                    | 10)     |               |            |                      |
++----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+*(1) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+*(2) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+*(3) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axi_vdma_v6_3/doc/axi_vdma_v6_3_changelog.txt
+*(4) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axi_vdma_v6_3/doc/axi_vdma_v6_3_changelog.txt
+*(5) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axis_subset_converter_v1_1/doc/axis_subset_converter_v1_1_changelog.txt
+*(6) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(7) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(8) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(9) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(10) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/processing_system7_v5_5/doc/processing_system7_v5_5_changelog.txt
+*(11) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+*(12) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(13) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/v_axi4s_vid_out_v4_0/doc/v_axi4s_vid_out_v4_0_changelog.txt
+*(14) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/v_tc_v6_2/doc/v_tc_v6_2_changelog.txt
+*(15) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/xlconcat_v2_1/doc/xlconcat_v2_1_changelog.txt
+*(16) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/fifo_generator_v13_2/doc/fifo_generator_v13_2_changelog.txt
+*(17) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/ila_v6_2/doc/ila_v6_2_changelog.txt
+*(18) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/ila_v6_2/doc/ila_v6_2_changelog.txt
+*(19) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/ila_v6_2/doc/ila_v6_2_changelog.txt
+*(20) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/ila_v6_2/doc/ila_v6_2_changelog.txt
+*(21) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/ila_v6_2/doc/ila_v6_2_changelog.txt
+*(22) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/ila_v6_2/doc/ila_v6_2_changelog.txt
+*(23) d:/Xilinx/Vivado/2023.1/data/ip/xilinx/axis_data_fifo_v2_0/doc/axis_data_fifo_v2_0_changelog.txt
+
+

@@ -1,0 +1,574 @@
+{
+  "provenance": "USER_LIVE_TRACE_PLUS_SEPARATELY_LABELLED_OFFLINE_REPLAY",
+  "level_id": 1,
+  "files": {
+    "host_terminal.txt": {
+      "bytes": 32706,
+      "sha256": "623f4457fc40c0bbc038a0509b88d0f3228c655c83b0c77835da160de56b2efa",
+      "source": "C:\\Users\\11967\\.codex\\attachments\\f22c6cbc-63a1-4cf1-b02f-2e35a15774e6\\已粘贴的文本.txt",
+      "capture": "EXACT_USER_ATTACHMENT"
+    },
+    "uart_original.jsonl": {
+      "bytes": 103384,
+      "sha256": "3671e012c6c873b0c810e0b05dce492507cacffc371b4a4198988d2bf8c889f8",
+      "source": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision(1)\\pc_vision\\output\\serial\\uart_1793700984033_c5b082da.jsonl",
+      "capture": "READ_ONLY_SNAPSHOT_OF_ACTUAL_UART_TRACE"
+    },
+    "board_session.txt": {
+      "bytes": 1238,
+      "sha256": "a8e90f40d2173af29ab1ef3e6b33f35203c7c930bd392bc992f7859fc44e2398",
+      "source": "current conversation",
+      "capture": "USER_PASTED_STDOUT_IN_CURRENT_CHAT"
+    },
+    "user_boot_qualification.json": {
+      "bytes": 2067,
+      "sha256": "539439546f72b9fcb8c71833fc76593cb4dd89a9c380180173f6389cc19d5eb1",
+      "source": "current conversation",
+      "capture": "USER_PASTED_PRIOR_CHECK_EXCERPT_AND_QUALIFICATION_JSON"
+    }
+  },
+  "logged_pc_build": "20261101-pc-teaching-2",
+  "packaged_pc_build": {
+    "runtime": "20261102-pc-pynq-v14-1",
+    "web": "20261102-web-pynq-v14-1"
+  },
+  "current_source_core_equivalence": {
+    "board_game_config": true,
+    "presenter_ast": true,
+    "pc_vision/board_game_host.c": true,
+    "pc_vision/board_wire.py": true,
+    "pc_vision/board_pose.py": true,
+    "pc_vision/board_native.py": false,
+    "color_test/software/vision_ps_baremetal/src/game_session.c": true,
+    "color_test/software/vision_ps_baremetal/src/ray_game.c": true
+  },
+  "native_core_path": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision\\output\\board_native\\1813a25464a68505\\board_game.exe",
+  "native_core_sha256": "aaefef45ae11c874727a905b59788c77c586b77e278ae3e03c834a2234c232a1",
+  "capture_window_ms": [
+    34630203,
+    34702609
+  ],
+  "events": {
+    "CONNECTED": 1,
+    "TX_SENT": 52,
+    "SYNC_TIMEOUT": 14,
+    "RX_BYTES": 339,
+    "SYNC_RX": 35,
+    "QUEUED": 3,
+    "CONTROL_RX": 3
+  },
+  "rx_bytes_events": 339,
+  "pose_frames": 66,
+  "wire_parser_rejections": 0,
+  "pose_status": {
+    "PENDING": 52,
+    "OK": 11,
+    "UNAVAILABLE": 3
+  },
+  "valid_board_poses": 11,
+  "controls": [
+    {
+      "event": "CONTROL_RX",
+      "time_ms": 34660125,
+      "port": "COM9",
+      "epoch": 1,
+      "command": "READY2",
+      "matched": true,
+      "generation": 1,
+      "nonce": 4004784581,
+      "level_id": 1,
+      "board_ms": 133872,
+      "emitter": [
+        384265,
+        445475,
+        834779,
+        -550586
+      ],
+      "error_code": 0,
+      "wire_protocol": 3,
+      "wire_name": "READY3"
+    },
+    {
+      "event": "CONTROL_RX",
+      "time_ms": 34671437,
+      "port": "COM9",
+      "epoch": 1,
+      "command": "STARTED2",
+      "matched": true,
+      "generation": 1,
+      "nonce": 4004784581,
+      "level_id": 1,
+      "board_ms": 145184,
+      "emitter": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "error_code": 0,
+      "wire_protocol": 3,
+      "wire_name": "STARTED3"
+    },
+    {
+      "event": "CONTROL_RX",
+      "time_ms": 34695640,
+      "port": "COM9",
+      "epoch": 1,
+      "command": "RESET2ACK",
+      "matched": true,
+      "generation": 1,
+      "nonce": 4004784581,
+      "level_id": 0,
+      "board_ms": 169388,
+      "emitter": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "error_code": 0,
+      "wire_protocol": 3,
+      "wire_name": "RESET3ACK"
+    }
+  ],
+  "session_identities": [
+    [
+      1,
+      1,
+      4004784581
+    ]
+  ],
+  "clock_accepted": 24,
+  "clock_rejected": 11,
+  "replay_scope": "OFFLINE_FROM_ACTUAL_BYTES; queued commands mapped to select/start/menu; updates at recorded event times; clock receive instant reconstructed from recorded RTT. Not a recording of live C snapshots",
+  "replay_accepted_sequences": [
+    59,
+    61,
+    65,
+    90,
+    94,
+    97,
+    113
+  ],
+  "replay_first_result": {
+    "replay_pc_ms": 34691953,
+    "status": 0,
+    "game_state": 3,
+    "generation": 1,
+    "level_id": 1,
+    "sequence": 281474976710769,
+    "captured_ms": 34691618,
+    "valid": 1,
+    "ready": false,
+    "elapsed_ms": 20181,
+    "remaining_ms": 159819,
+    "stars": 3,
+    "models": [
+      {
+        "type": "MIRROR",
+        "center": [
+          663.875,
+          299.0625
+        ],
+        "axis": [
+          0.12183974,
+          0.99254978
+        ],
+        "size": [
+          140,
+          12
+        ],
+        "logical_emitter": false
+      },
+      {
+        "type": "TARGET",
+        "center": [
+          375,
+          132
+        ],
+        "axis": [
+          1,
+          0
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "logical_emitter": false
+      },
+      {
+        "type": "SOURCE",
+        "center": [
+          384.26456,
+          445.47488
+        ],
+        "axis": [
+          0.83477855,
+          -0.55058587
+        ],
+        "size": [
+          54,
+          40
+        ],
+        "logical_emitter": true
+      }
+    ],
+    "segments": [
+      [
+        384.26456,
+        445.47488,
+        659.5589,
+        263.90198
+      ],
+      [
+        659.54944,
+        263.89868,
+        375.99579,
+        163.98456
+      ]
+    ],
+    "success": 1,
+    "termination": 3,
+    "origin": "board_pose_v2_c_game",
+    "screen": "result",
+    "state": "LIVE",
+    "display_status": "请将光线移出目标，再开始挑战",
+    "board_frame": {
+      "schema": "board-pose-v3",
+      "tx": 55,
+      "generation": 15433346900013649967,
+      "sequence": 113,
+      "captured_ms": 165361,
+      "published_ms": 165666,
+      "valid": true,
+      "status": "OK",
+      "raw_mask": 9,
+      "pending_mask": 0,
+      "missing_mask": 38,
+      "models": [
+        {
+          "type": "MIRROR",
+          "center": [
+            663.875,
+            299.0625
+          ],
+          "axis": [
+            0.12183973827567902,
+            0.9925497862459666
+          ],
+          "size": [
+            161.875,
+            82.625
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            375.0,
+            132.0
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            88.0,
+            88.0
+          ]
+        }
+      ],
+      "wire_version": 3,
+      "level_id": 1,
+      "session_generation": 1,
+      "nonce": 4004784581
+    },
+    "sequence_space": "pc_connection_epoch_16_board_sequence_48",
+    "capture_clock": "pc_monotonic_mapped_interval_upper",
+    "board_phase": "RUNNING",
+    "board_ready": false,
+    "board_started": true,
+    "serial_port": "COM9",
+    "serial_connected": true,
+    "serial_error": "",
+    "serial_protocol": 3,
+    "scene_max_age_ms": 600,
+    "control_sent_ms": null,
+    "control_attempts": 0,
+    "display_held": false,
+    "display_age_ms": 401,
+    "captured_bounds_ms": [
+      34691552,
+      34691618
+    ],
+    "result": {
+      "stars": 3,
+      "elapsed_ms": 20181,
+      "outcome": "目标已点亮"
+    }
+  },
+  "live_hit_settlement": {
+    "source": "USER_CONFIRMATION_IN_CURRENT_CHAT",
+    "level_id": 1,
+    "stars": 3,
+    "elapsed_description": "20秒多一点",
+    "verbatim": "是3星，且是20秒多一点",
+    "exact_live_elapsed_ms": "NOT_RECORDED",
+    "live_result_screenshot_or_snapshot": "NOT_PROVIDED"
+  },
+  "hdmi": "USER_REPORTED_IN_CHAT; not contained in UART trace",
+  "board_safe_exit": {
+    "status": "PASS_FROM_USER_RUNTIME_REPORTS",
+    "continuous_run_frames_submitted": 4159,
+    "restart_frames_submitted": 3,
+    "both_can_exit": true,
+    "both_first_fault": null,
+    "boot_context": "444e75fd-4a10-4ca1-b62e-53c69d38ef91",
+    "same_boot_association": "Consecutive command transcript; boot_id comes from preceding qualification, not the exit JSON itself",
+    "scope": "Built-in runtime stop/release contract reported safe; no independent new register dump was supplied or generated"
+  },
+  "hardware_operations": 0,
+  "delivered_c_replay": {
+    "snapshots": 69,
+    "all_snapshots_equal_to_actual_runtime_core": true,
+    "core_path": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\src\\project\\pc_vision\\output\\board_native\\1d43c150a925fecd\\board_game.exe",
+    "core_sha256": "8877161b152cc27855cd600a946c163dc3a3e87e9698ca2fabf0188445adf96e",
+    "first_result": {
+      "replay_pc_ms": 34691953,
+      "status": 0,
+      "game_state": 3,
+      "generation": 1,
+      "level_id": 1,
+      "sequence": 281474976710769,
+      "captured_ms": 34691618,
+      "valid": 1,
+      "ready": false,
+      "elapsed_ms": 20181,
+      "remaining_ms": 159819,
+      "stars": 3,
+      "models": [
+        {
+          "type": "MIRROR",
+          "center": [
+            663.875,
+            299.0625
+          ],
+          "axis": [
+            0.12183974,
+            0.99254978
+          ],
+          "size": [
+            140,
+            12
+          ],
+          "logical_emitter": false
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            375,
+            132
+          ],
+          "axis": [
+            1,
+            0
+          ],
+          "size": [
+            64,
+            64
+          ],
+          "logical_emitter": false
+        },
+        {
+          "type": "SOURCE",
+          "center": [
+            384.26456,
+            445.47488
+          ],
+          "axis": [
+            0.83477855,
+            -0.55058587
+          ],
+          "size": [
+            54,
+            40
+          ],
+          "logical_emitter": true
+        }
+      ],
+      "segments": [
+        [
+          384.26456,
+          445.47488,
+          659.5589,
+          263.90198
+        ],
+        [
+          659.54944,
+          263.89868,
+          375.99579,
+          163.98456
+        ]
+      ],
+      "success": 1,
+      "termination": 3,
+      "origin": "board_pose_v2_c_game",
+      "screen": "result",
+      "state": "LIVE",
+      "display_status": "请将光线移出目标，再开始挑战",
+      "board_frame": {
+        "schema": "board-pose-v3",
+        "tx": 55,
+        "generation": 15433346900013649967,
+        "sequence": 113,
+        "captured_ms": 165361,
+        "published_ms": 165666,
+        "valid": true,
+        "status": "OK",
+        "raw_mask": 9,
+        "pending_mask": 0,
+        "missing_mask": 38,
+        "models": [
+          {
+            "type": "MIRROR",
+            "center": [
+              663.875,
+              299.0625
+            ],
+            "axis": [
+              0.12183973827567902,
+              0.9925497862459666
+            ],
+            "size": [
+              161.875,
+              82.625
+            ]
+          },
+          {
+            "type": "TARGET",
+            "center": [
+              375.0,
+              132.0
+            ],
+            "axis": [
+              1.0,
+              0.0
+            ],
+            "size": [
+              88.0,
+              88.0
+            ]
+          }
+        ],
+        "wire_version": 3,
+        "level_id": 1,
+        "session_generation": 1,
+        "nonce": 4004784581
+      },
+      "sequence_space": "pc_connection_epoch_16_board_sequence_48",
+      "capture_clock": "pc_monotonic_mapped_interval_upper",
+      "board_phase": "RUNNING",
+      "board_ready": false,
+      "board_started": true,
+      "serial_port": "COM9",
+      "serial_connected": true,
+      "serial_error": "",
+      "serial_protocol": 3,
+      "scene_max_age_ms": 600,
+      "control_sent_ms": null,
+      "control_attempts": 0,
+      "display_held": false,
+      "display_age_ms": 401,
+      "captured_bounds_ms": [
+        34691552,
+        34691618
+      ],
+      "result": {
+        "stars": 3,
+        "elapsed_ms": 20181,
+        "outcome": "目标已点亮"
+      }
+    }
+  },
+  "core_source_equivalence_note": "board_native differs only by comments and MSVC /utf-8; generated game_config.c, game_session/ray_game C+headers and presenter AST match. Current local source comparison, not live process-memory attestation.",
+  "pc_terminal_ending": {
+    "observed": "KeyboardInterrupt during asyncio cleanup",
+    "board_safe_exit": "NOT_PROVEN_BY_PC_TERMINAL_LOG",
+    "not_classified_as_camera_or_game_failure": true
+  },
+  "provenance_note": "The user confirmed physical first-level operation and result; exact20181ms is computed offline. Actual PC frontend teaching-2 differs in identity from packaged frontend; C authority/config/presenter equivalence and delivered C replay are separately checked.",
+  "packaged_reproduction": {
+    "script": "sim/replay_serial.py",
+    "trace": "board/evidence/level1_run_20261103_1/uart_original.jsonl",
+    "derived": "offline_c_replay.jsonl",
+    "command": "python -X utf8 -B sim/replay_serial.py --project src/project --trace board/evidence/level1_run_20261103_1/uart_original.jsonl --output replay_serial_output_1"
+  },
+  "source_core_inputs": {
+    "pc_vision/board_game_host.c": "931ed3fcee11eb45669b3e49b552d28f31ed46c632ee598a9d59886eae1e8b9d",
+    "pc_vision/board_wire.py": "696c84f1c60cd982ed9a13df045081debff0529b4b568ec0e1f91efc39954d33",
+    "pc_vision/board_pose.py": "b77b1bd26adf750095092bb1c54fb9224bc5aab4bfeb8559a6a21c4b855734a6",
+    "color_test/software/vision_ps_baremetal/src/game_session.c": "b090e0c1bb41e3eb9d8c750e59ec6e069b340a7ca9c1d8435fe9c647249c7e8a",
+    "color_test/software/vision_ps_baremetal/src/game_session.h": "00c14f0cbab0d9ddd947f2826033400e13f8bc26a0dabd80282b491192aa4b7a",
+    "color_test/software/vision_ps_baremetal/src/ray_game.c": "5e6d4e526d632fbcb47b9d7687cec26bd559db7f13facb97f80629af9bd7c7c8",
+    "color_test/software/vision_ps_baremetal/src/ray_game.h": "400b8e2ab5ff92896b6259a01a24754bbcb29f7314673877f072c8bf3992e3d4"
+  },
+  "board_session_reports": {
+    "provenance": "User-pasted terminal output, not direct board-file retrieval",
+    "continuous_run_exit": {
+      "frames": 4159,
+      "can_exit": true,
+      "window": "last up to 256 actual samples; milliseconds",
+      "stages": {
+        "capture_ms": {
+          "samples": 256,
+          "mean": 181.4574346835842,
+          "median": 176.9460389999722,
+          "maximum": 242.32295199999498
+        },
+        "compose_ms": {
+          "samples": 256,
+          "mean": 91.39604218359932,
+          "median": 89.09965049997481,
+          "maximum": 112.50470200002383
+        },
+        "display_ms": {
+          "samples": 256,
+          "mean": 39.07309172265361,
+          "median": 38.28378299999713,
+          "maximum": 56.319829999893045
+        }
+      },
+      "first_fault": null
+    },
+    "same_boot_three_frame_restart_exit": {
+      "frames": 3,
+      "can_exit": true,
+      "window": "last up to 256 actual samples; milliseconds",
+      "stages": {
+        "capture_ms": {
+          "samples": 3,
+          "mean": 241.61374366660007,
+          "median": 171.3854919998994,
+          "maximum": 383.2788849999815
+        },
+        "compose_ms": {
+          "samples": 3,
+          "mean": 89.62383266665104,
+          "median": 87.28211099992222,
+          "maximum": 95.32442699992316
+        },
+        "display_ms": {
+          "samples": 2,
+          "mean": 39.803231500059155,
+          "median": 39.803231500059155,
+          "maximum": 44.50342800009821
+        }
+      },
+      "first_fault": null
+    }
+  },
+  "statistics_scope": {
+    "continuous_run": "Last up to256 actual samples per stage, not the full4159-frame run or the first-level game interval",
+    "fps": "NOT_DERIVED; no full wall-clock interval supplied",
+    "three_frame_display_samples": "frames counts successful submits; display_ms counts completed retirement polls. The final submit can exit through safe DMA stop when the frame limit is reached."
+  }
+}

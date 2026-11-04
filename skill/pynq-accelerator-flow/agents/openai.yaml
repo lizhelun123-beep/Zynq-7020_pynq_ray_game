@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 加速器完整流程"
+  short_description: "按阶段构建最小 Overlay、驱动、中断和部署验收"
+  default_prompt: "使用 $pynq-accelerator-flow，按当前板卡和授权范围完成最小加速器闭环。"

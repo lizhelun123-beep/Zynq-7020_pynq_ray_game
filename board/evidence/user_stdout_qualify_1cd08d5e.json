@@ -1,0 +1,28 @@
+{
+  "provenance": "User-pasted SSH stdout; not a direct host retrieval of protected board files",
+  "report": {
+    "version": "20261102-v1-isolated-bootstrap",
+    "mode": "qualify",
+    "boot_id": "1cd08d5e-f8bb-4583-9345-f68582623e76",
+    "attempt_path": "/run/beam_pynq/attempt-7b3ecc49ee2146a9817b34133ff25417.json",
+    "stage": "complete",
+    "gate_update": {
+      "changed": true,
+      "sha256": "34b883118dba5ff7b8e8d89fecec461ee66158223ecbb5102247ea5497a5f0ed",
+      "backup": "/root/beam_v14_setup_backups/admission-c418d55d465b44e1af4a75f4104d3078"
+    },
+    "bootstrap_ps": {
+      "first": {"fpga_reset": 0, "level_shifters": 0},
+      "second": {"fpga_reset": 0, "level_shifters": 0}
+    },
+    "overlay_timestamp": "2020/10/19 16:47:44 +288122",
+    "clocks_mhz": [99.999999, 142.857141, 199.999998],
+    "dma": {
+      "capture": {"control": 65538, "status": 65537},
+      "display": {"control": 65538, "status": 65537}
+    },
+    "csi_version": 65537,
+    "admission": "/run/beam_pynq/admission.json",
+    "result": "ADMITTED_FROM_ACTUAL_HARDWARE"
+  }
+}

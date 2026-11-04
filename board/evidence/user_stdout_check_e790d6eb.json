@@ -1,0 +1,38 @@
+{
+  "provenance": "User-pasted SSH stdout; not a direct host retrieval of protected board files",
+  "report": {
+    "scope": "READ_ONLY_FILES_AND_SYSFS",
+    "hardware_operations": 0,
+    "python": "3.6.5",
+    "machine": "armv7l",
+    "kernel": "5.4.0-xilinx-v2020.1",
+    "euid": 0,
+    "terminal": "/dev/pts/0",
+    "bundle": {"version": 14, "library_sha256": "01f929f3a97d7a3c5d6c8b2c278ca0be1130937ca0873ce0548e53dc663323b0"},
+    "boot_id": "e790d6eb-df76-481f-80a6-7b69be763a0f",
+    "cmdline": "root=/dev/mmcblk0p2 rw rootfstype=ext4 rootwait devtmpfs.mount=1 uio_pdrv_genirq.of_id=generic-uio clk_ignore_unused console=tty0 systemd.mask=serial-getty@ttyPS0.service",
+    "consoles": "tty0                 -WU (EC p  )    4:1",
+    "eth0_state": "up",
+    "eth0_carrier": "1",
+    "fpga_state": "unknown",
+    "fpga_firmware": {"read_error": "[Errno 13] Permission denied: '/sys/class/fpga_manager/fpga0/firmware'"},
+    "boot_files": {
+      "BOOT.BIN": {"bytes": 859464, "sha256": "06c7ab259073472dc8b0f3ee07819f11924a8752970beeb6dd370d9d9c0054b4"},
+      "boot.scr": {"bytes": 1827, "sha256": "8e4a66ca8e565712017cdfc03a6eb8b7266b1152e8bd7fa7ac872a524a0002ca"},
+      "image.ub": {"bytes": 5878536, "sha256": "07132df1bf965dee030141712c686937004bae88f5aea7bff1ceca184158b797"},
+      "boot.py": {"bytes": 994, "sha256": "d48c69ddd86f124c1fb89483c30b1b8c5b3caba57f0899c976ed5efcb4201333"}
+    },
+    "i2c": {
+      "i2c-0": "/sys/devices/soc0/amba/e0004000.i2c/i2c-0",
+      "i2c-1": "/sys/devices/soc0/amba/e0005000.i2c/i2c-1"
+    },
+    "eth0_boot_config": {
+      "/etc/network/interfaces": [],
+      "/etc/network/interfaces.d/eth0": ["auto eth0", "iface eth0 inet dhcp"]
+    },
+    "device_owner_pids": [],
+    "admission_exists": false,
+    "next_requirement": "UART console release and actual current-boot admission before --run"
+  },
+  "directory_listing": "ls: cannot access '/run/beam_pynq/': No such file or directory"
+}

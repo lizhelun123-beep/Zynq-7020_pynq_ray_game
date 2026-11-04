@@ -1,0 +1,61 @@
+﻿case,arm,round,task,name,original_status,display_status,task_kind,blocker
+event_timer,baseline,2,T01,完整工程入口,FAIL,FAIL,check,
+event_timer,baseline,2,T02,新任务功能仿真,FAIL,FAIL,check,
+event_timer,baseline,2,T03,AXI/流协议仿真,FAIL,FAIL,check,
+event_timer,baseline,2,T04,复位/中断/错误路径,FAIL,FAIL,check,
+event_timer,baseline,2,T05,CPU驱动与数据契约,FAIL,FAIL,check,
+event_timer,baseline,2,T06,实际IP封装与BD,FAIL,FAIL,check,
+event_timer,baseline,2,T07,实际目标综合,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+event_timer,baseline,2,T08,实际实现与报告门,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+event_timer,baseline,2,T09,BIT/HWH/XSA一致性,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+event_timer,baseline,2,T10,完整复现交付,NOT_RUN,BLOCKED,final_verdict,pre-synthesis prerequisites failed
+event_timer,skill,2,T01,完整工程入口,PASS,PASS,check,
+event_timer,skill,2,T02,新任务功能仿真,PASS,PASS,check,
+event_timer,skill,2,T03,AXI/流协议仿真,PASS,PASS,check,
+event_timer,skill,2,T04,复位/中断/错误路径,PASS,PASS,check,
+event_timer,skill,2,T05,CPU驱动与数据契约,PASS,PASS,check,
+event_timer,skill,2,T06,实际IP封装与BD,PASS,PASS,check,
+event_timer,skill,2,T07,实际目标综合,PASS,PASS,check,
+event_timer,skill,2,T08,实际实现与报告门,PASS,PASS,check,
+event_timer,skill,2,T09,BIT/HWH/XSA一致性,PASS,PASS,check,
+event_timer,skill,2,T10,完整复现交付,PASS,PASS,final_verdict,
+packet_xor,baseline,2,T01,完整工程入口,FAIL,FAIL,check,
+packet_xor,baseline,2,T02,新任务功能仿真,PASS,PASS,check,
+packet_xor,baseline,2,T03,AXI/流协议仿真,PASS,PASS,check,
+packet_xor,baseline,2,T04,复位/中断/错误路径,PASS,PASS,check,
+packet_xor,baseline,2,T05,CPU驱动与数据契约,FAIL,FAIL,check,
+packet_xor,baseline,2,T06,实际IP封装与BD,FAIL,FAIL,check,
+packet_xor,baseline,2,T07,实际目标综合,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+packet_xor,baseline,2,T08,实际实现与报告门,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+packet_xor,baseline,2,T09,BIT/HWH/XSA一致性,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+packet_xor,baseline,2,T10,完整复现交付,NOT_RUN,BLOCKED,final_verdict,pre-synthesis prerequisites failed
+packet_xor,skill,2,T01,完整工程入口,PASS,PASS,check,
+packet_xor,skill,2,T02,新任务功能仿真,PASS,PASS,check,
+packet_xor,skill,2,T03,AXI/流协议仿真,PASS,PASS,check,
+packet_xor,skill,2,T04,复位/中断/错误路径,PASS,PASS,check,
+packet_xor,skill,2,T05,CPU驱动与数据契约,FAIL,FAIL,check,
+packet_xor,skill,2,T06,实际IP封装与BD,PASS,PASS,check,
+packet_xor,skill,2,T07,实际目标综合,PASS,PASS,check,
+packet_xor,skill,2,T08,实际实现与报告门,PASS,PASS,check,
+packet_xor,skill,2,T09,BIT/HWH/XSA一致性,PASS,PASS,check,
+packet_xor,skill,2,T10,完整复现交付,FAIL,FAIL,final_verdict,
+bram_lookup,baseline,2,T01,完整工程入口,FAIL,FAIL,check,
+bram_lookup,baseline,2,T02,新任务功能仿真,FAIL,FAIL,check,
+bram_lookup,baseline,2,T03,AXI/流协议仿真,FAIL,FAIL,check,
+bram_lookup,baseline,2,T04,复位/中断/错误路径,PASS,PASS,check,
+bram_lookup,baseline,2,T05,CPU驱动与数据契约,FAIL,FAIL,check,
+bram_lookup,baseline,2,T06,实际IP封装与BD,FAIL,FAIL,check,
+bram_lookup,baseline,2,T07,实际目标综合,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+bram_lookup,baseline,2,T08,实际实现与报告门,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+bram_lookup,baseline,2,T09,BIT/HWH/XSA一致性,NOT_RUN,BLOCKED,check,pre-synthesis prerequisites failed
+bram_lookup,baseline,2,T10,完整复现交付,NOT_RUN,BLOCKED,final_verdict,pre-synthesis prerequisites failed
+bram_lookup,skill,2,T01,完整工程入口,PASS,PASS,check,
+bram_lookup,skill,2,T02,新任务功能仿真,PASS,PASS,check,
+bram_lookup,skill,2,T03,AXI/流协议仿真,PASS,PASS,check,
+bram_lookup,skill,2,T04,复位/中断/错误路径,PASS,PASS,check,
+bram_lookup,skill,2,T05,CPU驱动与数据契约,FAIL,FAIL,check,
+bram_lookup,skill,2,T06,实际IP封装与BD,PASS,PASS,check,
+bram_lookup,skill,2,T07,实际目标综合,FAIL,FAIL,check,
+bram_lookup,skill,2,T08,实际实现与报告门,NOT_RUN,BLOCKED,check,BRAM mapping gate failed
+bram_lookup,skill,2,T09,BIT/HWH/XSA一致性,NOT_RUN,BLOCKED,check,BRAM mapping gate failed
+bram_lookup,skill,2,T10,完整复现交付,NOT_RUN,BLOCKED,final_verdict,BRAM mapping gate failed

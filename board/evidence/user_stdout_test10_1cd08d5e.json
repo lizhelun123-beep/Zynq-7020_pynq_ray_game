@@ -1,0 +1,23 @@
+{
+  "provenance": "User-pasted SSH stdout; not a direct host retrieval of protected board files",
+  "session_report": {
+    "frames": 10,
+    "can_exit": true,
+    "window": "last up to 256 actual samples; milliseconds",
+    "stages": {
+      "capture_ms": {"samples": 10, "mean": 200.70244529998718, "median": 180.5475229999729, "maximum": 389.16114799997104},
+      "compose_ms": {"samples": 10, "mean": 89.48768780001046, "median": 90.13995899999827, "maximum": 95.76791099993898},
+      "display_ms": {"samples": 10, "mean": 42.93779219999578, "median": 42.79031400000122, "maximum": 50.67690600003516}
+    },
+    "first_fault": null
+  },
+  "report": {
+    "version": "20261102-v1-isolated-bootstrap",
+    "mode": "test10",
+    "boot_id": "1cd08d5e-f8bb-4583-9345-f68582623e76",
+    "attempt_path": "/run/beam_pynq/attempt-a2182b87927c45dbb686253860d1d57a.json",
+    "stage": "run_at_most_ten_frames",
+    "gate_update": {"changed": false, "sha256": "34b883118dba5ff7b8e8d89fecec461ee66158223ecbb5102247ea5497a5f0ed"},
+    "result": "TEST10_RETURNED"
+  }
+}

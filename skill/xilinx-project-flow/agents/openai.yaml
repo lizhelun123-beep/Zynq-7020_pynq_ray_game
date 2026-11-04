@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xilinx 工程流程与制品交接"
+  short_description: "区分Linux/PYNQ用户态、Overlay及硬件变更，核对实际版本与制品来源"
+  default_prompt: "使用 $xilinx-project-flow 判断本次Linux/PYNQ应用或硬件变更所需阶段，复用现有BIT/HWH、驱动和工具，不默认生成BOOT。"

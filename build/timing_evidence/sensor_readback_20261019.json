@@ -1,0 +1,951 @@
+{
+  "boot_id": "afc17ac5-09cb-4f14-bc0a-1da555c9146a",
+  "gpio": {
+    "active_low": "0",
+    "direction": "out",
+    "value": "1"
+  },
+  "gpio_debug": "gpiochip0: GPIOs 906-1023, parent: platform/e000a000.gpio, zynq_gpio:\n gpio-960 (                    |sysfs               ) out hi \n",
+  "owners": [
+    {
+      "comm": "start_pl_server",
+      "fds": [],
+      "maps": [
+        "b4dbc000-b4dc6000 r-xp 00000000 b3:02 47666      /usr/lib/libcma.so",
+        "b4dc6000-b4dd5000 ---p 0000a000 b3:02 47666      /usr/lib/libcma.so",
+        "b4dd5000-b4dd6000 r--p 00009000 b3:02 47666      /usr/lib/libcma.so",
+        "b4dd6000-b4dd7000 rw-p 0000a000 b3:02 47666      /usr/lib/libcma.so",
+        "b6f87000-b6f88000 rw-s f8f00000 00:06 1049       /dev/mem"
+      ],
+      "pid": 265
+    }
+  ],
+  "ps": {
+    "0xf800000c": 0,
+    "0xf8000100": 188416,
+    "0xf8000104": 131072,
+    "0xf8000108": 122880,
+    "0xf800010c": 63,
+    "0xf8000170": 2098432,
+    "0xf8000174": 0,
+    "0xf8000178": 0,
+    "0xf8000180": 1050368,
+    "0xf8000184": 0,
+    "0xf8000188": 0,
+    "0xf8000190": 1049856,
+    "0xf8000194": 0,
+    "0xf8000198": 0,
+    "0xf80001a0": 1054720,
+    "0xf80001a4": 0,
+    "0xf80001a8": 0,
+    "0xf8000240": 0,
+    "0xf8000900": 15,
+    "0xf8007000": 1174462591,
+    "0xf800700c": 131076,
+    "0xf8007014": 1342181168
+  },
+  "registers": {
+    "capture": {
+      "0x28": 0,
+      "0x30": 65538,
+      "0x34": 83985,
+      "0xa0": 0,
+      "0xa4": 0,
+      "0xa8": 0,
+      "0xac": 0,
+      "0xb0": 0,
+      "0xb4": 0
+    },
+    "csi": {
+      "0x0": 2,
+      "0x4": 978,
+      "0x8": 0,
+      "0xc": 65537
+    },
+    "display": {
+      "0x0": 65538,
+      "0x28": 0,
+      "0x4": 65537
+    },
+    "dphy": {
+      "0x0": 2,
+      "0xc": 65538
+    }
+  },
+  "scope": "READ_ONLY_POST_BURST_DMA_CSI_PS_GPIO",
+  "sensor_receipt": {
+    "boot_id": "afc17ac5-09cb-4f14-bc0a-1da555c9146a",
+    "csi_clean_burst": true,
+    "csi_ingress_seen": true,
+    "dma_cma_operations": 0,
+    "error": "AssertionError: ",
+    "events": [
+      {
+        "address": 60,
+        "csi_before": {
+          "control": 2,
+          "crc_errors": 0,
+          "long_packets": 0,
+          "time": 1133.905468614
+        },
+        "dma_before": {
+          "capture": {
+            "0x30": 65538,
+            "0x34": 65537
+          },
+          "display": {
+            "0x0": 65538,
+            "0x4": 65537
+          }
+        },
+        "gpio_claims_before": "gpiochip0: GPIOs 906-1023, parent: platform/e000a000.gpio, zynq_gpio:\n",
+        "i2c": "/dev/i2c-0",
+        "linux_gpio": 960,
+        "monotonic": 1133.906091667,
+        "owners": [
+          {
+            "comm": "start_pl_server",
+            "fds": [],
+            "maps": [
+              "b4dbc000-b4dc6000 r-xp 00000000 b3:02 47666      /usr/lib/libcma.so",
+              "b4dc6000-b4dd5000 ---p 0000a000 b3:02 47666      /usr/lib/libcma.so",
+              "b4dd5000-b4dd6000 r--p 00009000 b3:02 47666      /usr/lib/libcma.so",
+              "b4dd6000-b4dd7000 rw-p 0000a000 b3:02 47666      /usr/lib/libcma.so",
+              "b6f87000-b6f88000 rw-s f8f00000 00:06 1049       /dev/mem"
+            ],
+            "pid": 265
+          }
+        ],
+        "ps_gpio": 54,
+        "source_hashes": {
+          "canonical_ov5640": "537c9df9e61eb999cc8914f1a3eaf05e9e5972a42ff3e70f112bf4581f0bab61",
+          "environment_support": "9825da0c57a5d10ffc6e99cd5e205034274a4e673a5b267ef1e1eb9ac0271b37"
+        },
+        "stage": "environment_and_routes_qualified"
+      },
+      {
+        "monotonic": 1133.912026426,
+        "stage": "camera_reset_asserted",
+        "value": 0
+      },
+      {
+        "monotonic": 1134.918343979,
+        "stage": "camera_reset_released",
+        "value": 1
+      },
+      {
+        "id": [
+          86,
+          64
+        ],
+        "monotonic": 1135.937052625,
+        "stage": "sensor_identity"
+      },
+      {
+        "monotonic": 1135.940942585,
+        "stage": "canonical_raw10_configuration_requested"
+      },
+      {
+        "monotonic": 1138.01413062,
+        "registers": {
+          "0x300e": 69,
+          "0x3034": 26,
+          "0x3035": 33,
+          "0x3036": 70,
+          "0x3037": 5,
+          "0x3108": 17,
+          "0x3808": 5,
+          "0x3809": 0,
+          "0x380a": 2,
+          "0x380b": 208,
+          "0x3820": 70,
+          "0x3821": 1,
+          "0x4300": 0,
+          "0x4800": 20,
+          "0x4837": 36,
+          "0x5000": 6,
+          "0x5001": 0,
+          "0x501f": 3
+        },
+        "stage": "mode_readback"
+      },
+      {
+        "baseline": {
+          "control": 2,
+          "crc_errors": 0,
+          "long_packets": 0,
+          "time": 1138.035876428
+        },
+        "max_wait_seconds": 0.75,
+        "monotonic": 1138.035937052,
+        "sink": "VDMA halted; no sustained no-overflow/full-frame claim",
+        "stage": "bounded_stream_start_requested"
+      },
+      {
+        "crc_delta": 0,
+        "monotonic": 1138.066782804,
+        "packet_delta": 6,
+        "samples": [
+          {
+            "control": 2,
+            "crc_errors": 0,
+            "long_packets": 0,
+            "time": 1138.056949788
+          },
+          {
+            "control": 2,
+            "crc_errors": 0,
+            "long_packets": 6,
+            "time": 1138.066731301
+          }
+        ],
+        "stage": "pre_stop_csi"
+      },
+      {
+        "monotonic": 1138.087491194,
+        "stage": "sensor_standby_requested"
+      },
+      {
+        "monotonic": 1138.109319215,
+        "stage": "sensor_standby_readback",
+        "value": 66
+      },
+      {
+        "after": {
+          "control": 2,
+          "crc_errors": 0,
+          "long_packets": 978,
+          "time": 1138.140788994
+        },
+        "monotonic": 1138.241043217,
+        "settled": {
+          "control": 2,
+          "crc_errors": 0,
+          "long_packets": 978,
+          "time": 1138.240987714
+        },
+        "stage": "post_stop_csi"
+      },
+      {
+        "error": "AssertionError: ",
+        "monotonic": 1138.265451674,
+        "stage": "failed_preserve_state",
+        "traceback": "Traceback (most recent call last):\n  File \"/tmp/codex_camera_sensor_csi_vdu0omxv/initialize.py\", line 187, in <module>\n    main()\n  File \"/tmp/codex_camera_sensor_csi_vdu0omxv/initialize.py\", line 172, in main\n    assert dma_after==dma_before\nAssertionError\n"
+      }
+    ],
+    "i2c_trace": [
+      {
+        "operation": "read",
+        "register": 12298,
+        "value": 86
+      },
+      {
+        "operation": "read",
+        "register": 12299,
+        "value": 64
+      },
+      {
+        "operation": "read",
+        "register": 12298,
+        "value": 86
+      },
+      {
+        "operation": "read",
+        "register": 12299,
+        "value": 64
+      },
+      {
+        "operation": "write",
+        "register": 12547,
+        "value": 17
+      },
+      {
+        "operation": "write",
+        "register": 12296,
+        "value": 130
+      },
+      {
+        "operation": "write",
+        "register": 12296,
+        "value": 66
+      },
+      {
+        "operation": "write",
+        "register": 12547,
+        "value": 3
+      },
+      {
+        "operation": "write",
+        "register": 12311,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 12312,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 12340,
+        "value": 26
+      },
+      {
+        "operation": "write",
+        "register": 12341,
+        "value": 17
+      },
+      {
+        "operation": "write",
+        "register": 12342,
+        "value": 56
+      },
+      {
+        "operation": "write",
+        "register": 12343,
+        "value": 17
+      },
+      {
+        "operation": "write",
+        "register": 12552,
+        "value": 1
+      },
+      {
+        "operation": "write",
+        "register": 12349,
+        "value": 16
+      },
+      {
+        "operation": "write",
+        "register": 12347,
+        "value": 25
+      },
+      {
+        "operation": "write",
+        "register": 13872,
+        "value": 46
+      },
+      {
+        "operation": "write",
+        "register": 13873,
+        "value": 14
+      },
+      {
+        "operation": "write",
+        "register": 13874,
+        "value": 226
+      },
+      {
+        "operation": "write",
+        "register": 13875,
+        "value": 35
+      },
+      {
+        "operation": "write",
+        "register": 13857,
+        "value": 224
+      },
+      {
+        "operation": "write",
+        "register": 14084,
+        "value": 160
+      },
+      {
+        "operation": "write",
+        "register": 14083,
+        "value": 90
+      },
+      {
+        "operation": "write",
+        "register": 14101,
+        "value": 120
+      },
+      {
+        "operation": "write",
+        "register": 14103,
+        "value": 1
+      },
+      {
+        "operation": "write",
+        "register": 14091,
+        "value": 96
+      },
+      {
+        "operation": "write",
+        "register": 14085,
+        "value": 26
+      },
+      {
+        "operation": "write",
+        "register": 14597,
+        "value": 2
+      },
+      {
+        "operation": "write",
+        "register": 14598,
+        "value": 16
+      },
+      {
+        "operation": "write",
+        "register": 14593,
+        "value": 10
+      },
+      {
+        "operation": "write",
+        "register": 14129,
+        "value": 2
+      },
+      {
+        "operation": "write",
+        "register": 13824,
+        "value": 55
+      },
+      {
+        "operation": "write",
+        "register": 13825,
+        "value": 51
+      },
+      {
+        "operation": "write",
+        "register": 12333,
+        "value": 96
+      },
+      {
+        "operation": "write",
+        "register": 13856,
+        "value": 82
+      },
+      {
+        "operation": "write",
+        "register": 14107,
+        "value": 32
+      },
+      {
+        "operation": "write",
+        "register": 18204,
+        "value": 80
+      },
+      {
+        "operation": "write",
+        "register": 14867,
+        "value": 67
+      },
+      {
+        "operation": "write",
+        "register": 14872,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14873,
+        "value": 248
+      },
+      {
+        "operation": "write",
+        "register": 13877,
+        "value": 19
+      },
+      {
+        "operation": "write",
+        "register": 13878,
+        "value": 6
+      },
+      {
+        "operation": "write",
+        "register": 13876,
+        "value": 68
+      },
+      {
+        "operation": "write",
+        "register": 13858,
+        "value": 1
+      },
+      {
+        "operation": "write",
+        "register": 15361,
+        "value": 52
+      },
+      {
+        "operation": "write",
+        "register": 15364,
+        "value": 40
+      },
+      {
+        "operation": "write",
+        "register": 15365,
+        "value": 152
+      },
+      {
+        "operation": "write",
+        "register": 15366,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 15367,
+        "value": 8
+      },
+      {
+        "operation": "write",
+        "register": 15368,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 15369,
+        "value": 28
+      },
+      {
+        "operation": "write",
+        "register": 15370,
+        "value": 156
+      },
+      {
+        "operation": "write",
+        "register": 15371,
+        "value": 64
+      },
+      {
+        "operation": "write",
+        "register": 20541,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14368,
+        "value": 70
+      },
+      {
+        "operation": "write",
+        "register": 12302,
+        "value": 69
+      },
+      {
+        "operation": "write",
+        "register": 18432,
+        "value": 20
+      },
+      {
+        "operation": "write",
+        "register": 12334,
+        "value": 8
+      },
+      {
+        "operation": "write",
+        "register": 17152,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 20511,
+        "value": 3
+      },
+      {
+        "operation": "write",
+        "register": 18195,
+        "value": 3
+      },
+      {
+        "operation": "write",
+        "register": 17415,
+        "value": 4
+      },
+      {
+        "operation": "write",
+        "register": 17422,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 17931,
+        "value": 53
+      },
+      {
+        "operation": "write",
+        "register": 17932,
+        "value": 32
+      },
+      {
+        "operation": "write",
+        "register": 14372,
+        "value": 1
+      },
+      {
+        "operation": "write",
+        "register": 20480,
+        "value": 6
+      },
+      {
+        "operation": "write",
+        "register": 20481,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 12296,
+        "value": 66
+      },
+      {
+        "operation": "write",
+        "register": 12341,
+        "value": 33
+      },
+      {
+        "operation": "write",
+        "register": 12342,
+        "value": 70
+      },
+      {
+        "operation": "write",
+        "register": 12343,
+        "value": 5
+      },
+      {
+        "operation": "write",
+        "register": 12552,
+        "value": 17
+      },
+      {
+        "operation": "write",
+        "register": 12340,
+        "value": 26
+      },
+      {
+        "operation": "write",
+        "register": 14336,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14337,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14338,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14339,
+        "value": 8
+      },
+      {
+        "operation": "write",
+        "register": 14340,
+        "value": 10
+      },
+      {
+        "operation": "write",
+        "register": 14341,
+        "value": 59
+      },
+      {
+        "operation": "write",
+        "register": 14342,
+        "value": 7
+      },
+      {
+        "operation": "write",
+        "register": 14343,
+        "value": 155
+      },
+      {
+        "operation": "write",
+        "register": 14352,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14353,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14354,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14355,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14344,
+        "value": 5
+      },
+      {
+        "operation": "write",
+        "register": 14345,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 14346,
+        "value": 2
+      },
+      {
+        "operation": "write",
+        "register": 14347,
+        "value": 208
+      },
+      {
+        "operation": "write",
+        "register": 14348,
+        "value": 7
+      },
+      {
+        "operation": "write",
+        "register": 14349,
+        "value": 104
+      },
+      {
+        "operation": "write",
+        "register": 14350,
+        "value": 3
+      },
+      {
+        "operation": "write",
+        "register": 14351,
+        "value": 216
+      },
+      {
+        "operation": "write",
+        "register": 14356,
+        "value": 49
+      },
+      {
+        "operation": "write",
+        "register": 14357,
+        "value": 49
+      },
+      {
+        "operation": "write",
+        "register": 14369,
+        "value": 1
+      },
+      {
+        "operation": "write",
+        "register": 18487,
+        "value": 36
+      },
+      {
+        "operation": "write",
+        "register": 13848,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 13842,
+        "value": 89
+      },
+      {
+        "operation": "write",
+        "register": 14088,
+        "value": 100
+      },
+      {
+        "operation": "write",
+        "register": 14089,
+        "value": 82
+      },
+      {
+        "operation": "write",
+        "register": 14092,
+        "value": 3
+      },
+      {
+        "operation": "write",
+        "register": 17152,
+        "value": 0
+      },
+      {
+        "operation": "write",
+        "register": 20511,
+        "value": 3
+      },
+      {
+        "operation": "write",
+        "register": 20480,
+        "value": 6
+      },
+      {
+        "operation": "write",
+        "register": 20481,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 12340,
+        "value": 26
+      },
+      {
+        "operation": "read",
+        "register": 14344,
+        "value": 5
+      },
+      {
+        "operation": "read",
+        "register": 14345,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 14346,
+        "value": 2
+      },
+      {
+        "operation": "read",
+        "register": 14347,
+        "value": 208
+      },
+      {
+        "operation": "read",
+        "register": 17152,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 20480,
+        "value": 6
+      },
+      {
+        "operation": "read",
+        "register": 20481,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 20511,
+        "value": 3
+      },
+      {
+        "operation": "read",
+        "register": 12340,
+        "value": 26
+      },
+      {
+        "operation": "read",
+        "register": 14344,
+        "value": 5
+      },
+      {
+        "operation": "read",
+        "register": 14345,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 14346,
+        "value": 2
+      },
+      {
+        "operation": "read",
+        "register": 14347,
+        "value": 208
+      },
+      {
+        "operation": "read",
+        "register": 17152,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 20480,
+        "value": 6
+      },
+      {
+        "operation": "read",
+        "register": 20481,
+        "value": 0
+      },
+      {
+        "operation": "read",
+        "register": 20511,
+        "value": 3
+      },
+      {
+        "operation": "read",
+        "register": 12341,
+        "value": 33
+      },
+      {
+        "operation": "read",
+        "register": 12342,
+        "value": 70
+      },
+      {
+        "operation": "read",
+        "register": 12343,
+        "value": 5
+      },
+      {
+        "operation": "read",
+        "register": 12552,
+        "value": 17
+      },
+      {
+        "operation": "read",
+        "register": 14368,
+        "value": 70
+      },
+      {
+        "operation": "read",
+        "register": 12302,
+        "value": 69
+      },
+      {
+        "operation": "read",
+        "register": 18432,
+        "value": 20
+      },
+      {
+        "operation": "read",
+        "register": 14369,
+        "value": 1
+      },
+      {
+        "operation": "read",
+        "register": 18487,
+        "value": 36
+      },
+      {
+        "operation": "read",
+        "register": 12296,
+        "value": 66
+      },
+      {
+        "operation": "write",
+        "register": 12296,
+        "value": 2
+      },
+      {
+        "operation": "read",
+        "register": 12296,
+        "value": 2
+      },
+      {
+        "operation": "write",
+        "register": 12296,
+        "value": 66
+      },
+      {
+        "operation": "read",
+        "register": 12296,
+        "value": 66
+      }
+    ],
+    "identity_pass": true,
+    "mode_pass": true,
+    "pass": false,
+    "pl_loads": 0,
+    "ps_clock_reset_writes": 0,
+    "retained_gpio": {
+      "number": 960,
+      "owned": true,
+      "purpose": "camera reset GPIO54/EMIO0"
+    },
+    "scope": "OV5640 identity and bounded CSI reception without DMA",
+    "stage": "failed_preserve_state"
+  }
+}

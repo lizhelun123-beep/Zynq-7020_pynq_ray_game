@@ -1,0 +1,4 @@
+Vivado2023.1 native Aurora rule; installation not modified
+path=D:\Xilinx\Vivado\2023.1\data\rsb\design_assist\block\aurora\bd.tcl
+bytes=17653
+sha256=c2db3806400e4b250a3fadee39a094e3466ac06ae78b6e485b4b5f93c1cbe2df

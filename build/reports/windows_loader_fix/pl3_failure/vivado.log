@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov  3 04:00:50 2026
+# Process ID: 19728
+# Current directory: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3
+# Command line: vivado.exe -mode batch -notrace -log D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado.log -journal D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado.jou -source D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\build_pl.tcl -tclargs D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\inputs\project D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado
+# Log file: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/vivado.log
+# Journal file: D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado.jou
+# Running On: iband, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 25480 MB
+#-----------------------------------------------------------
+source {D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\build_pl.tcl} -notrace
+INFO: [Project 1-313] Project file moved from 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/color_test' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.ip_user_files'.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axi_mem_intercon_0/system_axi_mem_intercon_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_proc_sys_reset_150M_0/system_proc_sys_reset_150M_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_ps7_0_axi_periph_0/system_ps7_0_axi_periph_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_rst_100M_0/system_rst_100M_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_vtg_0/system_vtg_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_xlconcat_0_0/system_xlconcat_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_rgb2dvi_0_0/system_rgb2dvi_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_display_rst_axis_0/system_display_rst_axis_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_display_rst_pixel_0/system_display_rst_pixel_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axi_dynclk_0_0/system_axi_dynclk_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_AXI_BayerToRGB_0_0/system_AXI_BayerToRGB_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_AXI_GammaCorrection_0_0/system_AXI_GammaCorrection_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_auto_pc_2/system_auto_pc_2.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axi_mem_intercon_1_0/system_axi_mem_intercon_1_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axi_vdma_1_0/system_axi_vdma_1_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_proc_sys_reset_200M_0/system_proc_sys_reset_200M_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axis_subset_converter_0_0/system_axis_subset_converter_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/system_MIPI_D_PHY_RX_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_MIPI_CSI_2_RX_0_0/system_MIPI_CSI_2_RX_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [BD 41-2576] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_axis_color_highlight_0_0/system_axis_color_highlight_0_0.xci' referenced by design 'system' could not be found.
+WARNING: [Project 1-312] File not found as 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/build/pl_rate93_production/build_5/synth/input_model_effective.xdc'; using path 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/color_test/build/pl_rate93_production/build_5/synth/input_model_effective.xdc' instead.
+WARNING: [Project 1-312] File not found as 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/build/pl_rate93_production/build_5/synth/timing_context.xdc'; using path 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/color_test/build/pl_rate93_production/build_5/synth/timing_context.xdc' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'system_processing_system7_0_0_synth_1' not found
+WARNING: [Project 1-533] File 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci' could not be found in the subdesign 'D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/system.bd', but fileset 'system_processing_system7_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 470.680 ; gain = 188.340
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/repo/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+Reading block design file <D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/system.bd>...
+couldn't read file "D:/Xilinx/Vivado/2023.1/data/rsb/design_assist/block/aurora/bd.tcl": No error
+ERROR: [Ip 78-90] Error in initialization of Rule object 'xilinx.com:bd_rule:aurora:1.0'
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_mem_intercon_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_auto_pc_0 
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_vdma_0_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_150M
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_proc_sys_reset_150M_0 
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_processing_system7_0_0 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_ps7_0_axi_periph_0 
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_xbar_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_auto_pc_1 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_100M
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_rst_100M_0 
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_v_axi4s_vid_out_0_0 
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - vtg
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_vtg_0 
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_xlconcat_0_0 
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.3 - rgb2dvi_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_rgb2dvi_0_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - display_rst_axis
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_display_rst_axis_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - display_rst_pixel
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_display_rst_pixel_0 
+Adding component instance block -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_dynclk_0_0 
+Adding component instance block -- digilentinc.com:user:AXI_BayerToRGB:1.3 - AXI_BayerToRGB_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_AXI_BayerToRGB_0_0 
+Adding component instance block -- digilentinc.com:user:AXI_GammaCorrection:1.0 - AXI_GammaCorrection_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_AXI_GammaCorrection_0_0 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_mem_intercon_1_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_auto_pc_2 
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_vdma_1_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_200M
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_proc_sys_reset_200M_0 
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axis_subset_converter_0_0 
+Adding component instance block -- digilentinc.com:ip:MIPI_D_PHY_RX:1.2 - MIPI_D_PHY_RX_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_MIPI_D_PHY_RX_0_0 
+Adding component instance block -- digilentinc.com:ip:MIPI_CSI_2_RX:1.2 - MIPI_CSI_2_RX_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_MIPI_CSI_2_RX_0_0 
+Adding component instance block -- xilinx.com:module_ref:axis_color_highlight:1.0 - axis_color_highlight_0
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'highlighted_rgb' has a dependency on the module local parameter or undefined parameter 'BLUE_HIGHLIGHT'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'highlighted_rgb' has a dependency on the module local parameter or undefined parameter 'ORANGE_HIGHLIGHT'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'highlighted_rgb' has a dependency on the module local parameter or undefined parameter 'RED_HIGHLIGHT'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'S_AXIS'.
+WARNING: [IP_Flow 19-11770] Clock interface 'aclk' has no FREQ_HZ parameter.
+INFO: [BD 41-1728] Could not find a module with name: system_axis_color_highlight_0_0 
+Successfully read diagram <system> from block design file <D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/inputs/project/color_test/color_test.srcs/sources_1/bd/system/system.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:34 . Memory (MB): peak = 699.070 ; gain = 214.887
+ERROR: [Common 17-39] 'open_bd_design' failed due to earlier errors.
+
+    while executing
+"open_bd_design $bd"
+    invoked from within
+"if {$code} {return -options $details $message}"
+    (file "D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\build_pl.tcl" line 126)
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  3 04:01:57 2026...

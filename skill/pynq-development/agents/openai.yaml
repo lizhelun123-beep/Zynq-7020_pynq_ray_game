@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux/PYNQ 开发"
+  short_description: "按任务完成PYNQ环境、Overlay/IP、Python/C和DMA应用开发与离线验证"
+  default_prompt: "使用 $pynq-development 确认目标Linux/PYNQ环境与接口，按需读取示例，完成当前任务的最小实现和验证。"

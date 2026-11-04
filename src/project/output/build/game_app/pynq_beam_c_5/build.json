@@ -1,0 +1,311 @@
+{
+  "status": "PASS_PYNQ_SIMULATION_GATE",
+  "board_gate": "PASS_BY_SIMULATION",
+  "simulation": "pynq_vision.tests.test_beam_runtime",
+  "arm": {
+    "status": "PASS_ARM_LINUX_SHARED_ABI",
+    "machine": "ARM",
+    "hard_float": true,
+    "needed": [
+      "libm.so.6",
+      "libc.so.6"
+    ],
+    "imported_versions": [
+      "GLIBC_2.17",
+      "GLIBC_2.4",
+      "GLIBC_2.7"
+    ],
+    "target_glibc_max": "2.27",
+    "board_dlopen": "NOT_RUN"
+  },
+  "arm_compiler": "arm-xilinx-linux-gnueabi-gcc.exe (GCC) 12.2.0",
+  "target_libraries": {
+    "scope": "HOST_LINK_INPUTS_ONLY_NOT_DEPLOYMENT",
+    "image": "C:\\Users\\11967\\Downloads\\ax7z020b-2.6.0.img\\ax7z020b-2.6.0.img",
+    "image_sha256": "bcee01b865196f8f433e4d17dc8d854d428c1c0a462c6080ba29c022524f1edd",
+    "target_glibc": "2.27",
+    "files": {
+      "libm-2.27.so": {
+        "image_path": "/lib/arm-linux-gnueabihf/libm-2.27.so",
+        "bytes": 461344,
+        "sha256": "ef92667379b7d2673b7aad2e23a828ffab9480a9bb014773977a60de90ec790e"
+      },
+      "libm.so.6": {
+        "image_path": "/lib/arm-linux-gnueabihf/libm-2.27.so",
+        "bytes": 461344,
+        "sha256": "ef92667379b7d2673b7aad2e23a828ffab9480a9bb014773977a60de90ec790e"
+      },
+      "libc-2.27.so": {
+        "image_path": "/lib/arm-linux-gnueabihf/libc-2.27.so",
+        "bytes": 947172,
+        "sha256": "3c7f1e7dba9a51821941fb1d00a169fcc147f9071ea4721041cd8e3429cebacc"
+      },
+      "libc.so.6": {
+        "image_path": "/lib/arm-linux-gnueabihf/libc-2.27.so",
+        "bytes": 947172,
+        "sha256": "3c7f1e7dba9a51821941fb1d00a169fcc147f9071ea4721041cd8e3429cebacc"
+      },
+      "ld-2.27.so": {
+        "image_path": "/lib/arm-linux-gnueabihf/ld-2.27.so",
+        "bytes": 106784,
+        "sha256": "9ea88272de7ec9aa6187efcffa6330096be356fd2b88b85710806b55e202a8a5"
+      },
+      "ld-linux-armhf.so.3": {
+        "image_path": "/lib/arm-linux-gnueabihf/ld-2.27.so",
+        "bytes": 106784,
+        "sha256": "9ea88272de7ec9aa6187efcffa6330096be356fd2b88b85710806b55e202a8a5"
+      }
+    },
+    "image_writes": 0,
+    "board_operations": 0
+  },
+  "arm_library": {
+    "path": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\build\\game_app\\pynq_beam_c_5\\libbeam_pynq.so",
+    "bytes": 149152,
+    "sha256": "01f929f3a97d7a3c5d6c8b2c278ca0be1130937ca0873ce0548e53dc663323b0"
+  },
+  "host_library": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\build\\game_app\\pynq_beam_c_5\\beam_pynq_host.dll",
+  "source_files": {
+    "color_test/software/vision_ps_baremetal/src/game_beam.c": {
+      "bytes": 15504,
+      "sha256": "59d62df89d96c0a9a177e6691e3ade574fc7c31bd93f9b305a9f613aa3c8f291"
+    },
+    "color_test/software/vision_ps_baremetal/src/ray_game.c": {
+      "bytes": 28111,
+      "sha256": "5e6d4e526d632fbcb47b9d7687cec26bd559db7f13facb97f80629af9bd7c7c8"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_scene_adapter.c": {
+      "bytes": 3241,
+      "sha256": "50ed35a10c17742f947e969f493e4b227c53da608111f97dde17cf98d7b7420a"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_stabilizer.c": {
+      "bytes": 27219,
+      "sha256": "60fab002408365cc172026fa8a514690f43fdc35406062975621a088b079f815"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_ps.c": {
+      "bytes": 190269,
+      "sha256": "35beec2f19d4c42a2e51316b096712cf6dcf772bfbfcb80b779b474d44f00e62"
+    },
+    "color_test/software/vision_ps_baremetal/src/green_target_detector.c": {
+      "bytes": 12401,
+      "sha256": "6db39ad62fb9477bb33313ff1e394fd8e1b023e59af7d4e767042fd9f0f201d7"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_overlay.c": {
+      "bytes": 15204,
+      "sha256": "c4efd4f632e4d0bbd4a31b918341ec49ba44327bb50a44c6f83e9e664b66d92c"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_pose_protocol.c": {
+      "bytes": 2921,
+      "sha256": "f3d9f2d5cb1af43b19baf24b8f52fef1fe3dd537542be3a29d5209d1022795dc"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_control_protocol.c": {
+      "bytes": 10186,
+      "sha256": "f8b170bce4d21b5e040f958de824cb644693871a875beccc7cf3a545044462da"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_control_state.c": {
+      "bytes": 3480,
+      "sha256": "ccf2cc9131ffb8878261659df1440455f2042d60104a843e8ecd72e6d1df1e7c"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_wire_protocol.c": {
+      "bytes": 9957,
+      "sha256": "75f8221e7a75e33ba678a5cbff2fe19bd8b5fc0a766cd7168309ae72810a7c9c"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_linux_display.c": {
+      "bytes": 46299,
+      "sha256": "1dbcfb157474f5b8d06028f200a6dc65fc19fb68865889000f65b48d0d9d22de"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq.c": {
+      "bytes": 8008,
+      "sha256": "7b8c5a906d1a7ac674781444bf7e79c65a7965e7b875650fe6edf41cf7db29e9"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq_posix.c": {
+      "bytes": 3813,
+      "sha256": "c78eb07535c3ec2e5ba40fc1fa355045c58a79e506ff801990af17cc31ca91d6"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq_display.c": {
+      "bytes": 1865,
+      "sha256": "fadaad9e69a0cbb798838f33e11c82d669a7a9378c552b981cc16413be0ad2a8"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq_portal.c": {
+      "bytes": 1136,
+      "sha256": "cf561f0879153897cd83b25a1f394e784547b21b8980c788529d17718eb54c0f"
+    },
+    "output/build/game_app/pynq_beam_c_5/game_beam_config.c": {
+      "bytes": 285,
+      "sha256": "b0ae1555348e9b575ea8ca835618564281ede6f9921bf3167e2adb934aa267de"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_control_protocol.h": {
+      "bytes": 1463,
+      "sha256": "6e86e2460c93067f22d2d4a113012cac240ec24d2ac3a8d875e74693d91e82f9"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_control_state.h": {
+      "bytes": 885,
+      "sha256": "e7037705dd2762ac2a698e5a1e8ebee5aa0c3febef07df15b41b55ab092665b7"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_pose_protocol.h": {
+      "bytes": 561,
+      "sha256": "6d21f321d75de6f8aadd393eddb719ab203b212706109412900593d376827bd0"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_uart_log.h": {
+      "bytes": 394,
+      "sha256": "c3d1963fb061f74f50f2092c162c7d75001fca89632f9c208aca1cc60845e305"
+    },
+    "color_test/software/vision_ps_baremetal/src/beam_wire_protocol.h": {
+      "bytes": 2020,
+      "sha256": "c28bfc854fbf1418d0484b02cedc01a8df0dc0ac9e8774e74167c0e9c5fe49aa"
+    },
+    "color_test/software/vision_ps_baremetal/src/display_demo.h": {
+      "bytes": 2258,
+      "sha256": "9cc4ca4c08c78f5f4cd03e91501ff752d16facbea7dbb81215407f933f04a4a9"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_app.h": {
+      "bytes": 1782,
+      "sha256": "15a7acb7fcac3318a169ed2b8490c2cca5c86d98ac4a329876f79cbc11f2d3e5"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_beam.h": {
+      "bytes": 5117,
+      "sha256": "63b82d4cfb56e84e60c39c2bbe360cc7eb8685c67cc2b99a8519ead457b3dfb4"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_evdev.h": {
+      "bytes": 3848,
+      "sha256": "7a3b64867743897fdb2ea688f69b67f381c726b791b372c9b6e0f42b263a3c11"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_font.h": {
+      "bytes": 8073,
+      "sha256": "e877b3f5329a01765e3ba891d344a87663f1ae7533e7ea4de1db765cfb196870"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_input.h": {
+      "bytes": 2169,
+      "sha256": "52cd9a45a4a727a387d85eac8e1a8e966950dd21c8850c63b1644b635a3dfab9"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_linux_capture.h": {
+      "bytes": 5481,
+      "sha256": "41eceb982710989f3db1bb3ac1e0b4f6a05a5036ccc17be76e53f80fae6aee77"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_linux_display.h": {
+      "bytes": 10210,
+      "sha256": "a9fad3d7c053061b31896a1448f19aa52c357c9a0aaa330e2d910e70ddfa135c"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_linux_io.h": {
+      "bytes": 2372,
+      "sha256": "3df4870700eaa1543f733ce317fd2d4ba09373b3522b58361f26f977f7e3abba"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_loop.h": {
+      "bytes": 1806,
+      "sha256": "2425156924fde7992b5d376d0b162cd69012daeff97b177e459e963155271cbd"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_photo_input.h": {
+      "bytes": 1007,
+      "sha256": "bec6f44ee3cf5dfa1f02d02864b41629d2278773ea7b735c637d3e4557690325"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_pump.h": {
+      "bytes": 4457,
+      "sha256": "eb700fa36d6947e8822a0071fd9cbc0320ef0654b8520b2fac2b35ee653cd14a"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_render.h": {
+      "bytes": 4254,
+      "sha256": "c93d9562912a41c5ab2ff551be5f50ff320a0ca521974c06e8e3dff3b2211e89"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_scene_adapter.h": {
+      "bytes": 2827,
+      "sha256": "4f98856f9958b294158ec38dd4eb2dad264de3376ea01386ef6d51bb38f63740"
+    },
+    "color_test/software/vision_ps_baremetal/src/game_session.h": {
+      "bytes": 6549,
+      "sha256": "00c14f0cbab0d9ddd947f2826033400e13f8bc26a0dabd80282b491192aa4b7a"
+    },
+    "color_test/software/vision_ps_baremetal/src/green_target_detector.h": {
+      "bytes": 962,
+      "sha256": "f2bb83f7ee92965592162c9193238472619765f62761edc7ce422383f349a3ed"
+    },
+    "color_test/software/vision_ps_baremetal/src/ov5640.h": {
+      "bytes": 594,
+      "sha256": "1c282faf3d4df31e756995047d039e7a3528f419bc982fe146188d7a6ad3e49f"
+    },
+    "color_test/software/vision_ps_baremetal/src/ray_game.h": {
+      "bytes": 5369,
+      "sha256": "400b8e2ab5ff92896b6259a01a24754bbcb29f7314673877f072c8bf3992e3d4"
+    },
+    "color_test/software/vision_ps_baremetal/src/scene_protocol.h": {
+      "bytes": 1608,
+      "sha256": "1e1210780d1a6c625651772811b6ce8b56d218405fa53382176d98176a725adb"
+    },
+    "color_test/software/vision_ps_baremetal/src/vdma.h": {
+      "bytes": 554,
+      "sha256": "44c722e758462b294358b912c62f0e26f6ce708018281d490c909b10bc898733"
+    },
+    "color_test/software/vision_ps_baremetal/src/virtual15_lvgl_ui.h": {
+      "bytes": 954,
+      "sha256": "55464c86bf705bd8a11e3bb877d938f98d430d6e4926ec65c106ccc996725566"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_overlay.h": {
+      "bytes": 2176,
+      "sha256": "d00762ced552e55358ee07e630118c437f02763c8df09826b7db7177a5499367"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_perf.h": {
+      "bytes": 2055,
+      "sha256": "0538e2d13576405e7a1866ba62d0860107574e82a57c5bed805c4e2f68ba8518"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_portal.h": {
+      "bytes": 1908,
+      "sha256": "b731efabdd355a10d7bb893cb788e2225dbeb2d2e6d1527df398086d8dc95f50"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_ps.h": {
+      "bytes": 7541,
+      "sha256": "93f562d377d3225625a08d906f885826c582fa0ea931fbf4c3c4e44335e65aaa"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_ps_config.h": {
+      "bytes": 13303,
+      "sha256": "1bad6fe50dc8b23bfcef308dc51ca8f3c3a2e6ec8b7c8abd7f564f3231ca68cb"
+    },
+    "color_test/software/vision_ps_baremetal/src/vision_stabilizer.h": {
+      "bytes": 4457,
+      "sha256": "09afad5c79f9fc7c96af33597c4e2da35d2363c41476b66e20eb676c6d4e9952"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq.h": {
+      "bytes": 3413,
+      "sha256": "0d397c9637a0a83c3423a4de8f2afd4181337e63f5caeea2c6e3da1cc71ec6a0"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq_display.h": {
+      "bytes": 685,
+      "sha256": "33b810793757691d27c7d31582c8fed89e91bda5ec54c9133943768def381c0c"
+    },
+    "color_test/software/vision_ps_baremetal/src/pynq/beam_pynq_portal.h": {
+      "bytes": 404,
+      "sha256": "e97d04dfa14fa65ce28a29303f08d7dbc889f4cee50f549897b4bafaa1246717"
+    },
+    "pc_vision/game_config.json": {
+      "bytes": 32226,
+      "sha256": "3d0e9146a404353acb4b6cd80f8c9efcee7a967308c4efc70e4ce06d161a3791"
+    },
+    "color_test/software/vision_ps_baremetal/tools/build_beam_pynq.py": {
+      "bytes": 11123,
+      "sha256": "725aab9b6a734afb0e57876b006abd5052b387e6fd185bf1fb69e49001a5b8aa"
+    },
+    "pynq_vision/beam_admission.py": {
+      "bytes": 9291,
+      "sha256": "203868770d3b0829a628db870ff17faa4a90d4d08e87736dfb43c4f833387ce5"
+    },
+    "pynq_vision/beam_hardware.py": {
+      "bytes": 25943,
+      "sha256": "3cc6bdc752cf92ff67cff662777790897954ca013630e1d62735a49a89175213"
+    },
+    "pynq_vision/beam_launcher.py": {
+      "bytes": 5013,
+      "sha256": "963e91a775069787fe3443ca1e8a343e991a1c4a968f3129bcdd66d7da21cb07"
+    },
+    "pynq_vision/beam_memory.py": {
+      "bytes": 3381,
+      "sha256": "8c9db888dc335a50b72fbebe7ee7fe3b2567eaa40f413c062e131f27bf5601d9"
+    },
+    "pynq_vision/beam_runtime.py": {
+      "bytes": 12606,
+      "sha256": "4cfdc571d0e50bbeff6500f21ceaa2e56ca43d1e99861fc15d811c8bd876d062"
+    }
+  },
+  "wire_protocol": 3,
+  "hardware_backend": "PYNQ callbacks + checked noncached xlnk",
+  "board_operations": 0,
+  "pc_web_changes": 0,
+  "boot_changes": 0
+}

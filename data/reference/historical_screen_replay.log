@@ -1,0 +1,180 @@
+OFFLINE_SCREEN_REFERENCE_OVERLAY_RETAINED C:\Users\11967\Videos\Screenshot 2026-10-27 22-04-22.png
+count=5 masks=1139,1465,908,318,0,1740 wall=19/171/1
+WALL center=725,532 angle=-87 bbox=666,423,118,217 axis=-0.0466,0.9989 size=211.18,108.18
+PORTAL_A center=287,466 angle=-97 bbox=236,352,96,224 axis=-0.1148,-0.9934 size=227.60,80.40
+PORTAL_B center=909,470 angle=-89 bbox=872,356,76,220 axis=0.0231,-0.9997 size=220.68,76.63
+MIRROR center=461,501 angle=-45 bbox=360,396,200,204 axis=0.7071,-0.7071 size=148.25,94.51
+TARGET center=1099,493 angle=90 bbox=1056,452,84,88 axis=0.0000,1.0000 size=84.00,84.00
+MIRROR cand=1 geom=1 mark=1 accept=1
+PORTAL_A cand=2 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=1 geom=1 mark=1 accept=1
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=171 geom=1 mark=1 accept=1
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=3
+segment0 32.00,500.00 -> 250.54,500.00
+segment1 947.59,499.87 -> 1058.07,502.43
+wall markers n=116/112 spacing=2.11 dark=381/411 angle=-87
+MIRROR offset=0.44 transverse=-0.15 black=0.00/0.00 dark_contrast=-43.8/-62.6
+MIRROR offset=0.44 transverse=0.00 black=0.00/0.00 dark_contrast=-28.2/-64.7
+MIRROR offset=0.44 transverse=0.15 black=0.00/0.00 dark_contrast=-67.9/-71.8
+MIRROR offset=0.37 transverse=-0.15 black=0.00/0.00 dark_contrast=71.5/14.8
+MIRROR offset=0.37 transverse=0.00 black=0.01/0.00 dark_contrast=132.7/50.6
+MIRROR offset=0.37 transverse=0.15 black=0.00/0.00 dark_contrast=-19.3/-46.1
+MIRROR offset=0.30 transverse=-0.15 black=0.00/0.00 dark_contrast=-14.6/69.8
+MIRROR offset=0.30 transverse=0.00 black=0.00/0.00 dark_contrast=0.4/114.6
+MIRROR offset=0.30 transverse=0.15 black=0.00/0.00 dark_contrast=-41.2/-36.3
+MIRROR offset=0.25 transverse=-0.15 black=0.00/0.00 dark_contrast=-17.4/-3.9
+MIRROR offset=0.25 transverse=0.00 black=0.00/0.00 dark_contrast=-20.9/6.9
+MIRROR offset=0.25 transverse=0.15 black=0.00/0.00 dark_contrast=-25.5/-47.4
+candidate MIRROR n=1100 aspect=2.48 fill=0.92 circ=0.23 geometry=1 marker=1
+candidate PORTAL_A n=461 aspect=6.79 fill=0.64 circ=0.08 geometry=0 marker=0
+restored_portal 1 component0 count=1100 bbox=1804 fill=0.610 center=278.4,390.9 long=-0.339 trans=-0.028 major=43.56 aspect=1.09 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 1 component1 count=320 bbox=420 fill=0.762 center=295.7,540.6 long=0.365 trans=-0.008 major=19.06 aspect=1.06 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_A n=915 aspect=2.86 fill=0.91 circ=0.21 geometry=1 marker=1
+restored_portal 2 component0 count=1293 bbox=2438 fill=0.530 center=911.0,394.8 long=0.379 trans=-0.020 major=46.98 aspect=1.09 white=0.09 body=0.96 solid=0 ring=1
+restored_portal 2 component1 count=38 bbox=70 fill=0.543 center=882.6,443.6 long=0.132 trans=-0.372 major=10.99 aspect=2.00 white=1.00 body=1.00 solid=0 ring=0
+restored_portal 2 component2 count=48 bbox=153 fill=0.314 center=914.6,450.8 long=0.101 trans=0.053 major=16.63 aspect=2.26 white=0.57 body=1.00 solid=0 ring=0
+restored_portal 2 component3 count=969 bbox=2990 fill=0.324 center=899.8,478.0 long=-0.036 trans=-0.130 major=59.22 aspect=1.75 white=0.44 body=1.00 solid=0 ring=0
+restored_portal 2 component4 count=55 bbox=143 fill=0.385 center=938.7,463.8 long=0.041 trans=0.376 major=13.26 aspect=1.67 white=0.79 body=1.00 solid=0 ring=0
+restored_portal 2 component5 count=51 bbox=132 fill=0.386 center=937.3,476.4 long=-0.022 trans=0.363 major=12.89 aspect=1.46 white=0.43 body=1.00 solid=0 ring=0
+restored_portal 2 component6 count=654 bbox=2494 fill=0.262 center=897.4,516.4 long=-0.228 trans=-0.145 major=60.46 aspect=1.85 white=0.46 body=1.00 solid=0 ring=0
+restored_portal 2 component7 count=69 bbox=192 fill=0.359 center=916.8,529.2 long=-0.288 trans=0.116 major=14.66 aspect=1.70 white=0.76 body=1.00 solid=0 ring=0
+restored_portal 2 component8 count=632 bbox=1440 fill=0.439 center=905.1,546.9 long=-0.378 trans=-0.030 major=36.79 aspect=1.69 white=1.00 body=0.00 solid=0 ring=0
+restored_portal 2 component0 count=1153 bbox=2070 fill=0.557 center=910.7,393.2 long=0.387 trans=-0.023 major=44.35 aspect=1.04 white=0.00 body=0.99 solid=0 ring=1
+restored_portal 2 component1 count=394 bbox=525 fill=0.750 center=907.2,546.9 long=-0.378 trans=-0.003 major=21.90 aspect=1.14 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_B n=771 aspect=2.65 fill=0.81 circ=0.17 geometry=1 marker=1
+
+OFFLINE_SCREEN_REFERENCE_OVERLAY_RETAINED C:\Users\11967\Videos\Screenshot 2026-10-27 23-53-15.png
+count=5 masks=1130,915,1045,362,705,361 wall=16/120/1
+WALL center=735,530 angle=-90 bbox=681,422,107,215 axis=0.0019,1.0000 size=213.88,105.19
+PORTAL_A center=294,480 angle=-99 bbox=248,368,92,220 axis=-0.1509,-0.9885 size=223.56,73.91
+PORTAL_B center=970,419 angle=-136 bbox=880,328,176,168 axis=-0.7213,-0.6926 size=216.49,78.33
+MIRROR center=507,524 angle=-71 bbox=436,408,144,232 axis=0.3256,-0.9455 size=147.66,104.81
+TARGET center=1107,475 angle=90 bbox=1068,432,84,88 axis=0.0000,1.0000 size=84.00,84.00
+MIRROR cand=1 geom=1 mark=1 accept=1
+PORTAL_A cand=1 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=7 geom=1 mark=1 accept=1
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=120 geom=1 mark=1 accept=1
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=1
+segment0 32.00,500.00 -> 259.62,500.00
+segment1 1008.66,399.49 -> 1279.00,117.97
+wall markers n=116/108 spacing=2.23 dark=355/385 angle=-90
+MIRROR offset=0.44 transverse=-0.15 black=0.00/0.00 dark_contrast=-77.8/-73.5
+MIRROR offset=0.44 transverse=0.00 black=0.00/0.00 dark_contrast=-38.9/-60.5
+MIRROR offset=0.44 transverse=0.15 black=0.00/0.00 dark_contrast=-48.3/-66.2
+MIRROR offset=0.37 transverse=-0.15 black=0.07/0.05 dark_contrast=-10.9/-15.7
+MIRROR offset=0.37 transverse=0.00 black=0.39/0.38 dark_contrast=146.0/114.4
+MIRROR offset=0.37 transverse=0.15 black=0.18/0.19 dark_contrast=61.6/41.1
+MIRROR offset=0.30 transverse=-0.15 black=0.00/0.06 dark_contrast=-36.8/-16.8
+MIRROR offset=0.30 transverse=0.00 black=0.05/0.25 dark_contrast=20.3/88.0
+MIRROR offset=0.30 transverse=0.15 black=0.01/0.12 dark_contrast=-11.2/22.1
+MIRROR offset=0.25 transverse=-0.15 black=0.00/0.00 dark_contrast=-32.9/-37.2
+MIRROR offset=0.25 transverse=0.00 black=0.00/0.01 dark_contrast=-24.1/-17.6
+MIRROR offset=0.25 transverse=0.15 black=0.00/0.00 dark_contrast=-21.5/-33.1
+candidate MIRROR n=1034 aspect=2.46 fill=0.87 circ=0.17 geometry=1 marker=1
+restored_portal 1 component0 count=901 bbox=1720 fill=0.524 center=282.6,405.4 long=-0.337 trans=-0.031 major=42.81 aspect=1.08 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 1 component1 count=253 bbox=323 fill=0.783 center=305.3,554.1 long=0.369 trans=-0.020 major=17.92 aspect=1.16 white=1.00 body=0.03 solid=1 ring=0
+candidate PORTAL_A n=879 aspect=3.02 fill=0.94 circ=0.36 geometry=1 marker=1
+restored_portal 2 component0 count=1016 bbox=1848 fill=0.550 center=917.7,367.9 long=-0.377 trans=0.045 major=45.19 aspect=1.11 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 2 component1 count=291 bbox=418 fill=0.696 center=1023.2,469.2 long=0.367 trans=0.030 major=18.87 aspect=1.13 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_B n=789 aspect=2.53 fill=0.83 circ=0.18 geometry=1 marker=1
+
+OFFLINE_SCREEN_REFERENCE_OVERLAY_RETAINED C:\Users\11967\Videos\Screenshot 2026-10-28 02-01-55.png
+count=3 masks=0,749,1006,329,54329,31 wall=0/0/0
+PORTAL_B center=562,268 angle=-161 bbox=452,204,224,124 axis=-0.9450,-0.3272 size=235.59,76.69
+PORTAL_A center=410,527 angle=-91 bbox=372,416,72,220 axis=-0.0188,-0.9998 size=220.34,71.54
+TARGET center=359,252 angle=90 bbox=320,212,80,84 axis=0.0000,1.0000 size=80.00,80.00
+MIRROR cand=0 geom=0 mark=0 accept=0
+PORTAL_A cand=1 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=1 geom=1 mark=1 accept=1
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=0 geom=0 mark=0 accept=0
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=1
+segment0 32.00,500.00 -> 373.23,500.00
+segment1 547.09,221.45 -> 623.76,0.00
+restored_portal 1 component0 count=849 bbox=1722 fill=0.493 center=408.1,452.2 long=-0.379 trans=-0.060 major=43.44 aspect=1.05 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 1 component1 count=206 bbox=289 fill=0.713 center=410.9,601.9 long=0.362 trans=-0.020 major=16.20 aspect=1.15 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_A n=749 aspect=2.88 fill=0.85 circ=0.13 geometry=1 marker=1
+restored_portal 2 component0 count=693 bbox=1681 fill=0.412 center=485.9,241.9 long=-0.374 trans=0.018 major=43.85 aspect=1.02 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 2 component1 count=220 bbox=306 fill=0.719 center=638.5,294.7 long=0.372 trans=0.025 major=16.40 aspect=1.11 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_B n=916 aspect=2.85 fill=0.89 circ=0.16 geometry=1 marker=1
+
+OFFLINE_SCREEN_REFERENCE_OVERLAY_RETAINED C:\Users\11967\Videos\Screenshot 2026-10-28 02-03-57.png
+count=2 masks=0,757,997,0,54817,3 wall=0/0/0
+PORTAL_B center=563,252 angle=-161 bbox=452,188,224,124 axis=-0.9471,-0.3210 size=234.25,75.58
+PORTAL_A center=422,499 angle=-80 bbox=376,388,92,216 axis=0.1785,-0.9839 size=219.74,73.42
+MIRROR cand=0 geom=0 mark=0 accept=0
+PORTAL_A cand=1 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=0 geom=0 mark=0 accept=0
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=0 geom=0 mark=0 accept=0
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=1
+segment0 32.00,500.00 -> 384.08,500.00
+segment1 583.26,218.28 -> 657.24,0.00
+restored_portal 1 component0 count=831 bbox=1722 fill=0.483 center=435.0,425.0 long=0.396 trans=0.043 major=43.40 aspect=1.04 white=0.00 body=0.99 solid=0 ring=1
+restored_portal 1 component1 count=207 bbox=272 fill=0.761 center=408.3,572.0 long=-0.359 trans=0.024 major=15.62 aspect=1.07 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_A n=729 aspect=2.76 fill=0.83 circ=0.16 geometry=1 marker=1
+restored_portal 2 component0 count=631 bbox=1640 fill=0.385 center=486.3,226.4 long=-0.377 trans=0.013 major=43.55 aspect=1.01 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 2 component1 count=200 bbox=272 fill=0.735 center=638.9,278.1 long=0.369 trans=0.025 major=15.18 aspect=1.04 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_B n=903 aspect=2.86 fill=0.89 circ=0.16 geometry=1 marker=1
+
+OFFLINE_SCREEN_REFERENCE_OVERLAY_RETAINED C:\Users\11967\Videos\Screenshot 2026-10-28 05-49-53.png
+count=4 masks=905,708,1001,386,48347,78 wall=4/6/0
+PORTAL_B center=828,257 angle=-114 bbox=760,144,136,220 axis=-0.3988,-0.9170 size=235.10,76.72
+PORTAL_A center=617,517 angle=-77 bbox=564,408,104,216 axis=0.2304,-0.9731 size=221.15,73.24
+MIRROR center=992,265 angle=78 bbox=936,148,112,236 axis=0.2079,0.9781 size=152.74,72.86
+TARGET center=613,335 angle=0 bbox=572,292,88,88 axis=1.0000,0.0000 size=88.00,88.00
+MIRROR cand=1 geom=1 mark=1 accept=1
+PORTAL_A cand=1 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=3 geom=1 mark=1 accept=1
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=6 geom=0 mark=0 accept=0
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=1
+segment0 32.00,500.00 -> 583.73,500.00
+segment1 860.49,232.33 -> 1279.00,50.30
+MIRROR offset=0.44 transverse=-0.15 black=0.00/0.00 dark_contrast=-37.2/-36.2
+MIRROR offset=0.44 transverse=0.00 black=0.00/0.05 dark_contrast=-38.9/-16.7
+MIRROR offset=0.44 transverse=0.15 black=0.00/0.00 dark_contrast=-35.1/-26.5
+MIRROR offset=0.37 transverse=-0.15 black=0.23/0.18 dark_contrast=8.4/15.9
+MIRROR offset=0.37 transverse=0.00 black=0.51/0.59 dark_contrast=54.2/78.6
+MIRROR offset=0.37 transverse=0.15 black=0.13/0.24 dark_contrast=-2.7/11.8
+MIRROR offset=0.30 transverse=-0.15 black=0.36/0.08 dark_contrast=30.5/-2.5
+MIRROR offset=0.30 transverse=0.00 black=0.64/0.26 dark_contrast=74.2/20.1
+MIRROR offset=0.30 transverse=0.15 black=0.18/0.02 dark_contrast=1.4/-14.5
+MIRROR offset=0.25 transverse=-0.15 black=0.00/0.00 dark_contrast=-16.6/-12.0
+MIRROR offset=0.25 transverse=0.00 black=0.02/0.00 dark_contrast=-9.2/-14.0
+MIRROR offset=0.25 transverse=0.15 black=0.00/0.00 dark_contrast=-19.7/-12.0
+candidate MIRROR n=905 aspect=3.08 fill=0.87 circ=0.23 geometry=1 marker=1
+restored_portal 1 component0 count=1019 bbox=1935 fill=0.527 center=634.8,443.2 long=0.406 trans=0.049 major=46.23 aspect=1.08 white=0.00 body=0.91 solid=0 ring=1
+restored_portal 1 component1 count=272 bbox=360 fill=0.756 center=599.7,591.7 long=-0.364 trans=0.004 major=18.33 aspect=1.14 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_A n=688 aspect=2.71 fill=0.76 circ=0.11 geometry=1 marker=1
+restored_portal 2 component0 count=820 bbox=1806 fill=0.454 center=796.2,183.3 long=-0.365 trans=0.016 major=46.01 aspect=1.09 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 2 component1 count=258 bbox=342 fill=0.754 center=860.4,330.8 long=0.376 trans=0.014 major=17.64 aspect=1.11 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_B n=903 aspect=2.85 fill=0.88 circ=0.15 geometry=1 marker=1
+
+OFFLINE_SCREEN_REFERENCE_OVERLAY_RETAINED C:\Users\11967\Videos\Screenshot 2026-10-28 05-56-09.png
+count=2 masks=9,706,963,10,49795,82 wall=1/0/0
+PORTAL_B center=925,342 angle=-89 bbox=888,224,72,232 axis=0.0156,-0.9999 size=232.10,72.99
+PORTAL_A center=516,501 angle=-83 bbox=472,388,88,220 axis=0.1206,-0.9927 size=222.28,73.55
+MIRROR cand=0 geom=0 mark=0 accept=0
+PORTAL_A cand=1 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=2 geom=0 mark=0 accept=0
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=0 geom=0 mark=0 accept=0
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=1
+segment0 32.00,500.00 -> 478.64,500.00
+segment1 962.20,346.96 -> 1279.00,351.90
+restored_portal 1 component0 count=1005 bbox=1935 fill=0.519 center=524.8,424.7 long=0.403 trans=0.045 major=45.57 aspect=1.06 white=0.00 body=0.88 solid=0 ring=1
+restored_portal 1 component1 count=273 bbox=360 fill=0.758 center=506.4,576.3 long=-0.388 trans=0.009 major=18.14 aspect=1.11 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_A n=686 aspect=2.67 fill=0.79 circ=0.13 geometry=1 marker=1
+restored_portal 2 component0 count=751 bbox=1640 fill=0.458 center=926.0,263.2 long=0.371 trans=0.010 major=44.16 aspect=1.09 white=0.00 body=1.00 solid=0 ring=1
+restored_portal 2 component1 count=249 bbox=320 fill=0.778 center=923.5,421.3 long=-0.367 trans=0.010 major=17.48 aspect=1.13 white=1.00 body=0.00 solid=1 ring=0
+candidate PORTAL_B n=860 aspect=2.93 fill=0.88 circ=0.19 geometry=1 marker=1
+

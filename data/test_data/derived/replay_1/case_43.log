@@ -1,0 +1,12 @@
+count=1
+MIRROR center=592,312 angle=4 bbox=472,268,240,88 axis=0.997564,0.069756 size=159.125549,77.247070
+DIAGNOSTIC MIRROR candidates=1 geometry=1 markers=1 accepted=1
+DIAGNOSTIC PORTAL_A candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC PORTAL_B candidates=1 geometry=1 markers=0 accepted=0
+DIAGNOSTIC TARGET candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC SOURCE candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC WALL candidates=15 geometry=0 markers=0 accepted=0
+WALL_DIAGNOSTIC components=6 pairs=15 accepted=0
+MODEL MIRROR center=589.642090,312.069366 axis=0.997564,0.069756 size=159.125549,77.247070
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=1 interactions=0 termination=1
+segment0 32.000000,500.000000 -> 1279.000000,500.000000

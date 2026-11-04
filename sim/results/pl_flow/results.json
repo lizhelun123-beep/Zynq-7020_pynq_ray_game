@@ -1,0 +1,18 @@
+{
+  "name": "pl_flow",
+  "tests": 9,
+  "exit_code": 0,
+  "date": "2026-11-03",
+  "scope": "HOST_ONLY",
+  "command": [
+    "C:\\Users\\11967\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "sim/test_pl_flow.py"
+  ],
+  "log": "sim/results/pl_flow/checks.log",
+  "environment": "HOST_TCL_CONTROL_FLOW_MOCK_AND_SOURCE_INPUT_INSPECTION",
+  "hardware_operations": 0,
+  "vivado_synthesis_implementation": "NOT_RUN_BY_THESE_TESTS",
+  "source_input_files": 146,
+  "exact_case_ip_file_references": 132
+}

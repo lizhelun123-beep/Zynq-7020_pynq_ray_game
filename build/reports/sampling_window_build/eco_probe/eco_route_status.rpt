@@ -1,0 +1,18 @@
+Design Route Status
+                                               :      # nets :
+   ------------------------------------------- : ----------- :
+   # of logical nets.......................... :       22818 :
+       # of nets not needing routing.......... :        7369 :
+           # of internally routed nets........ :        7265 :
+           # of nets with no loads............ :         104 :
+       # of routable nets..................... :       15449 :
+           # of fully routed nets............. :       15448 :
+       # of nets with routing errors.......... :           1 :
+           # of nets with antennas/islands.... :           1 :
+   ------------------------------------------- : ----------- :
+
+
+Nets with Routing Errors:
+  system_i/processing_system7_0/inst/FCLK_CLK2
+    Antenna Nodes: LIOI3_X0Y23/IOI_IDELAY0_C
+

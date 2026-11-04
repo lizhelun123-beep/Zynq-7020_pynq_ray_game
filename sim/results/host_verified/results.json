@@ -1,0 +1,137 @@
+{
+  "environment": "host",
+  "hardware_operations": 0,
+  "cases": [
+    {
+      "name": "pynq_runtime",
+      "exit_code": 0,
+      "command": [
+        "C:\\Users\\11967\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "pynq_vision.tests.test_beam_runtime",
+        "pynq_vision.tests.test_display_retry",
+        "pynq_vision.tests.test_beam_hardware",
+        "-v"
+      ],
+      "tests": 33,
+      "date": "2026-11-03",
+      "scope": "HOST_ONLY",
+      "log": "sim/results/host_verified/pynq_runtime.log"
+    },
+    {
+      "name": "admission",
+      "exit_code": 0,
+      "command": [
+        "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision(1)\\pc_vision\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "deployment/admission",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "setup",
+      "exit_code": 0,
+      "command": [
+        "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision(1)\\pc_vision\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "deployment/setup",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "wire",
+      "exit_code": 0,
+      "command": [
+        "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision(1)\\pc_vision\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "pc_vision.test_board_wire",
+        "-v"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "web",
+      "exit_code": 0,
+      "command": [
+        "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision(1)\\pc_vision\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "pc_vision.test_web_game",
+        "-v"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "frontend",
+      "exit_code": 0,
+      "command": [
+        "node",
+        "--test",
+        "presentation.test.js"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "frontend_syntax",
+      "exit_code": 0,
+      "command": [
+        "node",
+        "--check",
+        "main.js"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "runtime_inspect",
+      "exit_code": 0,
+      "command": [
+        "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\pc_vision(1)\\pc_vision\\.venv\\Scripts\\python.exe",
+        "-B",
+        "beam_v14.py",
+        "--inspect"
+      ],
+      "retained_prior_result": true
+    },
+    {
+      "name": "dma_skill",
+      "tests": 18,
+      "exit_code": 0,
+      "date": "2026-11-03",
+      "scope": "HOST_ONLY",
+      "command": [
+        "C:\\Users\\11967\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "skill/pynq-dma-contract/scripts",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "log": "sim/results/host_verified/dma_skill.log"
+    }
+  ],
+  "current_scoped_tests": 60,
+  "scope_note": "33 runtime/owner + 9 PL control + 18 DMA skill checks rerun; unrelated prior cases retained, not rerun."
+}

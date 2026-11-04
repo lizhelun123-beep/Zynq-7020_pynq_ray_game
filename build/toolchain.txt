@@ -1,0 +1,29 @@
+record_date=2026-11-02
+host_python=3.12.0rc3, MSC v.1935, Windows AMD64
+host_msvc_tools=14.43.34808
+node=v24.19.0
+aiohttp=3.14.5
+pyserial=3.5
+pillow=12.2.0
+matplotlib=3.10.9
+arm_compiler=arm-linux-gnueabihf-gcc, GCC 12.2.0
+arm_target=Cortex-A9, ARMv7, hard-float, GLIBC <= 2.27
+board_runtime=PYNQ 2.6.2, Python 3.6.5, Linux ARMv7
+pl_reference_tool=Vivado 2023.1
+pl_build_execution_this_assembly=NOT_RUN
+subsequent_pl2_execution=synthesis_and_route_complete,timing_gate_failed,no_hardware_export
+corrected_camera_model=nominal_HS140MHz,1ps_grid,final_sensor_table_unchanged
+corrected_fixed_route_STA=setup_0.021ns,hold_-0.844ns,FAIL;not_clean_rebuild_or_deployed_overlay_signoff
+subsequent_pr1_execution=REPORTS_COMPLETE,Vivado2023.1,synthesis_and_route_complete,timing_FAIL,hardware_exported_false
+subsequent_pr1_timing_ns=WNS0.021,TNS0,WHS-0.844,THS-1.674,WPWS0.264,TPWS0
+launcher_stdio=inherited_console_handles,native_vivado_log_and_journal
+
+subsequent_pr4_execution=REPORTS_COMPLETE,Vivado2023.1,timing_PASS_UNDER_DECLARED_UNMEASURED_PIN_WINDOW,no_hardware_export
+subsequent_pr4_timing_ns=WNS0.135,TNS0.000,WHS0.052,THS0.000,WPWS0.264,TPWS0.000
+camera_input_contract=USER_DECLARED_UNMEASURED,25percent_to75percentUI,min0.892ns,max2.679ns
+clock_path=zero_tap_IDELAY_bypassed,data_taps12_12,nominal_HS140MHz_byte35MHz
+
+subsequent_px2_export=EXPORTED_BOUND_CANDIDATE,Vivado2023.1,exact_pr4_routed_checkpoint,no_synth_or_route_rerun
+overlay_source_report_binding=PASS,xsa_bit_hwh_byte_identity_PASS,dcp_embedded_hwh_identity_PASS
+overlay_configuration_sha256=5d5a9bebe97d3e832f31205876d46551be2b6fec9f410fb635145b16ba90f4c0
+overlay_board_qualification=NOT_RUN;installed_runtime_unchanged

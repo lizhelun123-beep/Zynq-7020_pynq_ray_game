@@ -1,0 +1,15 @@
+test_enabled_xpr_inputs_are_all_staged (__main__.PlFlowTests.test_enabled_xpr_inputs_are_all_staged) ... ok
+test_mismatched_xsa_bit_is_rejected (__main__.PlFlowTests.test_mismatched_xsa_bit_is_rejected) ... ok
+test_missing_enabled_constraint_is_rejected (__main__.PlFlowTests.test_missing_enabled_constraint_is_rejected) ... ok
+test_negative_hold_preserves_reports_without_export (__main__.PlFlowTests.test_negative_hold_preserves_reports_without_export) ... ok
+test_negative_setup_preserves_reports_without_export (__main__.PlFlowTests.test_negative_setup_preserves_reports_without_export) ... ok
+test_no_timing_path_is_rejected (__main__.PlFlowTests.test_no_timing_path_is_rejected) ... ok
+test_pulse_width_failure_is_rejected (__main__.PlFlowTests.test_pulse_width_failure_is_rejected) ... ok
+test_recovered_source_ip_versions_and_exact_file_case_match (__main__.PlFlowTests.test_recovered_source_ip_versions_and_exact_file_case_match) ... ok
+test_success_exports_only_after_setup_and_hold_gates (__main__.PlFlowTests.test_success_exports_only_after_setup_and_hold_gates) ... PL_EXPORTED_CANDIDATE: no board qualification; inspect CDC/DRC and the Python build record
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.456s
+
+OK

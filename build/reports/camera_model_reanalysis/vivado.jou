@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov  3 03:37:31 2026
+# Process ID: 4324
+# Current directory: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/build/game_app/camera_timing_model_20261103_1
+# Command line: vivado.exe -mode batch -notrace -log D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/build/game_app/camera_timing_model_20261103_1/analysis2.log -journal D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/build/game_app/camera_timing_model_20261103_1/analysis2.jou -source D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/submission/pynq_web_v14_20261102/build/check_camera_timing.tcl -tclargs D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl2/vivado/checkpoints/routed.dcp D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/submission/pynq_web_v14_20261102/src/project/color_test/color_test.srcs/constrs_1/new/system.xdc D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/build/game_app/camera_timing_model_20261103_1/analysis2
+# Log file: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/build/game_app/camera_timing_model_20261103_1/analysis2.log
+# Journal file: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/build/game_app/camera_timing_model_20261103_1/analysis2.jou
+# Running On: iband, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 25480 MB
+#-----------------------------------------------------------
+source D:/Workspace/AMD_camera/FPGA-main/FPGA-main/output/submission/pynq_web_v14_20261102/build/check_camera_timing.tcl -notrace

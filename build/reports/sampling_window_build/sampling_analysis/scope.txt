@@ -1,0 +1,4 @@
+Input checkpoint: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pr4/vivado/checkpoints/routed.dcp
+Scope: fixed routed candidate; declared input-window STA and historical-window counterfactual.
+No device access, physical eye measurement, DCP save or hardware export.
+Data IDELAY settings: {{system_i/MIPI_D_PHY_RX_0/U0/DataLaneGen[0].DPHY_LaneSFEN_X/HSDeserializerX/LegacyDelay.InputDelay} 12 IDELAY_X0Y14} {{system_i/MIPI_D_PHY_RX_0/U0/DataLaneGen[1].DPHY_LaneSFEN_X/HSDeserializerX/LegacyDelay.InputDelay} 12 IDELAY_X0Y16}; clock IDELAY count: 0

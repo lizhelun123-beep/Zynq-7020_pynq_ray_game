@@ -1,0 +1,102 @@
+{
+  "schema": "skill-project-evidence-v1",
+  "snapshot_date": "2026-10-28",
+  "scope": "Selected historical records and current source facts; no new original-project runtime verification",
+  "historical_source": {
+    "path": "PROJECT_STATE.md",
+    "sha256_at_extraction": "1f2ad9fae66b7a560d8bb06a6c05a741181589c161882fb6251279dc193d6372"
+  },
+  "records": [
+    {
+      "key": "skill_package_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 10,
+      "excerpt": "- skill_package_20261028: Updated and packaged the five reusable skills under `skill/` to match the user-provided competition submission guidance. Each skill states applicability, method, failure boundaries, reusable prompt, evidence source, and validation effect; package-level submission mapping, current-engine context/evidence, static DMA layout checker with seven tests, audio transfer example, deterministic package builder, manifest and offline verifier are included. Source verification PASS (5 metadata, 13 performance tests, 7 DMA tests, 25 non-meta + 6 meta fixture); every skill-creator quick validation PASS. Independent package and SHA256 are recorded in `output/build/game_app/skill_package_20261028.sha256`; ZIP integrity, unpacked verification, manifest (35 files), and deterministic rebuild PASS. No runtime/config/BOOT/BIT/hardware changes; actual board/FPS claims remain unchanged."
+    },
+    {
+      "key": "version14_user_success_and_file_inventory_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 12,
+      "excerpt": "- version14_user_success_and_file_inventory_20261028: User confirms current version14 successful and requests all board/PC file locations. User-reported success recorded without inferring new timing/FPS measurements. Indexed current V14 frozen inputs/outputs,19board C translation units and61preprocessor dependencies,live-baseline rebuild prerequisites,latest350ms Godot/web distribution and tools:1509unique files,absolute paths/sizes/SHA256 in output/build/game_app/version14_inventory_20261028/ (README.md,version14_all_file_addresses.txt,version14_all_files.tsv,board_compile_dependencies.txt). Current BOOT hash unchanged4abcf689...;no runtime code/config changes or hardware operation."
+    },
+    {
+      "key": "web_sync350_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 14,
+      "excerpt": "- web_sync350_20261028: Latest user requests synchronizing web upper computer with current Godot admission and presentation rules. Official pc_vision(1)/pc_vision frontend reuses canonical root JSON/Python/C runtime with scene_max_age_ms=350;web build20261028-web-sync350-3,shared runtime20261028-binary-v3-350-6,corecache9fd9cfdc36b9a05d. Browser catalog/snapshot and Godot presentation-gap hint now read the same configured350ms instead of hardcoded250ms. Continuous full-bright last-complete-scene display,atomic models/rays replacement,pose event wakeup/10ms idle timer,READY/START gating and stale scoring rejection remain shared. New web test accepts350ms and rejects351ms while preserving old complete scene;9web HTTP/WebSocket,19shared C/scheduler,2frontend policy tests plus Godot headless fixture/JS syntax/Python compile PASS. Original and independently unpacked web --check compile/use same generatedC350. Clock quality250ms,B350,wirev3 andversion14 BOOT unchanged;no UART/board/SD/ARM or frame-count comparison. Delivery output/build/game_app/web_sync350_1/web_upper_sync350.zip (9966198bytes,SHA256d98f23c9ff608f524b0b1862cf2150152e3f40705c7cbae1af7f32f363367b28;ZIP integrity and source-byte equality PASS) contains current canonical runtime/config/C/Godot and web wrappers/assets,START_HERE;no firmware included. Restart only one PC backend and refresh browser;actual powered-board responsiveness remains user verification."
+    },
+    {
+      "key": "pc_admission350_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 16,
+      "excerpt": "- pc_admission350_20261028: Latest user explicitly requests ONLY PC admission350ms and NO comparison. Changed single runtime setting pc_vision/game_config.json board_game.scene_max_age_ms250→350;shared Godot/web Python and generated C both use it. --check and generated .scene_max_age_ms=350ULL verified,corecache9fd9cfdc36b9a05d. Clock uncertainty quality limit250ms,boardBsupport350ms,wirev3 andversion14 BOOT unchanged;no frame-count analysis/no UART/SD/ARM operation. Restart PC backend to load configuration. Prior250ms-only instructions are superseded for PC scene admission;existing delivery ZIP is historical and not rebuilt this scoped turn."
+    },
+    {
+      "key": "v3_levels_latency_analysis_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 18,
+      "excerpt": "- v3_levels_latency_analysis_20261028: User reports level1 responsiveness sufficient but2/3slow;ANALYSIS ONLY,no code/threshold/BOOT changes. Latest local raw trace pc_vision/output/serial/uart_1793234474130_5695e8f4.jsonl is PCbuild20261028-binary-v3-5,one connection,time2222140..2648375,no malformed JSON/binary rejects;18matched control ACKs. No boot startup signature inferred from PC required_boot field. Started-session snapshots:level1/2/3 count769/431/214,boardvalid288/136/57,required-complete187/125/51;potential fresh complete48/3/0 based raw receive clocks,NOT actual UI adoption counts. Median consecutivecapture209/267/299ms;allpose published-capture175/241/272ms;required-complete valid published-capture175/240/265ms. Exact-sequence diagnostic samples151/103/53:median capture_wait_copy119/133/141ms,detect56/98/131ms,uart blocking1ms(all includes many empty pending packets),render11/10/11ms,display15ms. Valid conservativePCage293/352/422ms,clock interval widths100/105/173ms.283SYNC216accepted,RTTmedian172,p95421,max547. Pending459/283/145;level2 pendingA121/B118/Target171,level3 pendingMirror121/A16/B28/Target31 (90level3 frames Mirror-only pending). Raw detection samples accepted level2A101/103,B95/103,Target102/103;level3A/B52/53,Mirror48/53,Target53/53. Portal costs contribute but no evidence of packet loss;each extra object only12bytes~1.04ms at115200,level2/3 complete packets106/118bytes~9.2/10.2ms. Level2 complete pose already240ms before encoding;level3 already265ms,so pipeline age plus wideSYNC bounds blocks new scene acceptance. B requires2consistent actual samples,1.5px/.75degree candidate match;at267..299ms cadence lowering60/120ms timers alone cannot improve movement confirmation. Proposed priority:exact same-frame Portal ROI math/HSV reuse and strict-white retry caching;Mirror currently24endpoint patch samples,try common complete valid pair first then fallback preserving acceptance logic;split capture119..141ms into actual fence/cache/copy costs before optimizing/overlapping under same2START ownership proof;serviceSYNC promptly at cooperative safe points without applyingLEVEL midframe;after faster source compare B moving-candidate consistency/reset reasons,retainB350/real timestamps/250ms scorer. Optional PL only after measured PS targets;no hardware access this turn. User-trace protocol exchange is now observed,required responsiveness/full gameplay remains unverified."
+    },
+    {
+      "key": "binary_wire_v3_delivery_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 20,
+      "excerpt": "- binary_wire_v3_delivery_20261028: User explicitly authorizes formal compact binary wire replacement on both board and PC plus new BOOT. CURRENT BOOT=color_test/build/beam_standalone/restored_binary_v3_1/output/BOOT.BIN,version14,2278608bytes,SHA2564abcf689a6fc933c946851915aceaaca7850e7e457a930c66f098f5229b5fe88;ELF978496bytes,SHA2561fe1fd1ad758c2e2c6be676f38e437e3272782fbc7aa18c575e4316e09e76479. All controls/sync/poses use bounded v3 binary 00FF/COBS/RG/version/type/length/payload/CRC32/00;PC build20261028-binary-v3-5,web20261028-web-board-v14-2. LEVEL43bytes,START/RESET26,SYNC18,3/5objectPOSE106/130 (old292/404). Original64bit camera generation/sequence/capture/publish preserved;POSE adds PClevel/generation/nonce;validity/status/masks preserved,no old poses in invalid packets.12-byte geometry quantizes centers1/16px,size1/8px,angle1turn/65536;fixed1280x720/restored semantics;oldv2 codecs remain offline/internal state representations only,active UART accepts v3 exclusively. Single BinaryParser removes false control-overflow rejection;shared Godot/web state machine retains internal ControlFrame kind labels,logs add wire_protocol3/wire_name. Existing READY display fence/START pose gate/idempotence/actual-write deadlines/B350/PortalB/current-level continuous display/250ms score admission/DMA unchanged. SYNC3 includes board received/sent times;ClockBounds subtracts known response processing but does not remove waiting before board polling.35root host cases pass collectively:34sandbox plus blocked Win10013 loopback single scoped rerun PASS;8web HTTP/WebSocket fixtures PASS;C/Python cross-framing/control/CRC/truncation/legacy rejection/quantization bounds/oldsession tests;940original-log complete scenes have0termination/success/segment-count differences,max ray component delta0.23371px. Godot fixture/Python syntax/bothPowerShell parsers PASS. Vitis2023.1 frozen-live12 reuse,noVivado;strictARM/EABI/DDR/newwire symbols/no loader/noAprilTag/3BOOTpartitions equality PASS(load180240,memory171028480). Build log output/build/game_app/restored_binary_v3_1_build.log;verification in BOOT output. Delivery output/build/game_app/binary_v3_delivery/pc_vision_binary_v3.zip,10716695bytes,SHA256fdbf5eaf750dee725451ab023b42edfe8de97df50cfad8ae9420932a0ca7c7ac;includes same BOOT/verification,canonical runtime/C/config/Godot plus web wrappers and pinned Three.js (no npmcache/venv). Every source entry byte matched;unpacked Godot and web --check sequentially build/use same e15458b6bf1c366f core;web64bit session_generation string preservation checked. Initial simultaneous unpacked checks raced same C cache (one compile failed),sequential check PASS;only one frontend may run. Protocol spec pc_vision/SERIAL_PROTOCOL.md. No real COM9/UART/JTAG/board/SD operation. Next:user manually replaces SD BOOT withversion14,closes old backends/serialterminals,and launches one updated frontend. v13/oldPC incompatible,no automatic downgrade. Actual powered serial/latency/fps/game admission remains NOT_BOARD_VERIFIED;packet reduction/theoreticalwire times are not measured frame-rate gains."
+    },
+    {
+      "key": "pc_portal_b_alignment_perf_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 24,
+      "excerpt": "- pc_portal_b_alignment_perf_20261028: User requests PC PortalB opposite exit aligned with board FIRST,then analyze compact serial frames/speed only. Fixed actual root cause: GameSession used legacy ray_game_trace_from_emitter(side0),while board GameBeam uses +normal1. Added optional trailing GameConfig.portal_b_exit_side (0 legacy;range-1..1 validated),generated from unique JSON board_game.portal_b_exit_side=1;fixed-emitter session now calls SAME existing ray_game_trace_from_emitter_policy,matching unchanged real_scene.beam side1/version13 BOOT. No image-axis flip/second solver. PC build20261028-portal-b-aligned-4,corecache83b8827c064d4c6d. Level2 both A entry sides x4 B rotations PASS,19CGame/scheduler and10generator tests PASS;unpacked package --check compiled same core PASS. ZIP output/build/game_app/pc_portal_b_aligned_1/pc_vision_portal_b_aligned.zip,1560373bytes,SHA256c9f3e3149907393f7beb8047b7b513545f9545be9523fb74858f95908dfbea35. Portal0 compatibility and continuous display remain. User pasted console exactly matches raw pc_vision/output/serial/uart_1793199715872_314bec9e.jsonl (time56292921..56700531). Raw POSE2 parser rejected0. Level1/2/3 started windows:431/766/195poses,320/597/121board-valid;complete expected kinds281/544/115;potential clock/fresh-admissible valid31/5/7,NOT measured UI adoptions. Median consecutivecapture233/266/266ms;valid published-capture187/215/210ms;conservativePCage353/373/376ms. Diagnostic samples89/186/48:median capture_wait_copy131/130/124ms,detect56/85/93ms,uart15/20/24ms,render17ms/display14ms;do not add medians/overlapping phases.270SYNC:197accepted/73rejected>250ms,RTTmedian179.5ms,p95468,max531. CONTROL_RX_REJECTED1038 is not POSE loss:valid292-byte POSE split200+92 triggers control192-byte overflow counter while PoseParser accepts it;offline reproduced. Entiretrace681318RXbytes/407.61s=1671.5B/s (14.5%1152008N1 capacity,includes menus). Current three/five-object frames292/404bytes=25.35/35.07ms wire. Compact binary can reduce per-frame wire latency but primary gating includes slow source pipeline and delayed coarseSYNC;proposed timely RX timestamp/sync response,less blocking diagnostic output,then bounded length/escaping/CRC compact complete snapshots retaining all identities/times/status/geometry,and measured capture/detection optimization. Performance analysis only;no protocol/board/freshness changes or UART/hardware/SD operation this turn."
+    },
+    {
+      "key": "pc_continuous_scene_20261028",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 26,
+      "excerpt": "- pc_continuous_scene_20261028: User reports virtual blocks vanish when a hand enters the camera and explicitly requests old scene kept until new complete scene is ready. PC build20261028-continuous-scene-3 now retains the last entire C-accepted current-level model/ray snapshot throughout the running level,including missing masks,>6s waits,serial reconnect/epoch change and bridge TCP gaps;replaces it atomically on a new accepted snapshot. Models remain full brightness;STALE rays/effects remain gated. Captured sequence/time/board_frame/clock bounds unchanged,display_held and display_age_ms expose actual old age;retained geometry is never fed back to C,250ms admission and scoring unchanged. Select/menu/end clear cache;before first real scene no invented physical objects. This explicit display decision overrides historical running-PC250ms/6s clear rules only,not board rules. BoardInput changed Event wakes new poses/ACKs immediately,max10ms timer/input poll replaces fixed20ms;ACK processed after connection epoch and before same-poll pose evaluation.18CGame/scheduler tests PASS,including20s hand/missing hold,stale would-hit no score,whole-scene replacement,reconnect/menu/selection cleanup and same-pollACK ordering;Godot fixture covers retained models/rays over bridge gaps and atomic replacement PASS. ZIP=`output/build/game_app/pc_continuous_scene_1/pc_vision_continuous_scene.zip`,1559250bytes,SHA256`ecc1c33628e742e02b522ba5d8b9c851d39fa1720a4266987636070d9e0f4b27`;all entries source-byte matched,unpacked --check with cv2/numpy blocked builds same e0d0d194a4031353 C core,clean imported package Godot fixture PASS. Updated root source and docs;original ZIPs/user extracted folders preserved. Existing version13 BOOT unchanged,no ARM rebuild/UART/hardware/SD operation this turn. Next:user closes old Godot AND Python bridge then launches updated start_game.ps1;real hand-occlusion display,board recognition latency and end-to-end fresh gameplay remain to verify. Event/10ms is PC scheduling change,not a measured camera FPS improvement."
+    },
+    {
+      "key": "safety",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 108,
+      "excerpt": "- safety: Existing display retirement mechanism is reused for capture:requested/current writer acknowledgement,W1C observed low,and two fresh frame START events before leasing the excluded old slot. Worker holds writer fixed until FRAME_DONE;C verifies actual writer/control/errors/layout/addresses before and after copying and detects only the CPU copy. Shutdown stops sensor first,keeps CSI/S2MM alive for bounded tail observation,then confirms actual RS0/HALTED before CSI/GPIO isolation or release. Counter quiet is NOT FIFO-empty proof;no shutdown frame is published and uncertain halt retains ownership/clocks. No frame-by-frame CSI reset,CRC waiver or60s sensor-reset timer."
+    },
+    {
+      "key": "validation",
+      "kind": "historical_record",
+      "source": "PROJECT_STATE.md",
+      "line_at_extraction": 110,
+      "excerpt": "- validation: Current35 Python tests PASS (22 continuous/first-fault/CRC/ownership/pipe tests plus13 existing contract tests). Test model now separates SOF,CSI accepted packets and complete video lines;719-line/CRC0 and720-CSI-packet/719-video-line counterexamples reject correctly. Snapshot test proves exactly the existing3 reads and0 writes at failure;poll/acquire/ack faults log before cleanup,and CSI-validation failure has a separate stage from DMA retirement. Differential against deployed old vdma.py proves identical MMIO read/write traces and FRAME stamps for6-frame success and short-frame failure/cleanup. These are abstract host model checks,not RTL/board root-cause proof. Python3.6 syntax/hash checks PASS. C/RTL untouched;reuse existing ARM ELF ce2aa532... rather than rebuilding. TTL250ms and original frame stamps unchanged."
+    }
+  ],
+  "current_source": {
+    "kind": "current_source",
+    "source": "pc_vision/game_config.json",
+    "sha256": "d66a4abdb7587cc2bad62b47f512ba02c47dbb717794ae9336f3ff57c824e046",
+    "values": {
+      "board_game.scene_max_age_ms": 350,
+      "board_game.portal_b_exit_side": 1,
+      "real_scene.beam": {
+        "max_age_ms": 0,
+        "stability_support_gap_ms": 350,
+        "detector_profile": "restored_markers",
+        "portal_b_exit_side": 1
+      }
+    }
+  },
+  "limitations": [
+    "Original full hardware logs and build artifacts are not included.",
+    "Historical checks were not rerun during skill packaging.",
+    "User-reported success does not establish new timing or FPS measurements.",
+    "Current source facts are documentation snapshots, not a second runtime configuration."
+  ]
+}

@@ -1,0 +1,7 @@
+﻿case,arm,initial_completed,final_completed,final_rate,whole_project,model_calls,repairs,final_round,new_function_protocol_driver_passed,shared_engineering_delivery_passed,hardware_build_export_success,model_s,tokens,input_tokens,output_tokens,cached_tokens,tool_s,synthesis,implementation,export,source_record,source_sha256
+event_timer,baseline,0,0,0.0,0,2,1,2,0,0,0,89.36,38691,29166,9525,0,68.015,0,0,0,output/pe3/c1b2/result.json,c0c1486b7e69652d5ed96af941b43fd0fab7b65abd55151fd41f7770493b4e31
+event_timer,skill,4,10,1.0,1,2,1,2,4,6,1,96.157,67936,55500,12436,0,748.702,1,1,1,output/pe3/c1s2/result.json,0b0846e8c5afddd512649769d7e5f67851d3f768db1f01a1315ab2aa42a515ee
+packet_xor,baseline,2,3,0.3,0,2,1,2,3,0,0,104.859,60847,49369,11478,18176,74.954,0,0,0,output/pe3/c2b2/result.json,bc22cf53c143f51d919706747fc49e29aaeaa33a1e7825bb320d56f9092cc84a
+packet_xor,skill,3,8,0.8,0,2,1,2,3,5,1,122.219,78296,63792,14504,0,957.187,1,1,1,output/pe3/c2s2/result.json,d93293c3e24e6010c9a27d7fb817f32ec1dea96f19b61b969d7e5780175de27c
+bram_lookup,baseline,0,1,0.1,0,2,1,2,1,0,0,99.282,42326,30782,11544,8320,61.861,0,0,0,output/pe3/c3b2/result.json,04a20b42a9aeadc3dee02b17928c503110b3a1059d21f397f8af1a89cea8dd02
+bram_lookup,skill,3,5,0.5,0,2,1,2,3,2,0,93.75,71531,59282,12249,0,536.454,1,0,0,output/pe3/c3s2/result.json,2713157b518e208daeeb13566d31209af543e6d38a9e0a77d825fa6d3876367b

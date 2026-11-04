@@ -1,0 +1,1438 @@
+{
+  "environment": "HOST_STATIC_C_REPLAY",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+  "compiler": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\cl.exe",
+  "compile_command": [
+    "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\cl.exe",
+    "/nologo",
+    "/utf-8",
+    "/std:c11",
+    "/O2",
+    "/W4",
+    "/WX",
+    "/D_CRT_SECURE_NO_WARNINGS",
+    "/ID:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\src\\project\\color_test\\software\\vision_ps_baremetal\\src",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\src\\project\\color_test\\software\\vision_ps_baremetal\\src\\vision_ps.c",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\src\\project\\color_test\\software\\vision_ps_baremetal\\src\\green_target_detector.c",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\src\\project\\color_test\\software\\vision_ps_baremetal\\src\\ray_game.c",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\sim\\test_data_probe.c",
+    "/Fe:C:\\Users\\11967\\AppData\\Local\\Packages\\sandbox.{5af854e1-0f51-4b98-ae0e-1a1484205e80}\\AC\\Temp\\raw_photo_replay_bo4w20a4\\probe.exe"
+  ],
+  "index_sha256": "47a0dbbbfa66cfcac1c22a53d73024e35f9026e7c08cb692a2941f8a624131eb",
+  "config_sha256": "3d0e9146a404353acb4b6cd80f8c9efcee7a967308c4efc70e4ce06d161a3791",
+  "c_source_sha256": {
+    "vision_ps.c": "35beec2f19d4c42a2e51316b096712cf6dcf772bfbfcb80b779b474d44f00e62",
+    "green_target_detector.c": "6db39ad62fb9477bb33313ff1e394fd8e1b023e59af7d4e767042fd9f0f201d7",
+    "ray_game.c": "5e6d4e526d632fbcb47b9d7687cec26bd559db7f13facb97f80629af9bd7c7c8",
+    "test_data_probe.c": "506f35867e48d912db93811af4e547f1eeea0050d3e56f9ad5d893ca58863bbb"
+  },
+  "header_sha256": {
+    "beam_control_protocol.h": "6e86e2460c93067f22d2d4a113012cac240ec24d2ac3a8d875e74693d91e82f9",
+    "beam_control_state.h": "e7037705dd2762ac2a698e5a1e8ebee5aa0c3febef07df15b41b55ab092665b7",
+    "beam_pose_protocol.h": "6d21f321d75de6f8aadd393eddb719ab203b212706109412900593d376827bd0",
+    "beam_uart_log.h": "c3d1963fb061f74f50f2092c162c7d75001fca89632f9c208aca1cc60845e305",
+    "beam_wire_protocol.h": "c28bfc854fbf1418d0484b02cedc01a8df0dc0ac9e8774e74167c0e9c5fe49aa",
+    "display_demo.h": "9cc4ca4c08c78f5f4cd03e91501ff752d16facbea7dbb81215407f933f04a4a9",
+    "game_app.h": "15a7acb7fcac3318a169ed2b8490c2cca5c86d98ac4a329876f79cbc11f2d3e5",
+    "game_beam.h": "63b82d4cfb56e84e60c39c2bbe360cc7eb8685c67cc2b99a8519ead457b3dfb4",
+    "game_evdev.h": "7a3b64867743897fdb2ea688f69b67f381c726b791b372c9b6e0f42b263a3c11",
+    "game_font.h": "e877b3f5329a01765e3ba891d344a87663f1ae7533e7ea4de1db765cfb196870",
+    "game_input.h": "52cd9a45a4a727a387d85eac8e1a8e966950dd21c8850c63b1644b635a3dfab9",
+    "game_linux_capture.h": "41eceb982710989f3db1bb3ac1e0b4f6a05a5036ccc17be76e53f80fae6aee77",
+    "game_linux_display.h": "a9fad3d7c053061b31896a1448f19aa52c357c9a0aaa330e2d910e70ddfa135c",
+    "game_linux_io.h": "3df4870700eaa1543f733ce317fd2d4ba09373b3522b58361f26f977f7e3abba",
+    "game_loop.h": "2425156924fde7992b5d376d0b162cd69012daeff97b177e459e963155271cbd",
+    "game_photo_input.h": "bec6f44ee3cf5dfa1f02d02864b41629d2278773ea7b735c637d3e4557690325",
+    "game_pump.h": "eb700fa36d6947e8822a0071fd9cbc0320ef0654b8520b2fac2b35ee653cd14a",
+    "game_render.h": "c93d9562912a41c5ab2ff551be5f50ff320a0ca521974c06e8e3dff3b2211e89",
+    "game_scene_adapter.h": "4f98856f9958b294158ec38dd4eb2dad264de3376ea01386ef6d51bb38f63740",
+    "game_session.h": "00c14f0cbab0d9ddd947f2826033400e13f8bc26a0dabd80282b491192aa4b7a",
+    "green_target_detector.h": "f2bb83f7ee92965592162c9193238472619765f62761edc7ce422383f349a3ed",
+    "ov5640.h": "1c282faf3d4df31e756995047d039e7a3528f419bc982fe146188d7a6ad3e49f",
+    "ray_game.h": "400b8e2ab5ff92896b6259a01a24754bbcb29f7314673877f072c8bf3992e3d4",
+    "scene_protocol.h": "1e1210780d1a6c625651772811b6ce8b56d218405fa53382176d98176a725adb",
+    "vdma.h": "44c722e758462b294358b912c62f0e26f6ce708018281d490c909b10bc898733",
+    "virtual15_lvgl_ui.h": "55464c86bf705bd8a11e3bb877d938f98d430d6e4926ec65c106ccc996725566",
+    "vision_overlay.h": "d00762ced552e55358ee07e630118c437f02763c8df09826b7db7177a5499367",
+    "vision_perf.h": "0538e2d13576405e7a1866ba62d0860107574e82a57c5bed805c4e2f68ba8518",
+    "vision_portal.h": "b731efabdd355a10d7bb893cb788e2225dbeb2d2e6d1527df398086d8dc95f50",
+    "vision_ps.h": "93f562d377d3225625a08d906f885826c582fa0ea931fbf4c3c4e44335e65aaa",
+    "vision_ps_config.h": "1bad6fe50dc8b23bfcef308dc51ca8f3c3a2e6ec8b7c8abd7f564f3231ca68cb",
+    "vision_stabilizer.h": "09afad5c79f9fc7c96af33597c4e2da35d2363c41476b66e20eb676c6d4e9952"
+  },
+  "pixel_format": "BGR888",
+  "resolution": [
+    1280,
+    720
+  ],
+  "transformations": "PNG decode to RGB then packed BGR; no resize/enhancement",
+  "coordinate_space": "UNCALIBRATED_CAMERA_PIXELS",
+  "emitter_point": [
+    32,
+    500
+  ],
+  "emitter_direction": [
+    1,
+    0
+  ],
+  "portal_b_exit_side": 1,
+  "label_scope": "MANUALLY_REVIEWED_OBJECT_IDENTITIES_ONLY; nominal placement is not numeric pose ground truth",
+  "timed_stability": "NOT_TESTED_BY_STILL_PHOTOS",
+  "game_scoring": "NOT_RUN",
+  "hardware": "NOT_RUN",
+  "reference_relationship": "NO_SCREENSHOT_PAIRING",
+  "totals": {
+    "images": 21,
+    "roster_matches": 21,
+    "roster_mismatches": 0
+  },
+  "images": [
+    {
+      "sample_id": "43",
+      "upload_order": 1,
+      "image": "01.png",
+      "input_sha256": "2f3a45b0bfd4c9fe3474bf07124e5293e8f3855c91941d0a6402e2babf1b7486",
+      "decoded_bgr888_sha256": "e6854592b516790a0caab73e01ca1b33ddba08856ddb43103eb7cad91c39a765",
+      "expected_types": [
+        "MIRROR"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "MIRROR",
+          "center": [
+            592,
+            312
+          ],
+          "angle": 4,
+          "axis": [
+            0.997564,
+            0.069756
+          ],
+          "size": [
+            159.125549,
+            77.24707
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "MIRROR",
+          "center": [
+            589.64209,
+            312.069366
+          ],
+          "axis": [
+            0.997564,
+            0.069756
+          ],
+          "size": [
+            159.125549,
+            77.24707
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "44",
+      "upload_order": 2,
+      "image": "02.png",
+      "input_sha256": "123bdf364a8dd263ad06cc3c40afd0b89b04add67df74252bbe95b522e2a0216",
+      "decoded_bgr888_sha256": "804ef326435029871b30d38ed4131aa7dc26d585053a953f53496ebf17eac9ca",
+      "expected_types": [
+        "MIRROR"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "MIRROR",
+          "center": [
+            615,
+            299
+          ],
+          "angle": -84,
+          "axis": [
+            0.104528,
+            -0.994522
+          ],
+          "size": [
+            158.79248,
+            77.875061
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "MIRROR",
+          "center": [
+            614.919922,
+            301.018616
+          ],
+          "axis": [
+            0.104528,
+            -0.994522
+          ],
+          "size": [
+            158.79248,
+            77.875061
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "45",
+      "upload_order": 3,
+      "image": "03.png",
+      "input_sha256": "65e117a853ddf29dfbc0390baccc5861907d2da0ac96ad632eacbb465f8e55ef",
+      "decoded_bgr888_sha256": "d9e01348263d8b608e656456b2508eea5e79fcfe54d525efa1dd559da257156d",
+      "expected_types": [
+        "MIRROR"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "MIRROR",
+          "center": [
+            609,
+            297
+          ],
+          "angle": -44,
+          "axis": [
+            0.71934,
+            -0.694658
+          ],
+          "size": [
+            159.163513,
+            78.332031
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "MIRROR",
+          "center": [
+            609.049255,
+            297.033264
+          ],
+          "axis": [
+            0.71934,
+            -0.694658
+          ],
+          "size": [
+            159.163513,
+            78.332031
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "46",
+      "upload_order": 4,
+      "image": "07.png",
+      "input_sha256": "4c739790013804a8c909c1af2ee445849e6cff5d7746e8f3e66c023ad1a7e6b9",
+      "decoded_bgr888_sha256": "99c297d9929726535c9f3e4a95a834137859a90103c0e3eee72abdedfead362e",
+      "expected_types": [
+        "PORTAL_A"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            606,
+            322
+          ],
+          "angle": 2,
+          "axis": [
+            0.999461,
+            0.032841
+          ],
+          "size": [
+            236.663025,
+            78.513977
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            606.080933,
+            322.059265
+          ],
+          "axis": [
+            0.999461,
+            0.032841
+          ],
+          "size": [
+            236.663025,
+            78.513977
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "47",
+      "upload_order": 5,
+      "image": "05.png",
+      "input_sha256": "70a1481f10ec8632ddb638e63eaa113ec23644ea6bdb5571796d05816061ed20",
+      "decoded_bgr888_sha256": "730a7a9de04ac681ebed0d8671e61a02bab5eec2f7812b5c48115c41deec04a4",
+      "expected_types": [
+        "PORTAL_A"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            593,
+            341
+          ],
+          "angle": -92,
+          "axis": [
+            -0.040062,
+            -0.999197
+          ],
+          "size": [
+            236.935486,
+            76.903687
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            593.030518,
+            341.076233
+          ],
+          "axis": [
+            -0.040062,
+            -0.999197
+          ],
+          "size": [
+            236.935486,
+            76.903687
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "48",
+      "upload_order": 6,
+      "image": "06.png",
+      "input_sha256": "95be681b8a0554215d866c6fdedefc4556b70f96fe7e083aceb2ffe74dc683e9",
+      "decoded_bgr888_sha256": "a80c0b6a3b58024f5bf479e4801e1f9d848e5cfaefc067ba5f0179e3c47b1b06",
+      "expected_types": [
+        "PORTAL_A"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            563,
+            334
+          ],
+          "angle": -39,
+          "axis": [
+            0.778246,
+            -0.627959
+          ],
+          "size": [
+            237.623428,
+            77.896057
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            562.549194,
+            333.956085
+          ],
+          "axis": [
+            0.778246,
+            -0.627959
+          ],
+          "size": [
+            237.623428,
+            77.896057
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "49",
+      "upload_order": 7,
+      "image": "04.png",
+      "input_sha256": "ba6139d1a51e422aa84b228ab6b405609d179cca18bbc5f0a7e528cc7624eb6c",
+      "decoded_bgr888_sha256": "133be47dc4e0cbfb117f0106e1c24cb8438bdedc6453b3236fa8286e0b444bc5",
+      "expected_types": [
+        "PORTAL_A"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            633,
+            307
+          ],
+          "angle": -176,
+          "axis": [
+            -0.998054,
+            -0.06236
+          ],
+          "size": [
+            237.793396,
+            78.603699
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            632.700562,
+            307.243591
+          ],
+          "axis": [
+            -0.998054,
+            -0.06236
+          ],
+          "size": [
+            237.793396,
+            78.603699
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "50",
+      "upload_order": 8,
+      "image": "08.png",
+      "input_sha256": "831b0ded6e29ecee51226f95462f2510518f40d29e7abd3ff05f95d32c1e73b6",
+      "decoded_bgr888_sha256": "4aafedd4794b55c476e0e983dd6714a785862b05767d0ca1059cf43bd82beeef",
+      "expected_types": [
+        "PORTAL_B"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            611,
+            350
+          ],
+          "angle": 4,
+          "axis": [
+            0.997814,
+            0.066088
+          ],
+          "size": [
+            237.871948,
+            77.744995
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            611.489441,
+            350.295624
+          ],
+          "axis": [
+            0.997814,
+            0.066088
+          ],
+          "size": [
+            237.871948,
+            77.744995
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "51",
+      "upload_order": 9,
+      "image": "09.png",
+      "input_sha256": "513a161e1db5ed2d8f65e204740cf6f02557e9e55281cee433263ee47509b2ad",
+      "decoded_bgr888_sha256": "6a9d8f3cd7de8acc1bfd6a7732feaa1449be91ffb4ad41ae72eb77ac8059ae60",
+      "expected_types": [
+        "PORTAL_B"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            621,
+            301
+          ],
+          "angle": -88,
+          "axis": [
+            0.030344,
+            -0.999539
+          ],
+          "size": [
+            236.742783,
+            78.144409
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            621.344299,
+            300.700195
+          ],
+          "axis": [
+            0.030344,
+            -0.999539
+          ],
+          "size": [
+            236.742783,
+            78.144409
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "52",
+      "upload_order": 10,
+      "image": "10.png",
+      "input_sha256": "8d167ce49a91a2117f9b7bee8b43513886d5db915b36d2b0f6699d26568319ce",
+      "decoded_bgr888_sha256": "3355d55d094e24c70c4f9c5ae125fd22cd3c4b3868b00dc20e0a81065e1a52e6",
+      "expected_types": [
+        "PORTAL_B"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            626,
+            312
+          ],
+          "angle": -50,
+          "axis": [
+            0.637423,
+            -0.770514
+          ],
+          "size": [
+            238.095886,
+            77.96936
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            625.684692,
+            311.991791
+          ],
+          "axis": [
+            0.637423,
+            -0.770514
+          ],
+          "size": [
+            238.095886,
+            77.96936
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "53",
+      "upload_order": 11,
+      "image": "11.png",
+      "input_sha256": "94b515042fd1ad5d4e42d4cc2a1c4e7682ccf41fbc4f03802dda197e801b23cd",
+      "decoded_bgr888_sha256": "d75f40444931f4968d3ca5143295d663a94290e17030fb66de04c5aeff1a4f4d",
+      "expected_types": [
+        "PORTAL_B"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            624,
+            330
+          ],
+          "angle": -178,
+          "axis": [
+            -0.999081,
+            -0.042852
+          ],
+          "size": [
+            237.158203,
+            78.622467
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            624.260132,
+            329.836426
+          ],
+          "axis": [
+            -0.999081,
+            -0.042852
+          ],
+          "size": [
+            237.158203,
+            78.622467
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "54",
+      "upload_order": 12,
+      "image": "12.png",
+      "input_sha256": "370e5a95cc30109d4b3005c137089873bfe207f99f4f6320b11b1553fa2c3e4e",
+      "decoded_bgr888_sha256": "95592b5dafaae2fddd7077589145b6c193a47d34905381cdd0643858bae18f55",
+      "expected_types": [
+        "WALL"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "WALL",
+          "center": [
+            560,
+            289
+          ],
+          "angle": 4,
+          "axis": [
+            0.998126,
+            0.061195
+          ],
+          "size": [
+            227.416626,
+            107.032349
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "WALL",
+          "center": [
+            560.0,
+            289.0
+          ],
+          "axis": [
+            0.998126,
+            0.061195
+          ],
+          "size": [
+            227.416626,
+            107.032349
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "55",
+      "upload_order": 13,
+      "image": "13.png",
+      "input_sha256": "25cd7a6c5181fd2b277d5bf987df8fd6235429834e63f8f7e1e0a70fc6c1058d",
+      "decoded_bgr888_sha256": "087cf7f41bc37b60d3075b6ed4b18b891e9731284cb59e38456533408202097f",
+      "expected_types": [
+        "WALL"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "WALL",
+          "center": [
+            617,
+            269
+          ],
+          "angle": 88,
+          "axis": [
+            0.03026,
+            0.999542
+          ],
+          "size": [
+            227.675232,
+            109.202316
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "WALL",
+          "center": [
+            617.0,
+            269.0
+          ],
+          "axis": [
+            0.03026,
+            0.999542
+          ],
+          "size": [
+            227.675232,
+            109.202316
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "56",
+      "upload_order": 14,
+      "image": "14.png",
+      "input_sha256": "9eee3dae4d5c119a5525255c1d3c501641b919a8e30fe9e2309180a5eaee42ba",
+      "decoded_bgr888_sha256": "7124af8840469ed81d89c982e1c167cb272b91555601f5d7c5708bf0788c421b",
+      "expected_types": [
+        "WALL"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "WALL",
+          "center": [
+            610,
+            274
+          ],
+          "angle": -49,
+          "axis": [
+            -0.651522,
+            0.75863
+          ],
+          "size": [
+            229.231323,
+            114.699478
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "WALL",
+          "center": [
+            610.0,
+            274.0
+          ],
+          "axis": [
+            -0.651522,
+            0.75863
+          ],
+          "size": [
+            229.231323,
+            114.699478
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "57",
+      "upload_order": 15,
+      "image": "15.png",
+      "input_sha256": "037862dcbe06970b7ca0626e99148379db882f337940cf209bc1e69d8fe13807",
+      "decoded_bgr888_sha256": "84b2a4f08ce99fcd299dcef902804f79cbcfd6eb378f4728d2215055c34f1b2c",
+      "expected_types": [
+        "TARGET"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            643,
+            291
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            88.0,
+            88.0
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "TARGET",
+          "center": [
+            643.0,
+            291.0
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            88.0,
+            88.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "58",
+      "upload_order": 16,
+      "image": "16.png",
+      "input_sha256": "28fc8bf925732552c63430503873e98fc251a9554b210427d61accdb66e75b4c",
+      "decoded_bgr888_sha256": "081ee96a338f937a15e6102a27b477daaa86d5aa031572b8d027b4ee6037225c",
+      "expected_types": [
+        "TARGET"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            273,
+            139
+          ],
+          "angle": 90,
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "TARGET",
+          "center": [
+            273.0,
+            139.0
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "59",
+      "upload_order": 17,
+      "image": "17.png",
+      "input_sha256": "47368bc88837ad782b83bc1ae56c29bf392019dc20263651b3bedce66dbb8a83",
+      "decoded_bgr888_sha256": "cce109cdb7ceb3cdbcab7af43b5253cdc9c6564cf4b6e3916be3dbdf70076daf",
+      "expected_types": [
+        "TARGET"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            975,
+            198
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            88.0,
+            88.0
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "TARGET",
+          "center": [
+            975.0,
+            198.0
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            88.0,
+            88.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    },
+    {
+      "sample_id": "60",
+      "upload_order": 18,
+      "image": "18.png",
+      "input_sha256": "4af9ef71a9bdafd9e7ac925378949e2a0de953861b67ed7c9b332c7a7f2a1dd5",
+      "decoded_bgr888_sha256": "834803465ed39c34643bed3c3585a295c0eaa74df8df75d5efacd45e1f63ecef",
+      "expected_types": [
+        "TARGET"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            321,
+            490
+          ],
+          "angle": 90,
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            76.0,
+            76.0
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "TARGET",
+          "center": [
+            321.0,
+            490.0
+          ],
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            76.0,
+            76.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          284.339386,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 3,
+      "hit_type_codes": [
+        3
+      ]
+    },
+    {
+      "sample_id": "61",
+      "upload_order": 19,
+      "image": "19.png",
+      "input_sha256": "49904cf789f9c1cfd9a5990e7b267402fb1ea0ca718a77e8af1104f6284bb609",
+      "decoded_bgr888_sha256": "9976b63910b696700f4a6840191711a1152bc204b5b8d40c34a6b02ebad8f927",
+      "expected_types": [
+        "TARGET"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            903,
+            540
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "TARGET",
+          "center": [
+            903.0,
+            540.0
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          903.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 3,
+      "hit_type_codes": [
+        3
+      ]
+    },
+    {
+      "sample_id": "62",
+      "upload_order": 20,
+      "image": "20.png",
+      "input_sha256": "16fa88c05733cfe5efb2e3e4152d6e2c81df6977cd7546abd3ade172dc347ccd",
+      "decoded_bgr888_sha256": "2ecd2c5e9ac15b9e924b278171fa089b0562badb12c5a5de99b3c622ca0054cc",
+      "expected_types": [
+        "MIRROR",
+        "PORTAL_A",
+        "PORTAL_B",
+        "WALL",
+        "TARGET"
+      ],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [
+        {
+          "type": "WALL",
+          "center": [
+            368,
+            491
+          ],
+          "angle": 47,
+          "axis": [
+            0.678665,
+            0.734448
+          ],
+          "size": [
+            215.470764,
+            96.620758
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            682,
+            387
+          ],
+          "angle": 73,
+          "axis": [
+            0.289173,
+            0.957277
+          ],
+          "size": [
+            235.421387,
+            76.832642
+          ]
+        },
+        {
+          "type": "MIRROR",
+          "center": [
+            495,
+            332
+          ],
+          "angle": -79,
+          "axis": [
+            0.190809,
+            -0.981627
+          ],
+          "size": [
+            157.626022,
+            77.739136
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            903,
+            541
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        },
+        {
+          "type": "PORTAL_B",
+          "center": [
+            882,
+            258
+          ],
+          "angle": -112,
+          "axis": [
+            -0.378976,
+            -0.925406
+          ],
+          "size": [
+            235.721741,
+            77.327393
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "WALL",
+          "center": [
+            368.0,
+            491.0
+          ],
+          "axis": [
+            0.678665,
+            0.734448
+          ],
+          "size": [
+            215.470764,
+            96.620758
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            681.663513,
+            386.531525
+          ],
+          "axis": [
+            0.289173,
+            0.957277
+          ],
+          "size": [
+            235.421387,
+            76.832642
+          ]
+        },
+        {
+          "type": "MIRROR",
+          "center": [
+            494.859039,
+            333.375397
+          ],
+          "axis": [
+            0.190809,
+            -0.981627
+          ],
+          "size": [
+            157.626022,
+            77.739136
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            903.0,
+            541.0
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        },
+        {
+          "type": "PORTAL_B",
+          "center": [
+            882.085266,
+            257.657349
+          ],
+          "axis": [
+            -0.378976,
+            -0.925406
+          ],
+          "size": [
+            235.721741,
+            77.327393
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          310.538635,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 2,
+      "hit_type_codes": [
+        5
+      ]
+    },
+    {
+      "sample_id": "42",
+      "upload_order": 22,
+      "image": "42.png",
+      "input_sha256": "b9178000612b9bf7059e6fe340c3945c5a4c7cea89f5b0608f5020081a241d51",
+      "decoded_bgr888_sha256": "460131409b5b5890bfca25f63383cf70c26fc1588baa53a72b4af6b770e936ba",
+      "expected_types": [],
+      "roster_status": "ROSTER_MATCH",
+      "missing_types": [],
+      "extra_types": [],
+      "detections": [],
+      "models": [],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "interactions": 0,
+      "termination_code": 1,
+      "hit_type_codes": []
+    }
+  ],
+  "dataset_selection": {
+    "excluded_sample_ids": [
+      "41"
+    ],
+    "reason": "USER_EXCLUDED_POOR_CAPTURE_NO_REPLACEMENT",
+    "original_replay_index_sha256": "75901cba73246e8053ba7201e3abfa5469b4c4de5b5aac27aed1caf2b78fcad0",
+    "processing": "Filtered existing replay records; retained per-image outputs unchanged; detector not rerun"
+  }
+}

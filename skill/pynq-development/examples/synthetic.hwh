@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic declarations only; these are not board MMIO addresses. -->
+<SYSTEM>
+  <MODULES>
+    <MODULE INSTANCE="demo_dma" FULLNAME="/demo_dma" VLNV="xilinx.com:ip:axi_dma:7.1">
+      <PARAMETERS>
+        <PARAMETER NAME="C_INCLUDE_SG" VALUE="0"/>
+        <PARAMETER NAME="C_SG_LENGTH_WIDTH" VALUE="14"/>
+      </PARAMETERS>
+    </MODULE>
+  </MODULES>
+  <MEMRANGES>
+    <MEMRANGE INSTANCE="demo_dma" BASEVALUE="0x40000000" HIGHVALUE="0x4000ffff"
+              MASTERBUSINTERFACE="M_AXI_GP0" SLAVEBUSINTERFACE="S_AXI_LITE"/>
+  </MEMRANGES>
+</SYSTEM>

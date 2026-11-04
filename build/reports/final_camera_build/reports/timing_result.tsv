@@ -1,0 +1,2 @@
+status	detail
+FAIL	min: slack=-0.844; Timing summary does not confirm all user timing constraints

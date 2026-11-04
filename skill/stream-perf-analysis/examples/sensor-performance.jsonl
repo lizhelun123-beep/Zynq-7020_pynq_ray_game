@@ -1,0 +1,4 @@
+{"connection":"A","report":1,"stage":"sample","n":10,"total":10000,"maximum":2000,"unit":"us"}
+{"connection":"A","report":1,"stage":"pipeline","n":10,"total":50000,"maximum":9000,"unit":"us"}
+{"connection":"A","report":2,"stage":"sample","n":20,"total":40000,"maximum":7000,"unit":"us"}
+{"connection":"A","report":2,"stage":"pipeline","n":20,"total":150000,"maximum":16000,"unit":"us"}

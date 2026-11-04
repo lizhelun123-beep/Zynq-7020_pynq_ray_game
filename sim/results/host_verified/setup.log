@@ -1,0 +1,26 @@
+test_both_files_backed_up_and_verified_with_fresh_boot (test_deploy.DeployTests.test_both_files_backed_up_and_verified_with_fresh_boot) ... ok
+test_exact_factory_fixture_is_preserved (test_deploy.DeployTests.test_exact_factory_fixture_is_preserved) ... ok
+test_factory_profile_changes_only_boot_and_backs_up_actual_network (test_deploy.DeployTests.test_factory_profile_changes_only_boot_and_backs_up_actual_network) ... ok
+test_factory_profile_repeat_has_no_new_changes (test_deploy.DeployTests.test_factory_profile_repeat_has_no_new_changes) ... ok
+test_owner_details_bind_pid_to_start_time (test_deploy.DeployTests.test_owner_details_bind_pid_to_start_time) ... ok
+test_rejection_keeps_owner_report_and_proves_no_file_write (test_deploy.DeployTests.test_rejection_keeps_owner_report_and_proves_no_file_write) ... ok
+test_repeated_apply_is_idempotent (test_deploy.DeployTests.test_repeated_apply_is_idempotent) ... ok
+test_second_write_failure_restores_first (test_deploy.DeployTests.test_second_write_failure_restores_first) ... ok
+test_static_address_and_comments_preserved (test_deploy.DeployTests.test_static_address_and_comments_preserved) ... ok
+test_unknown_alias_address_or_missing_auto_is_not_silently_accepted (test_deploy.DeployTests.test_unknown_alias_address_or_missing_auto_is_not_silently_accepted) ... ok
+test_unknown_boot_and_hardlink_are_rejected (test_deploy.DeployTests.test_unknown_boot_and_hardlink_are_rejected) ... ok
+test_unknown_network_settings_rejected_without_changes (test_deploy.DeployTests.test_unknown_network_settings_rejected_without_changes) ... ok
+test_check_collects_only_files_and_keeps_missing_admission_missing (test_setup.SetupTests.test_check_collects_only_files_and_keeps_missing_admission_missing) ... ok
+test_console_preserves_root_and_only_one_console (test_setup.SetupTests.test_console_preserves_root_and_only_one_console) ... ok
+test_corrupt_header_or_body_rejected (test_setup.SetupTests.test_corrupt_header_or_body_rejected) ... ok
+test_ethernet_report_does_not_include_wifi_secret (test_setup.SetupTests.test_ethernet_report_does_not_include_wifi_secret) ... ok
+test_existing_bootargs_script_rejected (test_setup.SetupTests.test_existing_bootargs_script_rejected) ... ok
+test_missing_files_report_errors_without_writing (test_setup.SetupTests.test_missing_files_report_errors_without_writing) ... ok
+test_run_forwards_original_entry_and_admission_checks (test_setup.SetupTests.test_run_forwards_original_entry_and_admission_checks) ... ok
+test_script_branches_and_crcs_preserved (test_setup.SetupTests.test_script_branches_and_crcs_preserved) ... ok
+test_unknown_root_or_shell_content_rejected (test_setup.SetupTests.test_unknown_root_or_shell_content_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 1.047s
+
+OK

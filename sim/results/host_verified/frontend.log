@@ -1,0 +1,12 @@
+✔ timer-only packets skip Three.js pose updates while movement, rays and level changes render immediately (2.9229ms)
+✔ C logical source without preview fields renders from the configured emitter without changing C data (1.1045ms)
+✔ only matching board readiness enables start, before the first pose (0.1826ms)
+✔ backend gaps retain one complete running scene and original timestamps without success (0.1569ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 98.8073

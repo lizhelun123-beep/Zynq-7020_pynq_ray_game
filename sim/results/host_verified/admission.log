@@ -1,0 +1,15 @@
+test_actual_dma_register_values_required (test_ready.AdmissionTests.test_actual_dma_register_values_required) ... ok
+test_exact_platform_ps_mapping_can_be_classified (test_ready.AdmissionTests.test_exact_platform_ps_mapping_can_be_classified) ... ok
+test_isolation_is_physical_level_shifter_state (test_ready.AdmissionTests.test_isolation_is_physical_level_shifter_state) ... ok
+test_missing_receipt_still_rejected_after_platform_check (test_ready.AdmissionTests.test_missing_receipt_still_rejected_after_platform_check) ... ok
+test_platform_identity_is_required (test_ready.AdmissionTests.test_platform_identity_is_required) ... ok
+test_platform_name_does_not_allow_pl_or_cma_mapping (test_ready.AdmissionTests.test_platform_name_does_not_allow_pl_or_cma_mapping) ... ok
+test_platform_open_device_fd_is_still_conflict (test_ready.AdmissionTests.test_platform_open_device_fd_is_still_conflict) ... ok
+test_receipt_builder_refuses_active_channels_or_unisolated_bootstrap (test_ready.AdmissionTests.test_receipt_builder_refuses_active_channels_or_unisolated_bootstrap) ... ok
+test_source_hash_and_start_time_are_not_bypassed (test_ready.AdmissionTests.test_source_hash_and_start_time_are_not_bypassed) ... ok
+test_valid_receipt_identity_is_still_required (test_ready.AdmissionTests.test_valid_receipt_identity_is_still_required) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.170s
+
+OK

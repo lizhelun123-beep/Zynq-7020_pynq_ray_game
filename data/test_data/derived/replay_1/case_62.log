@@ -1,0 +1,21 @@
+count=5
+WALL center=368,491 angle=47 bbox=259,378,218,225 axis=0.678665,0.734448 size=215.470764,96.620758
+PORTAL_A center=682,387 angle=73 bbox=620,272,120,224 axis=0.289173,0.957277 size=235.421387,76.832642
+MIRROR center=495,332 angle=-79 bbox=440,212,112,244 axis=0.190809,-0.981627 size=157.626022,77.739136
+TARGET center=903,541 angle=0 bbox=864,504,80,80 axis=1.000000,0.000000 size=80.000000,80.000000
+PORTAL_B center=882,258 angle=-112 bbox=820,148,132,220 axis=-0.378976,-0.925406 size=235.721741,77.327393
+DIAGNOSTIC MIRROR candidates=1 geometry=1 markers=1 accepted=1
+DIAGNOSTIC PORTAL_A candidates=1 geometry=1 markers=1 accepted=1
+DIAGNOSTIC PORTAL_B candidates=2 geometry=2 markers=1 accepted=1
+DIAGNOSTIC TARGET candidates=1 geometry=1 markers=1 accepted=1
+DIAGNOSTIC SOURCE candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC WALL candidates=21 geometry=1 markers=1 accepted=1
+WALL_DIAGNOSTIC components=7 pairs=21 accepted=1
+MODEL WALL center=368.000000,491.000000 axis=0.678665,0.734448 size=215.470764,96.620758
+MODEL PORTAL_A center=681.663513,386.531525 axis=0.289173,0.957277 size=235.421387,76.832642
+MODEL MIRROR center=494.859039,333.375397 axis=0.190809,-0.981627 size=157.626022,77.739136
+MODEL TARGET center=903.000000,541.000000 axis=1.000000,0.000000 size=80.000000,80.000000
+MODEL PORTAL_B center=882.085266,257.657349 axis=-0.378976,-0.925406 size=235.721741,77.327393
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=1 interactions=0 termination=2
+segment0 32.000000,500.000000 -> 310.538635,500.000000
+HIT 5

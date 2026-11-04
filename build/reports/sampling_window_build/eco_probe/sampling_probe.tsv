@@ -1,0 +1,17 @@
+topology	data_taps	corner	setup_ns	hold_ns
+baseline	12	Fast	0.021	0.279
+baseline	12	Slow	1.000	-0.844
+original_clock	18	Fast	-0.504	0.690
+original_clock	18	Slow	0.457	-0.434
+original_clock	24	Fast	-1.029	1.101
+original_clock	24	Slow	-0.086	-0.023
+original_clock	31	Fast	-1.642	1.580
+original_clock	31	Slow	-0.719	0.456
+bypass_zero_clock	12	Fast	-0.222	0.585
+bypass_zero_clock	12	Slow	0.338	-0.156
+bypass_zero_clock	15	Fast	-0.485	0.791
+bypass_zero_clock	15	Slow	0.066	0.049
+bypass_zero_clock	18	Fast	-0.747	0.996
+bypass_zero_clock	18	Slow	-0.205	0.254
+bypass_zero_clock	21	Fast	-1.010	1.201
+bypass_zero_clock	21	Slow	-0.477	0.459

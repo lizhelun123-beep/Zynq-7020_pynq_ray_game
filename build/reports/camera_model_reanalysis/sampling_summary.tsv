@@ -1,0 +1,6 @@
+metric	value
+sampling_setup_ns	0.021
+sampling_hold_ns	-0.844
+covered_queries	32
+fixed_IDELAY_and_locations	UNCHANGED
+timing_status	FAIL

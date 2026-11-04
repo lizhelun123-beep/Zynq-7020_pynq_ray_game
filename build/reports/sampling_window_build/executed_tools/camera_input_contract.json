@@ -1,0 +1,10 @@
+{
+  "schema": "camera-input-contract-v1",
+  "qualification": "USER_DECLARED_UNMEASURED",
+  "minimum_ui": "1/4",
+  "maximum_ui": "3/4",
+  "authority": "2026-11-03 user explicitly permits changing input delays and relaxing constraints",
+  "scope": "Candidate STA assumption at FPGA pins; not a measured sensor or board guarantee",
+  "previous_envelope_ui": ["3/20", "17/20"],
+  "physical_frequency_eye_skew_jitter": "NOT_MEASURED_FOR_CURRENT_BOOT"
+}

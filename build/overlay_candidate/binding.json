@@ -1,0 +1,101 @@
+{
+  "schema": "overlay-delivery-binding-v1",
+  "status": "SOURCE_CHECKPOINT_REPORTS_OVERLAY_BOUND",
+  "source_input_manifest": {
+    "path": "build/reports/sampling_window_build/input_manifest.tsv",
+    "sha256": "e6622542d3727c8fe78f7df8886bdeaaa3bb73417f3dfba8cd3d30dd514329e5"
+  },
+  "routed_checkpoint": {
+    "path": "build/reports/sampling_window_build/checkpoints/routed.dcp",
+    "sha256": "19da89494710cd05f6b2fa7f04db120d44d463bbe178d4226e216220a6eafa08"
+  },
+  "implementation_timing_report": {
+    "path": "build/reports/sampling_window_build/reports/post_impl_timing.rpt",
+    "sha256": "d127582b4c6ee90d6a9dbf854b20374313d2dd31c47b2eb3f8910769177e4a32"
+  },
+  "export_execution_record": {
+    "path": "build/overlay_candidate/evidence/binding.json",
+    "sha256": "a4663617c72c6887bf7be37028921a843621650daa8e32370b2c89d8b5cf997d"
+  },
+  "xsa_bit_hwh_byte_identity": "PASS",
+  "dcp_embedded_hwh_exported_hwh_byte_identity": "PASS",
+  "timing_metrics": {
+    "wns": "0.135",
+    "tns": "0.000",
+    "setup_failing": "0",
+    "setup_total": "25917",
+    "whs": "0.052",
+    "ths": "0.000",
+    "hold_failing": "0",
+    "hold_total": "25736",
+    "wpws": "0.264",
+    "tpws": "0.000",
+    "pulse_failing": "0",
+    "pulse_total": "11326"
+  },
+  "timing_claim": "PASS_UNDER_DECLARED_UNMEASURED_PIN_WINDOW",
+  "camera_timing_model": {
+    "schema": "camera-timing-model-v2",
+    "xvclk_nominal_hz": 12000000,
+    "hs_nominal_hz": 140000000,
+    "lane_bps": 280000000,
+    "byte_hz": 35000000,
+    "period_exact_ns": "50/7",
+    "ui_exact_ns": "25/7",
+    "time_grid_ns": 0.001,
+    "period_ns": 7.143,
+    "half_period_ns": 3.571,
+    "input_min_ns": 0.892,
+    "input_max_ns": 2.679,
+    "input_contract": "User-declared 1/4..3/4 UI transition envelope at FPGA pins",
+    "input_min_ui": "1/4",
+    "input_max_ui": "3/4",
+    "input_contract_qualification": "USER_DECLARED_UNMEASURED",
+    "input_contract_sha256": "b9be53178d6d00b2676fc48356a212d68000b25850527926ec56cca6ddcca474",
+    "physical_hs_frequency": "NOT_MEASURED_FOR_CURRENT_BOOT",
+    "physical_tolerance_skew_jitter_eye": "UNKNOWN; not a physical pin guarantee",
+    "sensor_registers": {
+      "0x3034": "0x1a",
+      "0x3035": "0x21",
+      "0x3036": "0x46",
+      "0x3037": "0x5",
+      "0x3108": "0x11",
+      "0x3808": "0x5",
+      "0x3809": "0x0",
+      "0x380a": "0x2",
+      "0x380b": "0xd0",
+      "0x4300": "0x0",
+      "0x4837": "0x24",
+      "0x501f": "0x3"
+    },
+    "manifest_sha256": "6e269ea09378d718c1490d00399d4b1ac18858c0f6587b6ad2224efc0403c0b6",
+    "evidence_sha256": {
+      "build/timing_evidence/nominal_clock_review_20261020.json": "66a3a6c8112f04391b39fa48442e7210da48277390cac4cbb06317da08b3d7be",
+      "build/timing_evidence/sensor_readback_20261019.json": "3e40a78f5ee212b79c6ae156862eb198ba98cf47b022dd54d8309813af5a567a"
+    }
+  },
+  "configuration_sha256": "5d5a9bebe97d3e832f31205876d46551be2b6fec9f410fb635145b16ba90f4c0",
+  "software_interface_comparison": {
+    "path": "build/overlay_candidate/evidence/interface_comparison.json",
+    "sha256": "4024755cf4fdda74fdc094885780360c01f6c6ed59bf76580181430959abc6a2"
+  },
+  "artifacts": [
+    {
+      "path": "system_wrapper.bit",
+      "bytes": 1845912,
+      "sha256": "408adfdc3b2ebf00f2dec25e6a90f140e188b122ffe894aa7aad5fb08b1256fc"
+    },
+    {
+      "path": "system_wrapper.hwh",
+      "bytes": 702981,
+      "sha256": "fa121904ae7f1c32c9b42244b74cfe7366aff3370760d1c88f5286a9693715df"
+    },
+    {
+      "path": "system_wrapper.xsa",
+      "bytes": 705539,
+      "sha256": "4c25bbe4995b6d423bf4249de4f93a844c2c505a2fe205c3ffbfc2f96226b87a"
+    }
+  ],
+  "board_qualification": "NOT_RUN",
+  "installed_overlay_modified": false
+}

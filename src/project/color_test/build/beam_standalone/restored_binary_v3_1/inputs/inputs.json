@@ -1,0 +1,17 @@
+{
+  "xsa_sha256": "03ae58ac8483359101e5286931effb0d84544f4b9b6c215572ff88653011e0c8",
+  "bit_sha256": "a5a88800af559c2e95ad67453deab7d4ec5bdfeaa3eccddc7279f0f2f64f3e55",
+  "hwh_sha256": "dc899d44a94c1c98ffd6b7178e64f78ff6576ff3e4889759b291b659baba347c",
+  "csi_minor": 1,
+  "csi_counters_coherent": false,
+  "display_status_mask": 1,
+  "game_config_sha256": "79a25e5361367c4fb8bdba40cea9c0e2c3cd1d4550527b8cc94a7d0cf32a1f13",
+  "baseline": {
+    "profile": "historical_live_20261026",
+    "verified_files": 12,
+    "validation_sha256": "0c3cb69acc30073efb8855ed03c88745073c24d20d2463a2bdaf8ad6777e2dfe",
+    "platform": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\color_test\\build\\vision_ps_baremetal\\vision_ps_platform",
+    "runtime_evidence": "output/build/game_app/jtag_camera_pc_20261026_1/status_live.log",
+    "runtime_evidence_scope": "historical 1442 submissions; not a new application pass"
+  }
+}

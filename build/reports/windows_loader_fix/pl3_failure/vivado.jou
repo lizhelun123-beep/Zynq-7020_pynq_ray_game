@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov  3 04:00:50 2026
+# Process ID: 19728
+# Current directory: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3
+# Command line: vivado.exe -mode batch -notrace -log D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado.log -journal D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado.jou -source D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\build_pl.tcl -tclargs D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\inputs\project D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado
+# Log file: D:/Workspace/AMD_camera/FPGA-main/FPGA-main/tmp/pl3/vivado.log
+# Journal file: D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\vivado.jou
+# Running On: iband, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 14, Host memory: 25480 MB
+#-----------------------------------------------------------
+source {D:\Workspace\AMD_camera\FPGA-main\FPGA-main\tmp\pl3\build_pl.tcl} -notrace

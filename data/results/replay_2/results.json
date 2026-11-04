@@ -1,0 +1,593 @@
+{
+  "environment": "host C replay",
+  "pixel_format": "BGR888",
+  "resolution": [
+    1280,
+    720
+  ],
+  "timed_stability": "NOT_TESTED_BY_STILL_PHOTO",
+  "raw_camera_frames": false,
+  "pose_accuracy": "NO_INDEPENDENT_GROUND_TRUTH",
+  "images": [
+    {
+      "image": "legacy_075.png",
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            345,
+            102
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            64.0,
+            64.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "reference_count": null,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "OBSERVED_WITHOUT_CURRENT_LABELS"
+    },
+    {
+      "image": "legacy_076.png",
+      "detections": [
+        {
+          "type": "PORTAL_A",
+          "center": [
+            859,
+            323
+          ],
+          "angle": -88,
+          "axis": [
+            0.0314,
+            -0.9995
+          ],
+          "size": [
+            144.81,
+            56.48
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            281,
+            124
+          ],
+          "angle": 90,
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            60.0,
+            60.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "reference_count": null,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "OBSERVED_WITHOUT_CURRENT_LABELS"
+    },
+    {
+      "image": "legacy_077.png",
+      "detections": [
+        {
+          "type": "TARGET",
+          "center": [
+            311,
+            282
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            64.0,
+            64.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          1279.0,
+          500.0
+        ]
+      ],
+      "reference_count": null,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "OBSERVED_WITHOUT_CURRENT_LABELS"
+    },
+    {
+      "image": "screen_01.png",
+      "detections": [
+        {
+          "type": "WALL",
+          "center": [
+            725,
+            532
+          ],
+          "angle": -87,
+          "axis": [
+            -0.0466,
+            0.9989
+          ],
+          "size": [
+            211.18,
+            108.18
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            287,
+            466
+          ],
+          "angle": -97,
+          "axis": [
+            -0.1148,
+            -0.9934
+          ],
+          "size": [
+            227.6,
+            80.4
+          ]
+        },
+        {
+          "type": "PORTAL_B",
+          "center": [
+            909,
+            470
+          ],
+          "angle": -89,
+          "axis": [
+            0.0231,
+            -0.9997
+          ],
+          "size": [
+            220.68,
+            76.63
+          ]
+        },
+        {
+          "type": "MIRROR",
+          "center": [
+            461,
+            501
+          ],
+          "angle": -45,
+          "axis": [
+            0.7071,
+            -0.7071
+          ],
+          "size": [
+            148.25,
+            94.51
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            1099,
+            493
+          ],
+          "angle": 90,
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            84.0,
+            84.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          250.54,
+          500.0
+        ],
+        [
+          947.59,
+          499.87,
+          1058.07,
+          502.43
+        ]
+      ],
+      "reference_count": 5,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "PASS_COUNT_PORTALS_AND_RAYS"
+    },
+    {
+      "image": "screen_02.png",
+      "detections": [
+        {
+          "type": "WALL",
+          "center": [
+            618,
+            524
+          ],
+          "angle": -42,
+          "axis": [
+            -0.7424,
+            0.67
+          ],
+          "size": [
+            215.25,
+            104.75
+          ]
+        },
+        {
+          "type": "PORTAL_B",
+          "center": [
+            972,
+            282
+          ],
+          "angle": 135,
+          "axis": [
+            -0.7059,
+            0.7083
+          ],
+          "size": [
+            224.65,
+            72.15
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            232,
+            505
+          ],
+          "angle": -102,
+          "axis": [
+            -0.2145,
+            -0.9767
+          ],
+          "size": [
+            218.79,
+            67.66
+          ]
+        },
+        {
+          "type": "MIRROR",
+          "center": [
+            424,
+            493
+          ],
+          "angle": -67,
+          "axis": [
+            0.3907,
+            -0.9205
+          ],
+          "size": [
+            147.64,
+            77.96
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            1120,
+            476
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          196.55,
+          500.0
+        ],
+        [
+          936.17,
+          265.38,
+          669.91,
+          0.0
+        ]
+      ],
+      "reference_count": 5,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "PASS_COUNT_PORTALS_AND_RAYS"
+    },
+    {
+      "image": "screen_03.png",
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            562,
+            268
+          ],
+          "angle": -161,
+          "axis": [
+            -0.945,
+            -0.3272
+          ],
+          "size": [
+            235.59,
+            76.69
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            410,
+            527
+          ],
+          "angle": -91,
+          "axis": [
+            -0.0188,
+            -0.9998
+          ],
+          "size": [
+            220.34,
+            71.54
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            359,
+            252
+          ],
+          "angle": 90,
+          "axis": [
+            0.0,
+            1.0
+          ],
+          "size": [
+            80.0,
+            80.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          373.23,
+          500.0
+        ],
+        [
+          547.09,
+          221.45,
+          623.76,
+          0.0
+        ]
+      ],
+      "reference_count": 3,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "PASS_COUNT_PORTALS_AND_RAYS"
+    },
+    {
+      "image": "screen_04.png",
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            563,
+            252
+          ],
+          "angle": -161,
+          "axis": [
+            -0.9471,
+            -0.321
+          ],
+          "size": [
+            234.25,
+            75.58
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            422,
+            499
+          ],
+          "angle": -80,
+          "axis": [
+            0.1785,
+            -0.9839
+          ],
+          "size": [
+            219.74,
+            73.42
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          384.08,
+          500.0
+        ],
+        [
+          583.26,
+          218.28,
+          657.24,
+          0.0
+        ]
+      ],
+      "reference_count": 2,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "PASS_COUNT_PORTALS_AND_RAYS"
+    },
+    {
+      "image": "screen_05.png",
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            828,
+            257
+          ],
+          "angle": -114,
+          "axis": [
+            -0.3988,
+            -0.917
+          ],
+          "size": [
+            235.1,
+            76.72
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            617,
+            517
+          ],
+          "angle": -77,
+          "axis": [
+            0.2304,
+            -0.9731
+          ],
+          "size": [
+            221.15,
+            73.24
+          ]
+        },
+        {
+          "type": "MIRROR",
+          "center": [
+            992,
+            265
+          ],
+          "angle": 78,
+          "axis": [
+            0.2079,
+            0.9781
+          ],
+          "size": [
+            152.74,
+            72.86
+          ]
+        },
+        {
+          "type": "TARGET",
+          "center": [
+            613,
+            335
+          ],
+          "angle": 0,
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "size": [
+            88.0,
+            88.0
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          583.73,
+          500.0
+        ],
+        [
+          860.49,
+          232.33,
+          1279.0,
+          50.3
+        ]
+      ],
+      "reference_count": 4,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "PASS_COUNT_PORTALS_AND_RAYS"
+    },
+    {
+      "image": "screen_06.png",
+      "detections": [
+        {
+          "type": "PORTAL_B",
+          "center": [
+            925,
+            342
+          ],
+          "angle": -89,
+          "axis": [
+            0.0156,
+            -0.9999
+          ],
+          "size": [
+            232.1,
+            72.99
+          ]
+        },
+        {
+          "type": "PORTAL_A",
+          "center": [
+            516,
+            501
+          ],
+          "angle": -83,
+          "axis": [
+            0.1206,
+            -0.9927
+          ],
+          "size": [
+            222.28,
+            73.55
+          ]
+        }
+      ],
+      "segments": [
+        [
+          32.0,
+          500.0,
+          478.64,
+          500.0
+        ],
+        [
+          962.2,
+          346.96,
+          1279.0,
+          351.9
+        ]
+      ],
+      "reference_count": 2,
+      "reference_kind": "historical C output; not independent coordinate ground truth",
+      "status": "PASS_COUNT_PORTALS_AND_RAYS"
+    }
+  ]
+}

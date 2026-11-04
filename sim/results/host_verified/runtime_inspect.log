@@ -1,0 +1,1 @@
+{"version": 14, "csi_version": 65537, "frame": {"width": 1280, "height": 720, "row": 3840, "stride": 5760, "stores": 3}, "bit_sha256": "a5a88800af559c2e95ad67453deab7d4ec5bdfeaa3eccddc7279f0f2f64f3e55", "library_sha256": "01f929f3a97d7a3c5d6c8b2c278ca0be1130937ca0873ce0548e53dc663323b0", "hardware_operations": 0}

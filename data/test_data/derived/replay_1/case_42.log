@@ -1,0 +1,10 @@
+count=0
+DIAGNOSTIC MIRROR candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC PORTAL_A candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC PORTAL_B candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC TARGET candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC SOURCE candidates=0 geometry=0 markers=0 accepted=0
+DIAGNOSTIC WALL candidates=1 geometry=0 markers=0 accepted=0
+WALL_DIAGNOSTIC components=2 pairs=1 accepted=0
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=1 interactions=0 termination=1
+segment0 32.000000,500.000000 -> 1279.000000,500.000000

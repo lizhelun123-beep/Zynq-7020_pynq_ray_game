@@ -1,0 +1,13 @@
+count=3 masks=0,749,1006,329,54329,31 wall=0/0/0
+PORTAL_B center=562,268 angle=-161 bbox=452,204,224,124 axis=-0.9450,-0.3272 size=235.59,76.69
+PORTAL_A center=410,527 angle=-91 bbox=372,416,72,220 axis=-0.0188,-0.9998 size=220.34,71.54
+TARGET center=359,252 angle=90 bbox=320,212,80,84 axis=0.0000,1.0000 size=80.00,80.00
+MIRROR cand=0 geom=0 mark=0 accept=0
+PORTAL_A cand=1 geom=1 mark=1 accept=1
+PORTAL_B cand=1 geom=1 mark=1 accept=1
+TARGET cand=1 geom=1 mark=1 accept=1
+SOURCE cand=0 geom=0 mark=0 accept=0
+WALL cand=0 geom=0 mark=0 accept=0
+OFFLINE_RAW_SCENE_RAY (no timed confirmation): segments=2 interactions=1 termination=1
+segment0 32.00,500.00 -> 373.23,500.00
+segment1 547.09,221.45 -> 623.76,0.00

@@ -1,0 +1,276 @@
+{
+  "schema": "overlay-export-binding-v1",
+  "status": "EXPORTED_BOUND_CANDIDATE",
+  "parent_build": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\pr4",
+  "parent_build_sha256": "cce57544131ff67025562eb984ae0a509d02be040371492f1086f7ec81097e9b",
+  "parent_input_manifest_sha256": "e6622542d3727c8fe78f7df8886bdeaaa3bb73417f3dfba8cd3d30dd514329e5",
+  "parent_staged_input_manifest_sha256": "3ef5de719615ff9be4e82b65ad270fd3105f7275d99294e105d4925fd7052de6",
+  "routed_checkpoint_sha256": "19da89494710cd05f6b2fa7f04db120d44d463bbe178d4226e216220a6eafa08",
+  "copied_checkpoint_sha256": "19da89494710cd05f6b2fa7f04db120d44d463bbe178d4226e216220a6eafa08",
+  "parent_timing_report_sha256": "d127582b4c6ee90d6a9dbf854b20374313d2dd31c47b2eb3f8910769177e4a32",
+  "camera_timing_model": {
+    "schema": "camera-timing-model-v2",
+    "xvclk_nominal_hz": 12000000,
+    "hs_nominal_hz": 140000000,
+    "lane_bps": 280000000,
+    "byte_hz": 35000000,
+    "period_exact_ns": "50/7",
+    "ui_exact_ns": "25/7",
+    "time_grid_ns": 0.001,
+    "period_ns": 7.143,
+    "half_period_ns": 3.571,
+    "input_min_ns": 0.892,
+    "input_max_ns": 2.679,
+    "input_contract": "User-declared 1/4..3/4 UI transition envelope at FPGA pins",
+    "input_min_ui": "1/4",
+    "input_max_ui": "3/4",
+    "input_contract_qualification": "USER_DECLARED_UNMEASURED",
+    "input_contract_sha256": "b9be53178d6d00b2676fc48356a212d68000b25850527926ec56cca6ddcca474",
+    "physical_hs_frequency": "NOT_MEASURED_FOR_CURRENT_BOOT",
+    "physical_tolerance_skew_jitter_eye": "UNKNOWN; not a physical pin guarantee",
+    "sensor_registers": {
+      "0x3034": "0x1a",
+      "0x3035": "0x21",
+      "0x3036": "0x46",
+      "0x3037": "0x5",
+      "0x3108": "0x11",
+      "0x3808": "0x5",
+      "0x3809": "0x0",
+      "0x380a": "0x2",
+      "0x380b": "0xd0",
+      "0x4300": "0x0",
+      "0x4837": "0x24",
+      "0x501f": "0x3"
+    },
+    "manifest_sha256": "6e269ea09378d718c1490d00399d4b1ac18858c0f6587b6ad2224efc0403c0b6",
+    "evidence_sha256": {
+      "build/timing_evidence/nominal_clock_review_20261020.json": "66a3a6c8112f04391b39fa48442e7210da48277390cac4cbb06317da08b3d7be",
+      "build/timing_evidence/sensor_readback_20261019.json": "3e40a78f5ee212b79c6ae156862eb198ba98cf47b022dd54d8309813af5a567a"
+    }
+  },
+  "timing_qualification": "CONDITIONAL_ON_USER_DECLARED_UNMEASURED_PIN_WINDOW",
+  "runner_sha256": "012678f1042b192f1299eaa16219141be1087c3998a138f859751905f5662c5e",
+  "script_sha256": "cd0f7d9a17c7103606c3a8a22a56a90f2d34aec4b270cc5237a994313a927030",
+  "synthesis_rerun": false,
+  "implementation_rerun": false,
+  "board_operations": 0,
+  "installed_overlay_modified": false,
+  "hardware_exported": true,
+  "command": [
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\build\\vivado_nocd.bat",
+    "-mode",
+    "batch",
+    "-notrace",
+    "-log",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\px2\\vivado.log",
+    "-journal",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\px2\\vivado.jou",
+    "-source",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\px2\\export_overlay.tcl",
+    "-tclargs",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\px2\\inputs\\routed.dcp",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\px2\\vivado"
+  ],
+  "vivado_exit_code": 0,
+  "source_checkpoint_reports_artifacts_binding": "PASS",
+  "parent_and_export_timing_metrics": {
+    "wns": "0.135",
+    "tns": "0.000",
+    "setup_failing": "0",
+    "setup_total": "25917",
+    "whs": "0.052",
+    "ths": "0.000",
+    "hold_failing": "0",
+    "hold_total": "25736",
+    "wpws": "0.264",
+    "tpws": "0.000",
+    "pulse_failing": "0",
+    "pulse_total": "11326"
+  },
+  "candidate": {
+    "xsa_bit_hwh_byte_identity": "PASS",
+    "matches_frozen_delivered_bit": false,
+    "status": "NEW_CANDIDATE_NOT_BOARD_QUALIFIED",
+    "board_operations": 0,
+    "cdc_drc_review": "REQUIRED; reports are included, not automatically accepted",
+    "files": [
+      {
+        "path": "system_wrapper.bit",
+        "bytes": 1845912,
+        "sha256": "408adfdc3b2ebf00f2dec25e6a90f140e188b122ffe894aa7aad5fb08b1256fc"
+      },
+      {
+        "path": "system_wrapper.hwh",
+        "bytes": 702981,
+        "sha256": "fa121904ae7f1c32c9b42244b74cfe7366aff3370760d1c88f5286a9693715df"
+      },
+      {
+        "path": "system_wrapper.xsa",
+        "bytes": 705539,
+        "sha256": "4c25bbe4995b6d423bf4249de4f93a844c2c505a2fe205c3ffbfc2f96226b87a"
+      }
+    ]
+  },
+  "platform_bit_extraction": {
+    "configuration_payload_byte_identity": "PASS",
+    "configuration_sha256": "5d5a9bebe97d3e832f31205876d46551be2b6fec9f410fb635145b16ba90f4c0",
+    "canonical_bit_source": "Unmodified BIT member extracted from this native XSA",
+    "initial_bit_sha256": "c729318213064b3c8202563267846806ba0f93b5fa314ab4f8ff18e7c6d541a9",
+    "canonical_bit_sha256": "408adfdc3b2ebf00f2dec25e6a90f140e188b122ffe894aa7aad5fb08b1256fc",
+    "initial_header": {
+      "design": "system_wrapper;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2023.1",
+      "part": "7z020clg400",
+      "date": "2026/11/03",
+      "time": "05:38:32"
+    },
+    "canonical_header": {
+      "design": "system_wrapper;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2023.1",
+      "part": "7z020clg400",
+      "date": "2026/11/03",
+      "time": "05:39:47"
+    },
+    "initial_bit_preserved_as": "initial_bitgen.bit"
+  },
+  "software_interface_comparison": {
+    "address_map_external_port_shapes_ps_vdma_parameters": "MATCH",
+    "parameter_differences": {
+      "MIPI_CSI_2_RX_0": {
+        "C_S_AXI_LITE_ADDR_WIDTH": {
+          "old": "4",
+          "new": "5"
+        },
+        "kDebug": {
+          "old": "true",
+          "new": "false"
+        },
+        "kVersionMinor": {
+          "old": "1",
+          "new": "2"
+        }
+      },
+      "MIPI_D_PHY_RX_0": {
+        "kPPISharedEnable": {
+          "old": null,
+          "new": "true"
+        }
+      },
+      "display_rst_axis": {
+        "C_AUX_RESET_HIGH": {
+          "old": null,
+          "new": "0"
+        },
+        "C_AUX_RST_WIDTH": {
+          "old": null,
+          "new": "16"
+        },
+        "C_EXT_RESET_HIGH": {
+          "old": null,
+          "new": "0"
+        },
+        "C_EXT_RST_WIDTH": {
+          "old": null,
+          "new": "4"
+        },
+        "C_FAMILY": {
+          "old": null,
+          "new": "zynq"
+        },
+        "C_NUM_BUS_RST": {
+          "old": null,
+          "new": "1"
+        },
+        "C_NUM_INTERCONNECT_ARESETN": {
+          "old": null,
+          "new": "1"
+        },
+        "C_NUM_PERP_ARESETN": {
+          "old": null,
+          "new": "1"
+        },
+        "C_NUM_PERP_RST": {
+          "old": null,
+          "new": "1"
+        },
+        "Component_Name": {
+          "old": null,
+          "new": "system_display_rst_axis_0"
+        },
+        "EDK_IPTYPE": {
+          "old": null,
+          "new": "PERIPHERAL"
+        },
+        "RESET_BOARD_INTERFACE": {
+          "old": null,
+          "new": "Custom"
+        },
+        "USE_BOARD_FLOW": {
+          "old": null,
+          "new": "false"
+        }
+      },
+      "display_rst_pixel": {
+        "C_AUX_RESET_HIGH": {
+          "old": null,
+          "new": "0"
+        },
+        "C_AUX_RST_WIDTH": {
+          "old": null,
+          "new": "16"
+        },
+        "C_EXT_RESET_HIGH": {
+          "old": null,
+          "new": "0"
+        },
+        "C_EXT_RST_WIDTH": {
+          "old": null,
+          "new": "4"
+        },
+        "C_FAMILY": {
+          "old": null,
+          "new": "zynq"
+        },
+        "C_NUM_BUS_RST": {
+          "old": null,
+          "new": "1"
+        },
+        "C_NUM_INTERCONNECT_ARESETN": {
+          "old": null,
+          "new": "1"
+        },
+        "C_NUM_PERP_ARESETN": {
+          "old": null,
+          "new": "1"
+        },
+        "C_NUM_PERP_RST": {
+          "old": null,
+          "new": "1"
+        },
+        "Component_Name": {
+          "old": null,
+          "new": "system_display_rst_pixel_0"
+        },
+        "EDK_IPTYPE": {
+          "old": null,
+          "new": "PERIPHERAL"
+        },
+        "RESET_BOARD_INTERFACE": {
+          "old": null,
+          "new": "Custom"
+        },
+        "USE_BOARD_FLOW": {
+          "old": null,
+          "new": "false"
+        }
+      }
+    },
+    "scope": "Static metadata only; not register-semantics or board-functional qualification"
+  },
+  "bit_header": {
+    "design": "system_wrapper;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2023.1",
+    "part": "7z020clg400",
+    "date": "2026/11/03",
+    "time": "05:39:47"
+  },
+  "timing_claim": "PASS_UNDER_DECLARED_UNMEASURED_PIN_WINDOW",
+  "board_qualification": "NOT_RUN"
+}

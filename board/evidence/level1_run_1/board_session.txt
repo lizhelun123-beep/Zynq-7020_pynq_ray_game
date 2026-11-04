@@ -1,0 +1,6 @@
+xilinx@pynq:~/jupyter_notebooks/beam_v14_sd_20261103_1$ sudo python3 -u -B beam_v14.py --run
+^C{"frames": 4159, "can_exit": true, "window": "last up to 256 actual samples; milliseconds", "stages": {"capture_ms": {"samples": 256, "mean": 181.4574346835842, "median": 176.9460389999722, "maximum": 242.32295199999498}, "compose_ms": {"samples": 256, "mean": 91.39604218359932, "median": 89.09965049997481, "maximum": 112.50470200002383}, "display_ms": {"samples": 256, "mean": 39.07309172265361, "median": 38.28378299999713, "maximum": 56.319829999893045}}, "first_fault": null}
+xilinx@pynq:~/jupyter_notebooks/beam_v14_sd_20261103_1$ sudo python3 -u -B beam_v14.py --run --frames 3
+[sudo] password for xilinx:
+{"frames": 3, "can_exit": true, "window": "last up to 256 actual samples; milliseconds", "stages": {"capture_ms": {"samples": 3, "mean": 241.61374366660007, "median": 171.3854919998994, "maximum": 383.2788849999815}, "compose_ms": {"samples": 3, "mean": 89.62383266665104, "median": 87.28211099992222, "maximum": 95.32442699992316}, "display_ms": {"samples": 2, "mean": 39.803231500059155, "median": 39.803231500059155, "maximum": 44.50342800009821}}, "first_fault": null}
+xilinx@pynq:~/jupyter_notebooks/beam_v14_sd_20261103_1$

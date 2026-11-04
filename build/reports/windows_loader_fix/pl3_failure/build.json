@@ -1,0 +1,98 @@
+{
+  "schema": "pl-build-v1",
+  "status": "FAILED",
+  "command": [
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\build\\vivado_nocd.bat",
+    "-mode",
+    "batch",
+    "-notrace",
+    "-log",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\pl3\\vivado.log",
+    "-journal",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\pl3\\vivado.jou",
+    "-source",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\pl3\\build_pl.tcl",
+    "-tclargs",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\pl3\\inputs\\project",
+    "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\tmp\\pl3\\vivado"
+  ],
+  "source_project": "D:\\Workspace\\AMD_camera\\FPGA-main\\FPGA-main\\output\\submission\\pynq_web_v14_20261102\\src\\project",
+  "input_files": 144,
+  "input_manifest_sha256": "f2b442f2bb41205b3e5ccbd3153ab8579f468d45d01a0510118537da01a1cc9e",
+  "build_script_sha256": "82c52fc83fe51b604843ba91e17ef55e0675e0a5f6c807bd3c987b1a85a9f5f0",
+  "delivered_overlay": {
+    "xsa_sha256": "03ae58ac8483359101e5286931effb0d84544f4b9b6c215572ff88653011e0c8",
+    "system_wrapper.bit_sha256": "a5a88800af559c2e95ad67453deab7d4ec5bdfeaa3eccddc7279f0f2f64f3e55",
+    "system_wrapper.hwh_sha256": "dc899d44a94c1c98ffd6b7178e64f78ff6576ff3e4889759b291b659baba347c",
+    "bit_header": {
+      "design": "system_wrapper;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2023.1",
+      "part": "7z020clg400",
+      "date": "2026/10/04",
+      "time": "20:56:34"
+    },
+    "xsa_bit_hwh_byte_identity": "PASS"
+  },
+  "source_role": "REFERENCE_SOURCE_NOT_PROVEN_FROZEN_BUILD_INPUT",
+  "vivado_exit_code": 1,
+  "repository_ip_check": {
+    "status": "PASS",
+    "missing_vlnvs": [],
+    "required_repository_vlnvs": [
+      "digilentinc.com:ip:MIPI_CSI_2_RX:1.2",
+      "digilentinc.com:ip:MIPI_D_PHY_RX:1.2",
+      "digilentinc.com:ip:axi_dynclk:1.0",
+      "digilentinc.com:ip:rgb2dvi:1.3",
+      "digilentinc.com:user:AXI_BayerToRGB:1.3",
+      "digilentinc.com:user:AXI_GammaCorrection:1.0"
+    ],
+    "available_repository_vlnvs": [
+      "alinx.com.cn:user:i2c_extender:1.1",
+      "digilentinc.com:ip:MIPI_CSI_2_RX:1.2",
+      "digilentinc.com:ip:MIPI_D_PHY_RX:1.2",
+      "digilentinc.com:ip:axi_dynclk:1.0",
+      "digilentinc.com:ip:rgb2dvi:1.3",
+      "digilentinc.com:user:AXI_BayerToRGB:1.3",
+      "digilentinc.com:user:AXI_GammaCorrection:1.0"
+    ]
+  },
+  "camera_timing_model": {
+    "schema": "camera-timing-model-v1",
+    "xvclk_nominal_hz": 12000000,
+    "hs_nominal_hz": 140000000,
+    "lane_bps": 280000000,
+    "byte_hz": 35000000,
+    "period_exact_ns": "50/7",
+    "ui_exact_ns": "25/7",
+    "time_grid_ns": 0.001,
+    "period_ns": 7.143,
+    "half_period_ns": 3.571,
+    "input_min_ns": 0.535,
+    "input_max_ns": 3.036,
+    "input_contract": "Inherited 15%/85% UI engineering assumption at FPGA pins",
+    "physical_hs_frequency": "NOT_MEASURED_FOR_CURRENT_BOOT",
+    "physical_tolerance_skew_jitter_eye": "UNKNOWN; not a physical pin guarantee",
+    "sensor_registers": {
+      "0x3034": "0x1a",
+      "0x3035": "0x21",
+      "0x3036": "0x46",
+      "0x3037": "0x5",
+      "0x3108": "0x11",
+      "0x3808": "0x5",
+      "0x3809": "0x0",
+      "0x380a": "0x2",
+      "0x380b": "0xd0",
+      "0x4300": "0x0",
+      "0x4837": "0x24",
+      "0x501f": "0x3"
+    },
+    "manifest_sha256": "6e269ea09378d718c1490d00399d4b1ac18858c0f6587b6ad2224efc0403c0b6",
+    "evidence_sha256": {
+      "build/timing_evidence/nominal_clock_review_20261020.json": "66a3a6c8112f04391b39fa48442e7210da48277390cac4cbb06317da08b3d7be",
+      "build/timing_evidence/sensor_readback_20261019.json": "3e40a78f5ee212b79c6ae156862eb198ba98cf47b022dd54d8309813af5a567a"
+    }
+  },
+  "requested_stage": "build",
+  "frozen_runtime_modified": false,
+  "board_operations": 0,
+  "error": "Vivado failed; retain console.log, vivado.log and partial reports"
+}

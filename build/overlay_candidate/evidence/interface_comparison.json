@@ -1,0 +1,134 @@
+{
+  "address_map_external_port_shapes_ps_vdma_parameters": "MATCH",
+  "parameter_differences": {
+    "MIPI_CSI_2_RX_0": {
+      "C_S_AXI_LITE_ADDR_WIDTH": {
+        "old": "4",
+        "new": "5"
+      },
+      "kDebug": {
+        "old": "true",
+        "new": "false"
+      },
+      "kVersionMinor": {
+        "old": "1",
+        "new": "2"
+      }
+    },
+    "MIPI_D_PHY_RX_0": {
+      "kPPISharedEnable": {
+        "old": null,
+        "new": "true"
+      }
+    },
+    "display_rst_axis": {
+      "C_AUX_RESET_HIGH": {
+        "old": null,
+        "new": "0"
+      },
+      "C_AUX_RST_WIDTH": {
+        "old": null,
+        "new": "16"
+      },
+      "C_EXT_RESET_HIGH": {
+        "old": null,
+        "new": "0"
+      },
+      "C_EXT_RST_WIDTH": {
+        "old": null,
+        "new": "4"
+      },
+      "C_FAMILY": {
+        "old": null,
+        "new": "zynq"
+      },
+      "C_NUM_BUS_RST": {
+        "old": null,
+        "new": "1"
+      },
+      "C_NUM_INTERCONNECT_ARESETN": {
+        "old": null,
+        "new": "1"
+      },
+      "C_NUM_PERP_ARESETN": {
+        "old": null,
+        "new": "1"
+      },
+      "C_NUM_PERP_RST": {
+        "old": null,
+        "new": "1"
+      },
+      "Component_Name": {
+        "old": null,
+        "new": "system_display_rst_axis_0"
+      },
+      "EDK_IPTYPE": {
+        "old": null,
+        "new": "PERIPHERAL"
+      },
+      "RESET_BOARD_INTERFACE": {
+        "old": null,
+        "new": "Custom"
+      },
+      "USE_BOARD_FLOW": {
+        "old": null,
+        "new": "false"
+      }
+    },
+    "display_rst_pixel": {
+      "C_AUX_RESET_HIGH": {
+        "old": null,
+        "new": "0"
+      },
+      "C_AUX_RST_WIDTH": {
+        "old": null,
+        "new": "16"
+      },
+      "C_EXT_RESET_HIGH": {
+        "old": null,
+        "new": "0"
+      },
+      "C_EXT_RST_WIDTH": {
+        "old": null,
+        "new": "4"
+      },
+      "C_FAMILY": {
+        "old": null,
+        "new": "zynq"
+      },
+      "C_NUM_BUS_RST": {
+        "old": null,
+        "new": "1"
+      },
+      "C_NUM_INTERCONNECT_ARESETN": {
+        "old": null,
+        "new": "1"
+      },
+      "C_NUM_PERP_ARESETN": {
+        "old": null,
+        "new": "1"
+      },
+      "C_NUM_PERP_RST": {
+        "old": null,
+        "new": "1"
+      },
+      "Component_Name": {
+        "old": null,
+        "new": "system_display_rst_pixel_0"
+      },
+      "EDK_IPTYPE": {
+        "old": null,
+        "new": "PERIPHERAL"
+      },
+      "RESET_BOARD_INTERFACE": {
+        "old": null,
+        "new": "Custom"
+      },
+      "USE_BOARD_FLOW": {
+        "old": null,
+        "new": "false"
+      }
+    }
+  },
+  "scope": "Static metadata only; not register-semantics or board-functional qualification"
+}

@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "date": "2026-10-20",
+  "scope": "Offline nominal-clock, DDR-edge and declared pin-envelope review only",
+  "status": "DECLARED_MODEL_REVIEW_PASS_NOT_APPLIED_NO_RX_ADMITTED",
+  "active_model": {
+    "hs_period_ns": 3.571,
+    "ui_ns": 1.7855,
+    "input_min_ns": 0.268,
+    "input_max_ns": 1.518,
+    "bd_clock_metadata_hz": 336000000
+  },
+  "recommended_declared_model": {
+    "nominal_hs_hz": 140000000,
+    "lane_bps": 280000000,
+    "byte_hz": 35000000,
+    "period_ns": 7.142857142857143,
+    "period_exact": "50/7",
+    "ui_ns": 3.5714285714285716,
+    "ui_exact": "25/7",
+    "pin_setup_hold_fraction_of_UI": 0.15,
+    "input_min_ns": 0.5357142857142857,
+    "input_min_exact": "15/28",
+    "input_max_ns": 3.0357142857142856,
+    "input_max_exact": "85/28",
+    "pin_guaranteed_window_ns": [
+      3.0357142857142856,
+      4.107142857142857
+    ],
+    "pin_guaranteed_width_ns": 1.0714285714285714,
+    "outward_rounded_delay_literals_ns": [
+      0.535714,
+      3.035715
+    ],
+    "nominal_duty_cycle": 0.5,
+    "applies_to": "two lanes, P/N, rise/fall reference clocks, rise/fall data transitions"
+  },
+  "boundary": {
+    "nominal_identity": "User-confirmed12MHz AN5641 XVCLK and existing clock-tree calculation; matching prior on-board PLL/mode readback",
+    "physical_hs_frequency": "NOT_MEASURED",
+    "physical_pin_skew_jitter_DCD_eye": "UNKNOWN",
+    "pin_envelope": "Inherited15%UI setup/hold engineering assumption at FPGA pins; not a proven OV5640/FPC physical guarantee",
+    "additional_external_error_bound": "UNKNOWN; never silently zero or substitute XVCLK jitter",
+    "new_physical_or_production_signoff": false
+  },
+  "ddr_edges": [
+    {
+      "capture": "fall atUI",
+      "setup_reference": "rise at0",
+      "hold_reference": "fall atUI"
+    },
+    {
+      "capture": "rise atT",
+      "setup_reference": "fall atUI",
+      "hold_reference": "rise atT"
+    }
+  ],
+  "frozen_historical_analysis": {
+    "source_rows": 64,
+    "complete_coverage": true,
+    "bit_identity": "PRIMARY_ADJACENT",
+    "unchanged_internal_delays_aperture_and_uncertainty": true,
+    "source_uncertainty_ns_per_side": 0.035,
+    "setup_adjustment_ns": 0.26821428571428574,
+    "hold_adjustment_ns": 0.26771428571428574,
+    "windows": [
+      {
+        "lane": "ALL",
+        "corner": "ALL",
+        "old_min_setup_ns": -0.247,
+        "old_min_hold_ns": -1.111,
+        "new_min_setup_frozen_ns": 0.021214285714285713,
+        "new_min_hold_frozen_ns": -0.8432857142857143,
+        "lower_shift_bound_ns": -0.021214285714285713,
+        "upper_shift_bound_ns": -0.8432857142857143,
+        "width_ns": -0.8220714285714286
+      },
+      {
+        "lane": "ALL",
+        "corner": "Fast",
+        "old_min_setup_ns": -0.247,
+        "old_min_hold_ns": 0.012,
+        "new_min_setup_frozen_ns": 0.021214285714285713,
+        "new_min_hold_frozen_ns": 0.2797142857142857,
+        "lower_shift_bound_ns": -0.021214285714285713,
+        "upper_shift_bound_ns": 0.2797142857142857,
+        "width_ns": 0.30092857142857143
+      },
+      {
+        "lane": "ALL",
+        "corner": "Slow",
+        "old_min_setup_ns": 0.732,
+        "old_min_hold_ns": -1.111,
+        "new_min_setup_frozen_ns": 1.0002142857142857,
+        "new_min_hold_frozen_ns": -0.8432857142857143,
+        "lower_shift_bound_ns": -1.0002142857142857,
+        "upper_shift_bound_ns": -0.8432857142857143,
+        "width_ns": 0.15692857142857142
+      },
+      {
+        "lane": "0",
+        "corner": "ALL",
+        "old_min_setup_ns": -0.234,
+        "old_min_hold_ns": -1.111,
+        "new_min_setup_frozen_ns": 0.03421428571428571,
+        "new_min_hold_frozen_ns": -0.8432857142857143,
+        "lower_shift_bound_ns": -0.03421428571428571,
+        "upper_shift_bound_ns": -0.8432857142857143,
+        "width_ns": -0.8090714285714286
+      },
+      {
+        "lane": "0",
+        "corner": "Fast",
+        "old_min_setup_ns": -0.234,
+        "old_min_hold_ns": 0.012,
+        "new_min_setup_frozen_ns": 0.03421428571428571,
+        "new_min_hold_frozen_ns": 0.2797142857142857,
+        "lower_shift_bound_ns": -0.03421428571428571,
+        "upper_shift_bound_ns": 0.2797142857142857,
+        "width_ns": 0.31392857142857145
+      },
+      {
+        "lane": "0",
+        "corner": "Slow",
+        "old_min_setup_ns": 0.746,
+        "old_min_hold_ns": -1.111,
+        "new_min_setup_frozen_ns": 1.0142142857142857,
+        "new_min_hold_frozen_ns": -0.8432857142857143,
+        "lower_shift_bound_ns": -1.0142142857142857,
+        "upper_shift_bound_ns": -0.8432857142857143,
+        "width_ns": 0.17092857142857143
+      },
+      {
+        "lane": "1",
+        "corner": "ALL",
+        "old_min_setup_ns": -0.247,
+        "old_min_hold_ns": -1.097,
+        "new_min_setup_frozen_ns": 0.021214285714285713,
+        "new_min_hold_frozen_ns": -0.8292857142857143,
+        "lower_shift_bound_ns": -0.021214285714285713,
+        "upper_shift_bound_ns": -0.8292857142857143,
+        "width_ns": -0.8080714285714286
+      },
+      {
+        "lane": "1",
+        "corner": "Fast",
+        "old_min_setup_ns": -0.247,
+        "old_min_hold_ns": 0.025,
+        "new_min_setup_frozen_ns": 0.021214285714285713,
+        "new_min_hold_frozen_ns": 0.2927142857142857,
+        "lower_shift_bound_ns": -0.021214285714285713,
+        "upper_shift_bound_ns": 0.2927142857142857,
+        "width_ns": 0.31392857142857145
+      },
+      {
+        "lane": "1",
+        "corner": "Slow",
+        "old_min_setup_ns": 0.732,
+        "old_min_hold_ns": -1.097,
+        "new_min_setup_frozen_ns": 1.0002142857142857,
+        "new_min_hold_frozen_ns": -0.8292857142857143,
+        "lower_shift_bound_ns": -1.0002142857142857,
+        "upper_shift_bound_ns": -0.8292857142857143,
+        "width_ns": 0.17092857142857143
+      }
+    ],
+    "is_new_STA": false,
+    "verdict": "Original fixed common-offset envelope remains negative; no old route reopened or accepted"
+  },
+  "receiver_decision": {
+    "sensor_rate_change": false,
+    "AUTO_adoption": false,
+    "fixed_route_rerun": false,
+    "receiver_selected": false,
+    "next_bounded_gate": "Review one concrete observable calibration mechanism for reachable settings, residual margin and fail-closed startup/relock under the corrected model; no controller or probe from per-corner positive width alone"
+  },
+  "operations": {
+    "Vivado_runs": 0,
+    "IP_generations": 0,
+    "simulation_runs": 0,
+    "board_accesses": 0,
+    "PL_loads": 0,
+    "sensor_writes": 0,
+    "production_RTL_XDC_changes": 0,
+    "new_design_verification_rounds": 0
+  },
+  "sources": [
+    {
+      "url": "https://download.amd.com/docnav/documents/UG903_2023.1_English.pdf",
+      "version": "2023.1,2023-05-16",
+      "supports": "input-delay reference, min/max, clock_fall versus data edges, add_delay; printed pp100-102"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Digilent/vivado-library/master/ip/MIPI_D_PHY_RX/hdl/MIPI_DPHY_Receiver_clocks.xdc",
+      "retrieved": "2026-10-20",
+      "supports": "inherited15%UI template, .750/4.250 atUI5ns; not current-camera guarantees"
+    },
+    {
+      "url": "https://docs.amd.com/r/en-US/pg202-mipi-dphy/High-Frequency-Clock-Transmission",
+      "version": "public4.3 guide,2024-12-04",
+      "supports": "DDR and quadrature protocol relationship only; not Vivado2023.1 Rev6 option guarantees"
+    },
+    {
+      "url": "https://docs.amd.com/api/khub/documents/uaBd8Qxmf_K1~~tiVnOxrw/content",
+      "version": "DS187 v1.21,2020-12-01",
+      "table": 72,
+      "supports": "XC7Z020 MMCM VCO minimum600MHz; inactive experimental M3 would be420MHz at140MHz input"
+    }
+  ],
+  "protected_input_sha256": {
+    "color_test/color_test.srcs/constrs_1/new/system.xdc": "8ee43cc5207a96f557b736a6e4d294dc6f51df12fc30cca439d8f2a99f8b71d1",
+    "color_test/color_test.srcs/sources_1/bd/system/system.bd": "1ff398d687b228429e6ecbd8fef38dd4f019b39f2f2f16b3e9bc73b6d3fb0bfc",
+    "color_test/repo/ip/MIPI_D_PHY_RX/hdl/MIPI_DPHY_Receiver_clocks.xdc": "a8d7a4880310b377636c4d27b32e98b75cb3e235a10461a4125c630ab7d43a59",
+    "color_test/repo/ip/MIPI_D_PHY_RX/hdl/HS_Clocking.vhd": "eefafb0824723d6179ba17e518de950005ce496679c18c3425e57883bdc06d7a",
+    "color_test/repo/ip/MIPI_D_PHY_RX/hdl/HS_Deserializer.vhd": "b2c9db3210cd6d8b6e4fa7aadb1ae902cd48efa9e6cf095379570f41dee89765",
+    "color_test/repo/ip/MIPI_D_PHY_RX/hdl/MIPI_DPHY_Receiver.vhd": "81bc9a4e4bcca8c6f5ff51734081d15ca8ab548462b127abc9d57edc70055f1a",
+    "color_test/tools/audit_dphy_contract.py": "f533b22791d96d5d95c5de29c4cfc32d859a3ae332778a328d2f352e155e7841",
+    "color_test/sim/dphy_amd_phy_budget.tcl": "5c9379991aee3e9484afaa7022276c8d62fb4bee24c7549e1b227d9c99555f79",
+    "color_test/sim/run_dphy_sampling_ooc.tcl": "ecbf11beced464448660ea188334caa4a7358113b67ead687866604d61ee8099",
+    "color_test/sim/tb_dphy_sampling.vhd": "047173480e8bbde02b15d0b04eeeb3c239c8c34b21060aac35211c89ade32e23",
+    "color_test/sim/tb_dphy_settled.vhd": "2b05934b97aa3be031fedb20b92766ab4c92941f3ebc4f713e8048b2847ec65d",
+    "color_test/sim/run_dphy_sampling_test.py": "b250edd82dec2522e3f28d58582aafa29d5483a279fe27ad7138193e0f599807",
+    "color_test/reports/dphy_contract_paths.csv": "28a9cb8354e294bd9ecb451d313d75be23add351f4893bc52c39757190a69c2c",
+    "color_test/build/dphy_sampling/amd_phy_fixed_probe/fixed_route_stop_manifest.json": "91e038bc58572226a1b00e2582cacbdb301f2a521d1ca1775093d64fffd6d7f8",
+    "pynq_vision/ov5640.py": "537c9df9e61eb999cc8914f1a3eaf05e9e5972a42ff3e70f112bf4581f0bab61",
+    "output/build/game_app/game_linux_native_pl_baseline_standby_20261020_80494173.json": "ceaf4c801c6e6459caa2677047db99be83bb8fd65e39566e4a9c9b2682a7c409"
+  },
+  "mixed_model_do_not_adopt": {
+    "period_ns": 7.142857142857143,
+    "input_min_ns": 0.268,
+    "input_max_ns": 1.518,
+    "pin_setup_ns": 2.0534285714285714,
+    "pin_hold_ns": 0.268,
+    "pin_window_width_ns": 2.3214285714285716,
+    "excess_width_over_coordinated_model_ns": 1.25
+  },
+  "report": "color_test/reports/dphy_sampling_proposal.md#28",
+  "report_sha256": "8aa3d21423234e1053255b7364b95ee07d4a3f6cb0276c17a8f076c17716a8a3"
+}
